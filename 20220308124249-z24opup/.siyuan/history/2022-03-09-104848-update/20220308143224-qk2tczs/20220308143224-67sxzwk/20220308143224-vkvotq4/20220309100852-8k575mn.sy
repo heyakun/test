@@ -1,0 +1,1281 @@
+{
+	"ID": "20220309100852-8k575mn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220309100852-8k575mn",
+		"title": "2022-03-09",
+		"updated": "20220309104705"
+	},
+	"Children": [
+		{
+			"ID": "20220309100852-a25mrzu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309100852-a25mrzu",
+				"updated": "20220309100919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tencent"
+				}
+			]
+		},
+		{
+			"ID": "20220309100922-scxlt5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100922-scxlt5v",
+				"updated": "20220309101207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者： 想上大厂的cxx"
+				}
+			]
+		},
+		{
+			"ID": "20220309101211-16gcyja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101211-16gcyja",
+				"updated": "20220309101225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309101336-la15c3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101336-la15c3h",
+				"updated": "20220309101340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309101316-939y9s4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101316-939y9s4",
+				"updated": "20220309101359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位： 抖音音乐"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-1vpo5bj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-1vpo5bj",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一面自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-o5m8nvq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-o5m8nvq",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么对前端感兴趣"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-cpp7y55",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-cpp7y55",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么学习前端的"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-l5fkiwy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-l5fkiwy",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "介绍一下项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-o5zcbly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-o5zcbly",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cookie的原理"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-2a3qks1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-2a3qks1",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cookie、sessionstorage、localstorage的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-rbrpr7f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-rbrpr7f",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了cookie还有什么可以做登录态 token、sessionId"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-iw3o9vl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-iw3o9vl",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "token被别人拿取了有危害吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-d0ron6s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-d0ron6s",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "new的原理 -----\u003e 个人直接要求手写了一个"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-i0h67pq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-i0h67pq",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现 add(1)(2)(3)() = 6 add(1)(2)(3)(4)() = 10 // 函数柯里化"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5a6wryx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-5a6wryx",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现 二叉树 的路径和 （类似于打印 二叉树 的各条路径 并求和）"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-sn8wc1a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-sn8wc1a",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-z32h522",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-z32h522",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学校所学课程"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-zlbjs28",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-zlbjs28",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP三次握手"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-wi2h1cd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-wi2h1cd",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP为什么是四次挥手"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-e1sclc7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-e1sclc7",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OSI七层模型都干了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-xs5oh1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-xs5oh1o",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "了解UDP吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-dhyk3rd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-dhyk3rd",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输入URL后干了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-181cjvz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-181cjvz",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "讲讲浏览器渲染机制，重绘一定会引起回流吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-uzafzgg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-uzafzgg",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于渲染机制可以提出哪些优化点（说实话听不太懂），后来举例说怎么提高首屏时间，首屏时间怎么计算"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-ob64trz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-ob64trz",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器缓存机制"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-pbrdj8k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-pbrdj8k",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http状态码"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-g2hk149",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-g2hk149",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "401是啥 502是啥"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-eocduys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-eocduys",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问实习项目 自己介绍了优化点"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-u4ycbuy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-u4ycbuy",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现全排列"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-2u4tltq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-2u4tltq",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现一个纸牌游戏，52张牌，抽取5张，判断是否是 同花顺"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-3hthszn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-3hthszn",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三面 1小时自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-pip5jw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-pip5jw6",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么要选择互联网大厂，为什么bat、字节能在中国做到那么大，而不是日本，印度之类的"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-fffaxoz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-fffaxoz",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么看待字节和音乐"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-zh0jhoi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-zh0jhoi",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聊实习项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5qd1x75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-5qd1x75",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聊个人项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-ma8k727",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-ma8k727",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node和java有什么区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5ztmh7f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-5ztmh7f",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你有什么优缺点"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-yn5n7ko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-yn5n7ko",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指出：还要往深度方向走走，表达、沟通？项目介绍不清不楚？"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-45u84ui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-45u84ui",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "说说你对微前端、severless的认识"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-br4v2h4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-br4v2h4",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微前端会有什么优缺点"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-1xwzw71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-1xwzw71",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "毕业工作还是读研，为什么？\n(还聊了许多非技术的问题，都很有深度，但是忘了许多..)"
+				}
+			]
+		},
+		{
+			"ID": "20220309101228-uzq8cr3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309101228-uzq8cr3",
+				"updated": "20220309103613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阿里钉钉"
+				}
+			]
+		},
+		{
+			"ID": "20220309103642-lrcx7cc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103642-lrcx7cc",
+				"updated": "20220309103653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：吴wu"
+				}
+			]
+		},
+		{
+			"ID": "20220309103642-gunrten",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103642-gunrten",
+				"updated": "20220309103642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309103642-615374u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103642-615374u",
+				"updated": "20220309103642"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309103642-tazge9l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103642-tazge9l",
+				"updated": "20220309103707"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位： 阿里钉钉"
+				}
+			]
+		},
+		{
+			"ID": "20220309103614-td4di74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103614-td4di74",
+				"updated": "20220309103615"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目开挖  就逮着你的项目一直问(省略)\n项目优化\n登录鉴权 token cookie 能用cookie吗 用cookie怎么做 cookie sessionStorage和localStorage区别\n讲讲websocket\n讲js所有继承\n输入URL到页面展示的过程\nwebpack原理和编译流程\ndiff 算法\n虚拟DOM\n模板编译\n闭包 哪里用到了 为什么用 有什么作用\n原型链\n作用域 作用域链 作用域在什么时候形成的\nSEO\n单页应用和多页应用对比\nnode底层原理  node单线程的好处\n组件传参\n前端权限\n了解vue3吗\n箭头函数和普通函数的区别\nxss 怎么出现xss  innerHTML写什么容易出现。\n前端跨域\n哪里用到了AST 自己实现过吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309103754-qlyhk0h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309103754-qlyhk0h",
+				"updated": "20220309103755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "360"
+				}
+			]
+		},
+		{
+			"ID": "20220309103815-bqz5fzy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103815-bqz5fzy",
+				"updated": "20220309103831"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：tian89点"
+				}
+			]
+		},
+		{
+			"ID": "20220309103815-6xkccsa",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103815-6xkccsa",
+				"updated": "20220309103815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309103815-d4836tm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103815-d4836tm",
+				"updated": "20220309103815"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309103815-n59uk37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103815-n59uk37",
+				"updated": "20220309103839"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位： 360"
+				}
+			]
+		},
+		{
+			"ID": "20220309103357-j6f1ax3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103357-j6f1ax3",
+				"updated": "20220309103751"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "介绍项目\niframe页面通信\niframe与页面的适应\n问了一些fineport的东西（项目中用到了）\n事件循环\n使用element-ui遇到哪些问题\necharts用过哪些图\npromise\nasync await\n原型链\nHTTP协议\n手写：\n给定一个数组，返回数组中重复出现过的元素"
+				}
+			]
+		},
+		{
+			"ID": "20220309103922-87c5ciy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309103922-87c5ciy",
+				"updated": "20220309103929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快手"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-pxk8jmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-pxk8jmh",
+				"updated": "20220309104650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：努力做coder"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-0rinr8f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-0rinr8f",
+				"updated": "20220309104632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-rz84ob9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-rz84ob9",
+				"updated": "20220309104632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-rptqk0w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-rptqk0w",
+				"updated": "20220309104700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位：快手"
+				}
+			]
+		},
+		{
+			"ID": "20220309104635-kuug5ni",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309104635-kuug5ni",
+				"updated": "20220309104635"
+			}
+		},
+		{
+			"ID": "20220309104636-c7d72i9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104636-c7d72i9",
+				"updated": "20220309104636"
+			}
+		},
+		{
+			"ID": "20220309103933-feuzuot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-feuzuot",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面 2021.12.7\n自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-xt7kvlp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-xt7kvlp",
+				"updated": "20220309104028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309104119-5akqgmw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104119-5akqgmw",
+				"updated": "20220309104155"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "console.log(typeof typeof typeof null)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104210-q02bd8s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104210-q02bd8s",
+				"updated": "20220309104312"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "function f(x){\n    var x;\n    console.log(x)\n}\nf(5)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104242-5ycoxpn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104242-5ycoxpn",
+				"updated": "20220309104316"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var name = '123'\nvar obj = {\n    name:'456',\n    getName:function(){\n        function printName(){\n            console.log(this.name)\n        }\n        printName()\n    }\n}\n\nobj.getName()\n// 结果？改写，让结果输出456\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104251-ynvruhw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104251-ynvruhw",
+				"updated": "20220309104321"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 结果？// 改写，让所有的c都变成h(包括大写的C) 'abcdcbaC'.replace(/c/,'h')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104259-y7j5w0w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104259-y7j5w0w",
+				"updated": "20220309104328"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 输出结果？ \n\nsetTimeout(()=\u003e{\n    console.log('quick timer')\n},0)\n\nnew Promise((resolve,reject)=\u003e{\n    console.log('init promise')\n    process.nextTick(resolve)\n}).then(()=\u003econsole.log('promise.then'))\n\nprocess.nextTick(()=\u003e{\n    console.log('nextTick')\n})\n\nsetImmediate(()=\u003e{\n    console.log('immediate')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104303-01sl352",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104303-01sl352",
+				"updated": "20220309104333"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 输出结果？ \n\nsetTimeout(()=\u003e{\n    console.log('quick timer')\n},0)\n\nnew Promise((resolve,reject)=\u003e{\n    console.log('init promise')\n    process.nextTick(resolve)\n}).then(()=\u003econsole.log('promise.then'))\n\nprocess.nextTick(()=\u003e{\n    console.log('nextTick')\n})\n\nsetImmediate(()=\u003e{\n    console.log('immediate')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-peqsgwz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-peqsgwz",
+				"updated": "20220309104443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n// 结果？改写，让结果输出456\n// 结果？// 改写，让所有的c都变成h(包括大写的C) 'abcdcbaC'.replace(/c/,'h')\n// 输出结果？"
+				}
+			]
+		},
+		{
+			"ID": "20220309104342-nihzo93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104342-nihzo93",
+				"updated": "20220309104343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写数组去重"
+				}
+			]
+		},
+		{
+			"ID": "20220309104257-gyq99im",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104257-gyq99im",
+				"updated": "20220309104348"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 手写一个repeact()函数，加上下面的代码运行，使每3秒打印一个helloword，总共执行4次\n\nconst repeatFunc = repeact(console.log,4,3000)\nrepeatFunc('helloword')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-8gttoup",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-8gttoup",
+				"updated": "20220309104408"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\nvue中v-if和v-show的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-tar8wk3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-tar8wk3",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vue中的nextTick是什么\nnextTick底层使怎么实现的\nvue2和vue3响应式的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-4vm4dnw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-4vm4dnw",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跨域产生的原因和解决方法"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-psd0uih",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-psd0uih",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cookie的secure这个属性是干啥的"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-jqlxgrj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-jqlxgrj",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cookie的httpOnly是干啥的"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-exvgetp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-exvgetp",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "301,401,403,405这些状态码都是干啥的"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-fdos36g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-fdos36g",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面 2021.12.10\n具体的一些小问题忘了，问了些个人方面的问题，然后就是做了三个题："
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-e722f2g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-e722f2g",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS随机生成颜色"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-54fg6xm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-54fg6xm",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个关于Promise并发的题目。大概是：一次性可能发10个请求，但是请求池控制一次性只能处理三个，请求池内的请求一个处理完后推进下一个请求"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-ku5yt8g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-ku5yt8g",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vue组件封装，写逻辑部分，css忽略。大概是：全选单选，就像购物车的全选按钮，四个商品四个按钮，一个全选按钮，点击全选，商品都选中，反之，商品都选中则全选按钮亮。"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-oqc0dgd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-oqc0dgd",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "唠嗑balabalabala"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-1hm5b53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-1hm5b53",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "早上面完，下午hr就加微信了~效率很快~~"
+				}
+			]
+		},
+		{
+			"ID": "20220309104705-e797p33",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104705-e797p33",
+				"updated": "20220309104705"
+			}
+		}
+	]
+}

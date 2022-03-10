@@ -1,0 +1,19 @@
+{
+	"ID": "20220308143224-qk2tczs",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308143224-qk2tczs",
+		"title": "daily note",
+		"updated": "20220308143224"
+	},
+	"Children": [
+		{
+			"ID": "20220308143224-ljp86eq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308143224-ljp86eq",
+				"updated": "20220308143224"
+			}
+		}
+	]
+}

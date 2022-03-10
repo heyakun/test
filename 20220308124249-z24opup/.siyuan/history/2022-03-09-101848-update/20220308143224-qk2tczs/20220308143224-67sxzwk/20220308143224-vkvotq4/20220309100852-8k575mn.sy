@@ -1,0 +1,618 @@
+{
+	"ID": "20220309100852-8k575mn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220309100852-8k575mn",
+		"title": "2022-03-09",
+		"updated": "20220309101359"
+	},
+	"Children": [
+		{
+			"ID": "20220309100852-a25mrzu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309100852-a25mrzu",
+				"updated": "20220309100919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tencent"
+				}
+			]
+		},
+		{
+			"ID": "20220309100922-scxlt5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100922-scxlt5v",
+				"updated": "20220309101207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者： 想上大厂的cxx"
+				}
+			]
+		},
+		{
+			"ID": "20220309101211-16gcyja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101211-16gcyja",
+				"updated": "20220309101225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309101336-la15c3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101336-la15c3h",
+				"updated": "20220309101340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309101316-939y9s4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101316-939y9s4",
+				"updated": "20220309101359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位： 抖音音乐"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-1vpo5bj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-1vpo5bj",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一面自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-o5m8nvq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-o5m8nvq",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么对前端感兴趣"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-cpp7y55",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-cpp7y55",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么学习前端的"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-l5fkiwy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-l5fkiwy",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "介绍一下项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-o5zcbly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-o5zcbly",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cookie的原理"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-2a3qks1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-2a3qks1",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cookie、sessionstorage、localstorage的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-rbrpr7f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-rbrpr7f",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了cookie还有什么可以做登录态 token、sessionId"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-iw3o9vl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-iw3o9vl",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "token被别人拿取了有危害吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-d0ron6s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-d0ron6s",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "new的原理 -----\u003e 个人直接要求手写了一个"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-i0h67pq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-i0h67pq",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现 add(1)(2)(3)() = 6 add(1)(2)(3)(4)() = 10 // 函数柯里化"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5a6wryx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-5a6wryx",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现 二叉树 的路径和 （类似于打印 二叉树 的各条路径 并求和）"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-sn8wc1a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-sn8wc1a",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-z32h522",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-z32h522",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学校所学课程"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-zlbjs28",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-zlbjs28",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP三次握手"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-wi2h1cd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-wi2h1cd",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP为什么是四次挥手"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-e1sclc7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-e1sclc7",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "OSI七层模型都干了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-xs5oh1o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-xs5oh1o",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "了解UDP吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-dhyk3rd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-dhyk3rd",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "输入URL后干了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-181cjvz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-181cjvz",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "讲讲浏览器渲染机制，重绘一定会引起回流吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-uzafzgg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-uzafzgg",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基于渲染机制可以提出哪些优化点（说实话听不太懂），后来举例说怎么提高首屏时间，首屏时间怎么计算"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-ob64trz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-ob64trz",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "浏览器缓存机制"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-pbrdj8k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-pbrdj8k",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http状态码"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-g2hk149",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-g2hk149",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "401是啥 502是啥"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-eocduys",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-eocduys",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问实习项目 自己介绍了优化点"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-u4ycbuy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-u4ycbuy",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现全排列"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-2u4tltq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-2u4tltq",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现一个纸牌游戏，52张牌，抽取5张，判断是否是 同花顺"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-3hthszn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-3hthszn",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三面 1小时自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-pip5jw6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-pip5jw6",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么要选择互联网大厂，为什么bat、字节能在中国做到那么大，而不是日本，印度之类的"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-fffaxoz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-fffaxoz",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么看待字节和音乐"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-zh0jhoi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-zh0jhoi",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聊实习项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5qd1x75",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-5qd1x75",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聊个人项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-ma8k727",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-ma8k727",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "node和java有什么区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5ztmh7f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-5ztmh7f",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你有什么优缺点"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-yn5n7ko",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-yn5n7ko",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "指出：还要往深度方向走走，表达、沟通？项目介绍不清不楚？"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-45u84ui",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-45u84ui",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "说说你对微前端、severless的认识"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-br4v2h4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-br4v2h4",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微前端会有什么优缺点"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-1xwzw71",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-1xwzw71",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "毕业工作还是读研，为什么？\n(还聊了许多非技术的问题，都很有深度，但是忘了许多..)"
+				}
+			]
+		},
+		{
+			"ID": "20220309101228-uzq8cr3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309101228-uzq8cr3",
+				"updated": "20220309101254"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阿斯蒂芬"
+				}
+			]
+		}
+	]
+}

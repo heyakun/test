@@ -1,0 +1,252 @@
+{
+	"ID": "20220308115926-7ilkfer",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308115926-7ilkfer",
+		"title": "使用教程",
+		"updated": "20220308121329"
+	},
+	"Children": [
+		{
+			"ID": "20220308115926-5m5zp6g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308115926-5m5zp6g",
+				"updated": "20220308120121"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220308120120-8vetu9u"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "创建引用快"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220308120314-zri4vuu",
+			"Type": "NodeBlockQueryEmbed",
+			"Properties": {
+				"fold": "1",
+				"id": "20220308120314-zri4vuu",
+				"updated": "20220308120314"
+			},
+			"Children": [
+				{
+					"Type": "NodeOpenBrace"
+				},
+				{
+					"Type": "NodeOpenBrace"
+				},
+				{
+					"Type": "NodeBlockQueryEmbedScript",
+					"Data": "select * from blocks where id='20220308120120-8vetu9u'"
+				},
+				{
+					"Type": "NodeCloseBrace"
+				},
+				{
+					"Type": "NodeCloseBrace"
+				}
+			]
+		},
+		{
+			"ID": "20220308120320-ch0bia0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220308120320-ch0bia0",
+				"updated": "20220308120445"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一级标题"
+				}
+			]
+		},
+		{
+			"ID": "20220308120446-b75qirc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220308120446-b75qirc",
+				"updated": "20220308120545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二级标题1"
+				}
+			]
+		},
+		{
+			"ID": "20220308120500-j7hwk3b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220308120500-j7hwk3b",
+				"updated": "20220308120507"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三级标题"
+				}
+			]
+		},
+		{
+			"ID": "20220308120508-bl7yicx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220308120508-bl7yicx",
+				"updated": "20220308120515"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四级标题"
+				}
+			]
+		},
+		{
+			"ID": "20220308120516-ag3s9ot",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220308120516-ag3s9ot",
+				"updated": "20220308120601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二级标题2"
+				}
+			]
+		},
+		{
+			"ID": "20220308120610-7gf0ijt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308120610-7gf0ijt",
+				"updated": "20220308120611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "是否"
+				}
+			]
+		},
+		{
+			"ID": "20220308120611-kyxbx1b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308120611-kyxbx1b",
+				"updated": "20220308121306"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Properties": {
+						"parent-style": "max-width: 234px;",
+						"style": "width: 224px;"
+					},
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220308121155-5wnuris.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeKramdownSpanIAL",
+					"Data": "{: style=\"width: 224px;\" parent-style=\"max-width: 234px;\"}"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "阿斯蒂芬"
+				}
+			]
+		},
+		{
+			"ID": "20220308120618-duend23",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220308120618-duend23",
+				"updated": "20220308121258"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const name = \"234\"\nwhile(){\n\n\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220308121323-ymcblg6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308121323-ymcblg6",
+				"updated": "20220308121329"
+			}
+		}
+	]
+}

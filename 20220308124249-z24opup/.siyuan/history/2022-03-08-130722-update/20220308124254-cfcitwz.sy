@@ -1,0 +1,75 @@
+{
+	"ID": "20220308124254-cfcitwz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308124254-cfcitwz",
+		"title": "日常新文档",
+		"updated": "20220308130024"
+	},
+	"Children": [
+		{
+			"ID": "20220308124254-u5rswx9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220308124254-u5rswx9",
+				"updated": "20220308124310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建题目"
+				}
+			]
+		},
+		{
+			"ID": "20220308124310-4h8u0un",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308124310-4h8u0un",
+				"updated": "20220308124317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建代码块"
+				}
+			]
+		},
+		{
+			"ID": "20220308124352-bq3av51",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220308124352-bq3av51",
+				"updated": "20220308130024"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\"x\"ian\n(c)asf\n[c]jasf\n{x}ia\n{\na\n\n}sd\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220308124704-7zz93r3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308124704-7zz93r3",
+				"updated": "20220308124704"
+			}
+		}
+	]
+}
