@@ -1,0 +1,535 @@
+{
+	"ID": "20220311072110-p55csb0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220311072110-p55csb0",
+		"title": "MVVM",
+		"updated": "20220311072858"
+	},
+	"Children": [
+		{
+			"ID": "20220311072726-n5mdta8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311072726-n5mdta8",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "MVVM风格开发框架"
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-lky9dej",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-lky9dej",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "MVVM（Model View ViewModel）是由微软的WPF带来的技术体验，如Sliverlight、音频、视频、3D和动画等，使得软件UI层更加细节化、可定制化。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-jwapo3g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220311072726-jwapo3g",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么 出现MVVM？"
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-ng3qlip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-ng3qlip",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "MVVM具体的设计功能不只是简单的MVC分层模式，而是将View端的显示和逻辑分离出来。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-1yjfg8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-1yjfg8y",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image-20210201222310516"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://lovebetterworld.com/image-20210201222310516.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-88crx1f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-88crx1f",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "MVVM模式和MVC模式一样，主要目的是分离视图（View）和模型（Model）。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-g0u1jd8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-g0u1jd8",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "MVVM模式是将\"数据模型数据双向绑定\"的思想作为核心，因此在View和Model之间没有联系，而是通过ViewModel进行交互，而且Model和ViewModel之间的交互是双向的，因此视图数据的变化会同时修改数据源，而数据源数据的变化也会立即反应到View上。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-kn5i5oz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311072726-kn5i5oz",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CDN"
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-3d8fueu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-3d8fueu",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "CDN（Content Delivery Network，内容分发网络），其基本思路是尽可能避开互联网上有可能影响数据传输速度和稳定性的瓶颈和环节，使内容传输得更快、更稳定，通过在网络各处放置节点服务器，构成在现有的互联网基础之上的一层智能虚拟网络。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-rwo818i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-rwo818i",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "CDN系统能够实时地根据网络流量和各节点的连接、负载情况，以及到用户的距离和响应时间等综合信息，将用户的请求重新导向离用户最近的服务节点上。其目的是使用户可以就近取得所需内容，解决Internet网络拥挤的情况，提高用户访问网站的响应速度。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-koja88v",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311072726-koja88v",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "响应式设计"
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-hk6doi5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-hk6doi5",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "响应式界面的4个层次："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-rjmoz5u",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220311072726-rjmoz5u",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"ID": "20220311072726-kvjqiwe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220311072726-kvjqiwe"
+					},
+					"Children": [
+						{
+							"ID": "20220311072726-oa3ikvj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220311072726-oa3ikvj"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "同一页面在不同大小和比例上看起来都应该是舒适的；"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220311072726-8n8nsht",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220311072726-8n8nsht"
+					},
+					"Children": [
+						{
+							"ID": "20220311072726-jgzkr6r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220311072726-jgzkr6r"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "同一页面在不同分辨率上看起来都应该是合理的；"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220311072726-ft28qci",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220311072726-ft28qci"
+					},
+					"Children": [
+						{
+							"ID": "20220311072726-srqtde6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220311072726-srqtde6"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "同一页面在不同操作方式（如鼠标和触屏）下，体验应该是统一的；"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220311072726-ot6kup3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220311072726-ot6kup3"
+					},
+					"Children": [
+						{
+							"ID": "20220311072726-p0rsav6",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220311072726-p0rsav6"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "同一页面在不同类型的设备（手机、平板电脑、计算机）上，交互方式应该是符合用户习惯的。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-q1iib19",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311072726-q1iib19",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "构造器"
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-mkxrl67",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311072726-mkxrl67",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue.js路由"
+				}
+			]
+		},
+		{
+			"ID": "20220311072726-t45e05t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311072726-t45e05t",
+				"updated": "20220311072726"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "vue-router提供了Vue.js的路由控制和管理，是官方提供的路由控制组件。"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		}
+	]
+}

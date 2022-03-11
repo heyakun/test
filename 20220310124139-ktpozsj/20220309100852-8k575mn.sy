@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220309100852-8k575mn",
 		"title": "newcer - 0309更新",
-		"updated": "20220310165051"
+		"updated": "20220311074243"
 	},
 	"Children": [
 		{
@@ -6880,10 +6880,208 @@
 		},
 		{
 			"ID": "20220310165009-wq0mbz6",
-			"Type": "NodeParagraph",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20220310165009-wq0mbz6",
-				"updated": "20220310165009"
+				"updated": "20220311073354"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "03-11更新"
+				}
+			]
+		},
+		{
+			"ID": "20220311073355-crqeqdh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311073355-crqeqdh",
+				"updated": "20220311073407"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "cvte "
+				}
+			]
+		},
+		{
+			"ID": "20220311073434-us2w0p8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311073434-us2w0p8",
+				"updated": "20220311073448"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：Lux.Lin"
+				}
+			]
+		},
+		{
+			"ID": "20220311073411-km38ubg",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220311073411-km38ubg",
+				"updated": "20220311073411"
+			},
+			"Children": [
+				{
+					"ID": "20220311073411-1mu7rc7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220311073411-1mu7rc7"
+					},
+					"Children": [
+						{
+							"ID": "20220311073411-wfm38r4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220311073411-wfm38r4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "react redux原理\n2.react 虚拟dom\n3.计网相关 http1.0 http2.0 多路复用原理\n4.tcp与udp，tcp三次握手及为什么，四次挥手\n5.css盒模型\n6.实现四个块的四等分"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220311073411-smxyh8e",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220311073411-smxyh8e"
+					},
+					"Children": [
+						{
+							"ID": "20220311073411-n8tpgsa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220311073411-n8tpgsa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "display：none， visibility：hidden的区别，开发时候应用场景\n8.闭包是什么，闭包的应用\n9.事件循环\n10.csrf与xss攻击，cookie\n11.输入一个url...\n12.重绘与重排\n菜鸡 春招 第一面，校招第二面\n有些会的没想起来，css是答得不咋样，\n菜的安详。"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220311073417-0r1uw2w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220311073417-0r1uw2w",
+				"updated": "20220311073706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "美的"
+				}
+			]
+		},
+		{
+			"ID": "20220311073706-7l2hv18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311073706-7l2hv18",
+				"updated": "20220311073718"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：lizehua"
+				}
+			]
+		},
+		{
+			"ID": "20220311073720-83drl3x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311073720-83drl3x",
+				"updated": "20220311073720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "const、let和var的区别\n事件循环，宏任务和微任务\najax\n持久化存储\n跨域以及解决办法\n兄弟选择器、优先级\n水平垂直居中\nflex布局 flex:1 代表什么\nvuex的五个函数\n导航守卫\nvue双向绑定的原理\nvue的生命周期\nlocalStorage和sessionStorage的区别\n有和后端对接过吗？\nvue路由，hash和history模式\nget和post的区别\n原型链，原型链的终点\n跨域解决办法"
+				}
+			]
+		},
+		{
+			"ID": "20220311073720-r8cflyb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311073720-r8cflyb",
+				"updated": "20220311073720"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面（3.10）\n介绍项目（用到了 socket ）\n讲一下 websocket 和传统的http的区别\nsocket 什么时候会断连(忘记了，应该是心跳检测那一块的知识)\nhttp 1.0 和 http 2.0的区别\n多路复用是什么\n输入url到页面展示发生了什么\nvue的生命周期\nvue组件传值（讲了props、$emit以及vuex）\nvuex 的五个函数\n为什么 vue 里面的 data 是用函数返回的形式？\ncss 三栏布局 左右固定宽度 中间自适应（这个没讲出来，看过忘了。。。）\n重排和重绘\ndisplay: none 会触发重排吗？\nDom 树和 CSSOM 数哪一个先生成？\nnodejs 是做什么用\n对 美的 前端这边有什么想要了解的吗？"
+				}
+			]
+		},
+		{
+			"ID": "20220311073723-vtd3jzl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311073723-vtd3jzl",
+				"updated": "20220311074240"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深信服前端"
+				}
+			]
+		},
+		{
+			"ID": "20220311074220-axy3e43",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311074220-axy3e43",
+				"updated": "20220311074222"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.class用过吗，里面可以有静态对象吗\n2.class继承怎么实现的\n3.数组和对象怎么判断，不用isArray怎么判断\n4.undefined怎么判断\n5.定位这里用过什么，讲一下里面的属性\n6.两栏布局怎么实现\n7.用户登录认证这里讲下（cookie和session）\n8.用户在客户端禁用了cookie，怎么办\n9.讲下前端的缓存\n10.编译完以后，我问你JavaScript的执行过程，就是\u003cscript\u003e标签里面的js是怎么执行的\n11.一个音乐软件，右滑可以点击删除，也可以批量删除，用vue怎么做\n12.用过promise吗，现在给你很多个对象，但是对象数量不确定，怎么做\n13.查找 二叉树 的最大路径，怎么优化"
+				}
+			]
+		},
+		{
+			"ID": "20220311074243-pbn520r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220311074243-pbn520r",
+				"updated": "20220311074243"
 			}
 		}
 	]
