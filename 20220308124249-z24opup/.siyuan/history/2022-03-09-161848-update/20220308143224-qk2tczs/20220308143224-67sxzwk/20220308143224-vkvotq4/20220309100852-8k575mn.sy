@@ -1,0 +1,6101 @@
+{
+	"ID": "20220309100852-8k575mn",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220309100852-8k575mn",
+		"title": "2022-03-09",
+		"updated": "20220309154330"
+	},
+	"Children": [
+		{
+			"ID": "20220309100852-a25mrzu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309100852-a25mrzu",
+				"updated": "20220309100919"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tencent"
+				}
+			]
+		},
+		{
+			"ID": "20220309100922-scxlt5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100922-scxlt5v",
+				"updated": "20220309101207"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者： 想上大厂的cxx"
+				}
+			]
+		},
+		{
+			"ID": "20220309101211-16gcyja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101211-16gcyja",
+				"updated": "20220309101225"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309101336-la15c3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101336-la15c3h",
+				"updated": "20220309101340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309101316-939y9s4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309101316-939y9s4",
+				"updated": "20220309101359"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位： 抖音音乐"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-1vpo5bj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-1vpo5bj",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一面自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-o5m8nvq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-o5m8nvq",
+				"updated": "20220309155021"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1. 为什么对前端感兴趣"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-cpp7y55",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-cpp7y55",
+				"updated": "20220309155028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2. 怎么学习前端的"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-l5fkiwy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-l5fkiwy",
+				"updated": "20220309155034"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3. 介绍一下项目"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-o5zcbly",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-o5zcbly",
+				"updated": "20220309155037"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4. cookie的原理"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-2a3qks1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-2a3qks1",
+				"updated": "20220309155042"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5. cookie、sessionstorage、localstorage的区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-rbrpr7f",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-rbrpr7f",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了cookie还有什么可以做登录态 token、sessionId"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-iw3o9vl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-iw3o9vl",
+				"updated": "20220309155047"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6. token被别人拿取了有危害吗"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-d0ron6s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-d0ron6s",
+				"updated": "20220309155052"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7. new的原理 -----\u003e 个人直接要求手写了一个"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-i0h67pq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-i0h67pq",
+				"updated": "20220309155054"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8. 实现 add(1)(2)(3)() = 6 add(1)(2)(3)(4)() = 10 // 函数柯里化"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-5a6wryx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309100953-5a6wryx",
+				"updated": "20220309155101"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9. 实现 二叉树 的路径和 （类似于打印 二叉树 的各条路径 并求和）"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-sn8wc1a",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-sn8wc1a",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-z32h522",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309100953-z32h522",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "学校所学课程"
+				}
+			]
+		},
+		{
+			"ID": "20220309155424-zxabz7z",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309155424-zxabz7z",
+				"updated": "20220309155513"
+			},
+			"Children": [
+				{
+					"ID": "20220309155424-ttfj1ak",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309155424-ttfj1ak"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-zlbjs28",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-zlbjs28"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TCP三次握手"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-yzr3w33",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309155424-yzr3w33"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-wi2h1cd",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-wi2h1cd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TCP为什么是四次挥手"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-4xsfpqw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309155424-4xsfpqw"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-e1sclc7",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-e1sclc7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "OSI七层模型都干了什么"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-mmf0342",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309155424-mmf0342"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-xs5oh1o",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-xs5oh1o"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "了解UDP吗"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-42ygc05",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309155424-42ygc05"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-dhyk3rd",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-dhyk3rd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入URL后干了什么"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-nmol1v1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309155424-nmol1v1"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-181cjvz",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-181cjvz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "讲讲浏览器渲染机制，重绘一定会引起回流吗"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-ikt29lw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309155424-ikt29lw"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-uzafzgg",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-uzafzgg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "基于渲染机制可以提出哪些优化点"
+								}
+							]
+						},
+						{
+							"ID": "20220309155452-l0bokar",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220309155452-l0bokar"
+							},
+							"Children": [
+								{
+									"ID": "20220309155450-lrjx001",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220309155450-lrjx001"
+									},
+									"Children": [
+										{
+											"ID": "20220309155450-y1ckvbl",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220309155450-y1ckvbl"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "（说实话听不太懂），后来举例说怎么提高首屏时间，首屏时间怎么计算"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-az8eodk",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309155424-az8eodk"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-ob64trz",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-ob64trz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "浏览器缓存机制"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-diyeuf5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220309155424-diyeuf5",
+						"updated": "20220309155513"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-pbrdj8k",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-pbrdj8k",
+								"updated": "20220309155513"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "http状态码 401是啥 502是啥"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-r5bnnjb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220309155424-r5bnnjb"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-eocduys",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-eocduys"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "问实习项目 自己介绍了优化点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-y09xhvw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220309155424-y09xhvw"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-u4ycbuy",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-u4ycbuy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现全排列"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155424-4j8kke9",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20220309155424-4j8kke9"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-2u4tltq",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-2u4tltq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "实现一个纸牌游戏，52张牌，抽取5张，判断是否是 同花顺"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309100953-3hthszn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309100953-3hthszn",
+				"updated": "20220309100953"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三面 1小时自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309155550-535kd8q",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309155550-535kd8q",
+				"updated": "20220309155550"
+			},
+			"Children": [
+				{
+					"ID": "20220309155550-8a8xii5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309155550-8a8xii5",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-pip5jw6",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-pip5jw6",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "为什么要选择互联网大厂，为什么bat、字节能在中国做到那么大，而不是日本，印度之类的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-27ms7if",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309155550-27ms7if",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-fffaxoz",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-fffaxoz",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "怎么看待字节和音乐"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-0mzw6c2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309155550-0mzw6c2",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-zh0jhoi",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-zh0jhoi",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "聊实习项目"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-m9miyvt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309155550-m9miyvt",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-5qd1x75",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-5qd1x75",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "聊个人项目"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-7x4dvi6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309155550-7x4dvi6",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-ma8k727",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-ma8k727",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node和java有什么区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-c0az2wy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309155550-c0az2wy",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-5ztmh7f",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-5ztmh7f",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你有什么优缺点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-iqbmobt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309155550-iqbmobt",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-yn5n7ko",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-yn5n7ko",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "指出：还要往深度方向走走，表达、沟通？项目介绍不清不楚？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-fx6guyy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309155550-fx6guyy",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-45u84ui",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-45u84ui",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "说说你对微前端、severless的认识"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-q141cmt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220309155550-q141cmt",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-br4v2h4",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-br4v2h4",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "微前端会有什么优缺点"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155550-0ff0ntz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220309155550-0ff0ntz",
+						"updated": "20220309155550"
+					},
+					"Children": [
+						{
+							"ID": "20220309100953-1xwzw71",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309100953-1xwzw71",
+								"updated": "20220309155550"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "毕业工作还是读研，为什么？(还聊了许多非技术的问题，都很有深度，但是忘了许多..)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309101228-uzq8cr3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309101228-uzq8cr3",
+				"updated": "20220309103613"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阿里钉钉"
+				}
+			]
+		},
+		{
+			"ID": "20220309155955-nlxdxud",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220309155955-nlxdxud",
+				"updated": "20220309160000"
+			},
+			"Children": [
+				{
+					"ID": "20220309103642-lrcx7cc",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103642-lrcx7cc",
+						"updated": "20220309155955"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "作者：吴wu"
+						}
+					]
+				},
+				{
+					"ID": "20220309103642-gunrten",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103642-gunrten",
+						"updated": "20220309155955"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "来源： new客"
+						}
+					]
+				},
+				{
+					"ID": "20220309103642-615374u",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103642-615374u",
+						"updated": "20220309155955"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "类型：实习"
+						}
+					]
+				},
+				{
+					"ID": "20220309103642-tazge9l",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103642-tazge9l",
+						"updated": "20220309155955"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "岗位： 阿里钉钉"
+						}
+					]
+				},
+				{
+					"ID": "20220309103614-td4di74",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103614-td4di74",
+						"updated": "20220309103615"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "项目开挖  就逮着你的项目一直问(省略)"
+						}
+					]
+				},
+				{
+					"ID": "20220309160000-bk4dktw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309160000-bk4dktw",
+						"updated": "20220309160000"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "项目优化"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220309155922-jwtuar2",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309155922-jwtuar2",
+				"updated": "20220309155922"
+			},
+			"Children": [
+				{
+					"ID": "20220309155922-83g5puc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309155922-83g5puc",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155643-jtexi2n",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155643-jtexi2n",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "登录鉴权 token cookie 能用cookie吗 用cookie怎么做 cookie"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-gag0qn3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309155922-gag0qn3",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155644-zib68k2",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155644-zib68k2",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "sessionStorage和localStorage区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-dysn9er",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309155922-dysn9er",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155645-tszi0e7",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155645-tszi0e7",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "讲讲websocket"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-r5jo426",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309155922-r5jo426",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155646-575wt3x",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155646-575wt3x",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "讲js所有继承"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-foyl2zw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309155922-foyl2zw",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155647-9s9fw32",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155647-9s9fw32",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "输入URL到页面展示的过程"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-ldewhrp",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309155922-ldewhrp",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155648-8al0ili",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155648-8al0ili",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "webpack原理和编译流程"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-kfhiy5u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309155922-kfhiy5u",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155649-780uomf",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155649-780uomf",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "diff 算法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-f97dpf2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309155922-f97dpf2",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155650-gjwzj1o",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155650-gjwzj1o",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "虚拟DOM"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-64utvvo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220309155922-64utvvo",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155651-m8nfbqb",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155651-m8nfbqb",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "模板编译"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-pe0vmzc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220309155922-pe0vmzc",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155653-zz319wv",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155653-zz319wv",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "闭包 哪里用到了 为什么用 有什么作用"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-otatyxe",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220309155922-otatyxe",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155653-yc0mfxd",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155653-yc0mfxd",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原型链"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-qjh713l",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20220309155922-qjh713l",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155654-uacwpkc",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155654-uacwpkc",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "作用域 作用域链 作用域在什么时候形成的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-ffb1ygv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTMu",
+						"Num": 13
+					},
+					"Properties": {
+						"id": "20220309155922-ffb1ygv",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155656-hi5pk7v",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155656-hi5pk7v",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "SEO"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-0mewhzd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTQu",
+						"Num": 14
+					},
+					"Properties": {
+						"id": "20220309155922-0mewhzd",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155657-t5e9noc",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155657-t5e9noc",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "单页应用和多页应用对比"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-xthntbb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTUu",
+						"Num": 15
+					},
+					"Properties": {
+						"id": "20220309155922-xthntbb",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155657-60az3c2",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155657-60az3c2",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "node底层原理  node单线程的好处"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-806o931",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTYu",
+						"Num": 16
+					},
+					"Properties": {
+						"id": "20220309155922-806o931",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155659-ensndzx",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155659-ensndzx",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "组件传参"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-nf317h0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTcu",
+						"Num": 17
+					},
+					"Properties": {
+						"id": "20220309155922-nf317h0",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155700-fo6g63j",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155700-fo6g63j",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端权限"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-xxsc8o2",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTgu",
+						"Num": 18
+					},
+					"Properties": {
+						"id": "20220309155922-xxsc8o2",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155701-w3bw32q",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155701-w3bw32q",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "了解vue3吗"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-ksp7fns",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTku",
+						"Num": 19
+					},
+					"Properties": {
+						"id": "20220309155922-ksp7fns",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155700-n5fppaq",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155700-n5fppaq",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "箭头函数和普通函数的区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-u222hcs",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjAu",
+						"Num": 20
+					},
+					"Properties": {
+						"id": "20220309155922-u222hcs",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155703-0d1in0w",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155703-0d1in0w",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "xss 怎么出现xss  innerHTML写什么容易出现。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-vdoojhl",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjEu",
+						"Num": 21
+					},
+					"Properties": {
+						"id": "20220309155922-vdoojhl",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155821-jn75nvg",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155821-jn75nvg",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端跨域"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309155922-la2drew",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MjIu",
+						"Num": 22
+					},
+					"Properties": {
+						"id": "20220309155922-la2drew",
+						"updated": "20220309155922"
+					},
+					"Children": [
+						{
+							"ID": "20220309155824-p2iu3ed",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309155824-p2iu3ed",
+								"updated": "20220309155922"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "哪里用到了AST 自己实现过吗"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309155826-0fl7njc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309155826-0fl7njc",
+				"updated": "20220309155826"
+			}
+		},
+		{
+			"ID": "20220309103754-qlyhk0h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309103754-qlyhk0h",
+				"updated": "20220309103755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "360"
+				}
+			]
+		},
+		{
+			"ID": "20220309160013-wwlzibq",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220309160013-wwlzibq",
+				"updated": "20220309160017"
+			},
+			"Children": [
+				{
+					"ID": "20220309103815-bqz5fzy",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103815-bqz5fzy",
+						"updated": "20220309160017"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "作者：tian89点"
+						}
+					]
+				},
+				{
+					"ID": "20220309103815-6xkccsa",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103815-6xkccsa",
+						"updated": "20220309160014"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "来源： new客"
+						}
+					]
+				},
+				{
+					"ID": "20220309103815-d4836tm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103815-d4836tm",
+						"updated": "20220309160014"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "类型：实习"
+						}
+					]
+				},
+				{
+					"ID": "20220309103815-n59uk37",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309103815-n59uk37",
+						"updated": "20220309160014"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "岗位： 360"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220309160305-8i8lnzc",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309160305-8i8lnzc",
+				"updated": "20220309160305"
+			},
+			"Children": [
+				{
+					"ID": "20220309160305-mi6dqqt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309160305-mi6dqqt",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309103357-j6f1ax3",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103357-j6f1ax3",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "介绍项目iframe页面通信"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-f0j43o7",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309160305-f0j43o7",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160048-359fzvt",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160048-359fzvt",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "iframe与页面的适应"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-r5anwob",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309160305-r5anwob",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160054-xrma36a",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160054-xrma36a",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "问了一些fineport的东西（项目中用到了）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-ahodx20",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309160305-ahodx20",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160054-rcgadmm",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160054-rcgadmm",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "事件循环"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-o36ny5h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309160305-o36ny5h",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160105-jb7gsf4",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160105-jb7gsf4",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用element-ui遇到哪些问题"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-q9easbc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309160305-q9easbc",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160107-l9cxn55",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160107-l9cxn55",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "echarts用过哪些图"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-6e6dcxr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309160305-6e6dcxr",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160108-njn4bjo",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160108-njn4bjo",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "promise"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-cjzaeop",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309160305-cjzaeop",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160114-71wlonl",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160114-71wlonl",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "async await"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-ra7p4nm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220309160305-ra7p4nm",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160139-41xun84",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160139-41xun84",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "原型链"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160305-mb97y85",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220309160305-mb97y85",
+						"updated": "20220309160305"
+					},
+					"Children": [
+						{
+							"ID": "20220309160122-ifi1k57",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160122-ifi1k57",
+								"updated": "20220309160305"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "HTTP协议"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309160132-9zeg357",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309160132-9zeg357",
+				"updated": "20220309160329"
+			},
+			"Children": [
+				{
+					"ID": "20220309160313-6m7j63g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220309160313-6m7j63g",
+						"updated": "20220309160329"
+					},
+					"Children": [
+						{
+							"ID": "20220309160313-5ewtyze",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160313-5ewtyze",
+								"updated": "20220309160329"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手写：给定一个数组，返回数组中重复出现过的元素"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309103922-87c5ciy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309103922-87c5ciy",
+				"updated": "20220309103929"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快手"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-pxk8jmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-pxk8jmh",
+				"updated": "20220309104650"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：努力做coder"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-0rinr8f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-0rinr8f",
+				"updated": "20220309104632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-rz84ob9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-rz84ob9",
+				"updated": "20220309104632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309104632-rptqk0w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104632-rptqk0w",
+				"updated": "20220309104700"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位：快手"
+				}
+			]
+		},
+		{
+			"ID": "20220309104635-kuug5ni",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309104635-kuug5ni",
+				"updated": "20220309104635"
+			}
+		},
+		{
+			"ID": "20220309104636-c7d72i9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104636-c7d72i9",
+				"updated": "20220309104636"
+			}
+		},
+		{
+			"ID": "20220309103933-feuzuot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-feuzuot",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "面 2021.12.7\n自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-xt7kvlp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-xt7kvlp",
+				"updated": "20220309104028"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220309104119-5akqgmw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104119-5akqgmw",
+				"updated": "20220309104155"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "console.log(typeof typeof typeof null)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104210-q02bd8s",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104210-q02bd8s",
+				"updated": "20220309104312"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "function f(x){\n    var x;\n    console.log(x)\n}\nf(5)\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104242-5ycoxpn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104242-5ycoxpn",
+				"updated": "20220309104316"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var name = '123'\nvar obj = {\n    name:'456',\n    getName:function(){\n        function printName(){\n            console.log(this.name)\n        }\n        printName()\n    }\n}\n\nobj.getName()\n// 结果？改写，让结果输出456\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104251-ynvruhw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104251-ynvruhw",
+				"updated": "20220309104321"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 结果？// 改写，让所有的c都变成h(包括大写的C) 'abcdcbaC'.replace(/c/,'h')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104259-y7j5w0w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104259-y7j5w0w",
+				"updated": "20220309104328"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 输出结果？ \n\nsetTimeout(()=\u003e{\n    console.log('quick timer')\n},0)\n\nnew Promise((resolve,reject)=\u003e{\n    console.log('init promise')\n    process.nextTick(resolve)\n}).then(()=\u003econsole.log('promise.then'))\n\nprocess.nextTick(()=\u003e{\n    console.log('nextTick')\n})\n\nsetImmediate(()=\u003e{\n    console.log('immediate')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309104303-01sl352",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104303-01sl352",
+				"updated": "20220309104333"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 输出结果？ \n\nsetTimeout(()=\u003e{\n    console.log('quick timer')\n},0)\n\nnew Promise((resolve,reject)=\u003e{\n    console.log('init promise')\n    process.nextTick(resolve)\n}).then(()=\u003econsole.log('promise.then'))\n\nprocess.nextTick(()=\u003e{\n    console.log('nextTick')\n})\n\nsetImmediate(()=\u003e{\n    console.log('immediate')\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-peqsgwz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-peqsgwz",
+				"updated": "20220309104443"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n// 结果？改写，让结果输出456\n// 结果？// 改写，让所有的c都变成h(包括大写的C) 'abcdcbaC'.replace(/c/,'h')\n// 输出结果？"
+				}
+			]
+		},
+		{
+			"ID": "20220309104342-nihzo93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104342-nihzo93",
+				"updated": "20220309104343"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "写数组去重"
+				}
+			]
+		},
+		{
+			"ID": "20220309104257-gyq99im",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309104257-gyq99im",
+				"updated": "20220309104348"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 手写一个repeact()函数，加上下面的代码运行，使每3秒打印一个helloword，总共执行4次\n\nconst repeatFunc = repeact(console.log,4,3000)\nrepeatFunc('helloword')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309160435-5gc055o",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309160435-5gc055o",
+				"updated": "20220309160436"
+			},
+			"Children": [
+				{
+					"ID": "20220309160435-c1fqgto",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309160435-c1fqgto",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309103933-8gttoup",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103933-8gttoup",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vue中v-if和v-show的区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-v0gd7uy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309160435-v0gd7uy",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309103933-tar8wk3",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103933-tar8wk3",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vue中的nextTick是什么"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-tcrmrt1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309160435-tcrmrt1",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309160353-zwpfxd8",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160353-zwpfxd8",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "nextTick底层使怎么实现的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-6z1kdjv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309160435-6z1kdjv",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309160354-5i86jxa",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309160354-5i86jxa",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vue2和vue3响应式的区别"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-tcam1in",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309160435-tcam1in",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309103933-4vm4dnw",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103933-4vm4dnw",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "跨域产生的原因和解决方法"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-5yec3q3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309160435-5yec3q3",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309103933-psd0uih",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103933-psd0uih",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "cookie的secure这个属性是干啥的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-7qrrmwb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309160435-7qrrmwb",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309103933-jqlxgrj",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103933-jqlxgrj",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "cookie的httpOnly是干啥的"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309160435-e21eyfc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309160435-e21eyfc",
+						"updated": "20220309160436"
+					},
+					"Children": [
+						{
+							"ID": "20220309103933-exvgetp",
+							"Type": "NodeHeading",
+							"HeadingLevel": 3,
+							"Properties": {
+								"id": "20220309103933-exvgetp",
+								"updated": "20220309160436"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "301,401,403,405这些状态码都是干啥的"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-fdos36g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-fdos36g",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面 2021.12.10\n具体的一些小问题忘了，问了些个人方面的问题，然后就是做了三个题："
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-e722f2g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-e722f2g",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS随机生成颜色"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-54fg6xm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-54fg6xm",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一个关于Promise并发的题目。大概是：一次性可能发10个请求，但是请求池控制一次性只能处理三个，请求池内的请求一个处理完后推进下一个请求"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-ku5yt8g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-ku5yt8g",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vue组件封装，写逻辑部分，css忽略。大概是：全选单选，就像购物车的全选按钮，四个商品四个按钮，一个全选按钮，点击全选，商品都选中，反之，商品都选中则全选按钮亮。"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-oqc0dgd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-oqc0dgd",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "唠嗑balabalabala"
+				}
+			]
+		},
+		{
+			"ID": "20220309103933-1hm5b53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309103933-1hm5b53",
+				"updated": "20220309103933"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "早上面完，下午hr就加微信了~效率很快~~"
+				}
+			]
+		},
+		{
+			"ID": "20220309104705-e797p33",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309104705-e797p33",
+				"updated": "20220309104705"
+			}
+		},
+		{
+			"ID": "20220309104917-ihyhitn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309104917-ihyhitn",
+				"updated": "20220309104925"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "飞书"
+				}
+			]
+		},
+		{
+			"ID": "20220309104956-4kq8fy8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104956-4kq8fy8",
+				"updated": "20220309105001"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者：Pont"
+				}
+			]
+		},
+		{
+			"ID": "20220309104956-dg0h9jl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104956-dg0h9jl",
+				"updated": "20220309104956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "来源： new客"
+				}
+			]
+		},
+		{
+			"ID": "20220309104956-vos5p7a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104956-vos5p7a",
+				"updated": "20220309104956"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型：实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309104956-plzecbo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309104956-plzecbo",
+				"updated": "20220309105006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "岗位：飞书"
+				}
+			]
+		},
+		{
+			"ID": "20220309104926-hnygq6e",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309104926-hnygq6e",
+				"updated": "20220309104926"
+			},
+			"Children": [
+				{
+					"ID": "20220309104926-bcwevl3",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309104926-bcwevl3"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-0bukejc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-0bukejc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "自我介绍\u0026项目介绍"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-ujxtn1d",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309104926-ujxtn1d"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-zuj00pq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-zuj00pq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端最吸引你的一点？为什么开始学习前端？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-rve236x",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309104926-rve236x"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-zbslyxu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-zbslyxu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端的学习对你有其他带来负担吗？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-ei2vu34",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309104926-ei2vu34"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-if9v6sa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-if9v6sa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "尝试实现过 React / Vue 吗？\n聊聊 React Fiber/React 优先级 lane 与更新/Hooks/分片渲染？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-msjgx83",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309104926-msjgx83"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-5ikwhc0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-5ikwhc0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "你最有挑战的项目？为什么？规模体现在哪？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-u9s2f23",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309104926-u9s2f23"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-q8cipmu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-q8cipmu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "WebSocket 在什么情况场景下运用的？你在项目中主要负责什么？如何解决乱序问题（时间戳+Immutable.js）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-buxw1g1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309104926-buxw1g1"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-i17c5km",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-i17c5km"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "TypeORM 的引入是为了解决什么问题？聊聊 SQL 注入。如何工作？如何避免（Prepared SQL+转义）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-yk6tdqw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309104926-yk6tdqw"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-myz46xf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-myz46xf"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "还有什么安全问题？XSS。实现原理？如何避免"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-0wvlm12",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220309104926-0wvlm12"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-a7lir1b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-a7lir1b"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Webpack 与 Vite 的区别？介绍一下 Vite。Vite 的优势在哪？"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-pd4p3ox",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTAu",
+						"Num": 10
+					},
+					"Properties": {
+						"id": "20220309104926-pd4p3ox"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-oh4utvo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-oh4utvo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "有办法实现一个 AST 解析器吗？聊一下 AST。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-4igklao",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTEu",
+						"Num": 11
+					},
+					"Properties": {
+						"id": "20220309104926-4igklao"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-f1zvk9g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-f1zvk9g"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "了解正则的原理吗？（不了解）。"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309104926-86fcgkr",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MTIu",
+						"Num": 12
+					},
+					"Properties": {
+						"id": "20220309104926-86fcgkr"
+					},
+					"Children": [
+						{
+							"ID": "20220309104926-pf09fto",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309104926-pf09fto"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "手写题：写一个邮箱匹配的正则"
+								}
+							]
+						},
+						{
+							"ID": "20220309104928-lfglg2t",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1
+							},
+							"Properties": {
+								"id": "20220309104928-lfglg2t"
+							},
+							"Children": [
+								{
+									"ID": "20220309104926-gaygbmw",
+									"Type": "NodeListItem",
+									"ListData": {
+										"Typ": 1,
+										"Delimiter": 46,
+										"Marker": "MS4=",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220309104926-gaygbmw"
+									},
+									"Children": [
+										{
+											"ID": "20220309104926-ssa8adu",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220309104926-ssa8adu"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "手写题：非常简单的一个词法分析器（只分析赋值），其实挺简单的，主要是我在想怎么让他更通用一点就瞎写了好久。\n（还好面试官没有卡我这两个手写题：意思到了就行）"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309104944-3agvd4w",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309104944-3agvd4w",
+				"updated": "20220309104944"
+			}
+		},
+		{
+			"ID": "20220309105200-hktpzu8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309105200-hktpzu8",
+				"updated": "20220309105208"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "初见啊"
+				}
+			]
+		},
+		{
+			"ID": "20220309105211-5v5ztxr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105211-5v5ztxr",
+				"updated": "20220309112804"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220309112804-7rnmhkw.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-y6rfh2c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-y6rfh2c",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:关于我\n不敢自称菜鸡了,感觉自称菜鸡的大哥都是大厂offer...,别人是offer收割机,我是被offer收割"
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-z86g9jd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-z86g9jd",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "秋招终于告一段落了,感谢 牛客 这个平台给我带来的经验和总结,我也希望我的经验能够回馈一下还在前端这条路上挣扎的hxd们"
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-acshsww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-acshsww",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在这分享一下,楼主是双非本科北方某垫底211的硕士,专业是通信相关的, 没 有实习经历, 自学的前端\n我从六月份开始投的第一份简历,前后投了五十家公司左右\n首先:\n1：我因为没有实习被很多面试官嫌弃过,所以,如果你没有实习,而且还是非对口的话,建议找个实习,大厂实习能够加分,也能够给简历加分!!!"
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-pdd9epm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-pdd9epm",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2：有人说,提前批可以多投,不影响正式批.这个话,是真的,也是假的,具体还看公司,大的厂都会留下面评,所以,如果是你想去的公司,我劝你们慎重一点,好好准备加了解清楚,我某个公司的提前批笔试挂了,然后重新投了正式批,然后官网状态反复筛选..就是不通过,我朋友JD提前批挂了,正式批简历筛选都过不了.."
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-7ouo1zg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-7ouo1zg",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3：关于项目.一个好的项目是一个很好的加分点,我的项目是跟着一个视频做的,其中关于自己做的项目,有几个很重要的东西,首先,难点(没有也得有,没有难点,咱们制造难点),第二个,亮点,如果实在没有,就做性能优化方面吧.,第三个就是为什么要做这个项目,实现了什么功能"
+				},
+				{
+					"Type": "NodeSub",
+					"Data": "sub",
+					"Children": [
+						{
+							"Type": "NodeSubOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "一定要提前组织好自己的语言"
+						},
+						{
+							"Type": "NodeSubCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-ufufpor",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-ufufpor",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4： 关于笔试,我提前批挂过好多笔试,错过了不少机会!!!!因为是ACM模式,和普通的核心代码模式完全不一样!!!!!!!!!!!!!! 所以大家一定,一定提前练习 牛客 的输入输出和赛码网的输入输出!!!一定提前练习!!!!\n牛客 的输入输出练习看这里: ,赛码网的大家直接去赛码网看,不过其实和 牛客 的差不多,只不过是函数的区别,比如readline()和read_line()这样的区别~"
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-azgv3bg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-azgv3bg",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5： 要找实习的xd们,抓住我们这一届的 春招 ,也就是明年三四月份,当年五月份醒悟过来想找大厂实习的时候,emmmmmmmmmmmm,黄花菜都凉了."
+				}
+			]
+		},
+		{
+			"ID": "20220309105141-57ynih3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105141-57ynih3",
+				"updated": "20220309105141"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:关于我投过的公司\n已offer:\n1： 小米\n2：360\n3：蔚来\n4： 小红书\n当然无法和大佬,收割机相比,都是很普通的公司,所以大家看看就行~~~\n前前后后投了五十家左右的公司吧"
+				},
+				{
+					"Type": "NodeSub",
+					"Data": "sub",
+					"Children": [
+						{
+							"Type": "NodeSubOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "投的绝大部分都是北京的岗位"
+						},
+						{
+							"Type": "NodeSubCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309105214-4pz5c6g",
+			"Type": "NodeTable",
+			"TableAligns": [
+				0,
+				0,
+				0,
+				0
+			],
+			"Properties": {
+				"colgroup": "|||",
+				"id": "20220309105214-4pz5c6g",
+				"updated": "20220309105236"
+			},
+			"Children": [
+				{
+					"Type": "NodeTableHead",
+					"Data": "thead",
+					"Children": [
+						{
+							"Type": "NodeTableRow",
+							"Data": "tr",
+							"Children": [
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col1"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col2"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th",
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "col3"
+										}
+									]
+								},
+								{
+									"Type": "NodeTableCell",
+									"Data": "th"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				},
+				{
+					"Type": "NodeTableRow",
+					"Data": "tr",
+					"Children": [
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						},
+						{
+							"Type": "NodeTableCell",
+							"Data": "td"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309105351-jp656nw",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220309105351-jp656nw",
+				"updated": "20220309105443"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220309105443-jzoy1o9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-jzoy1o9",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "1\t用友\nHR挂\t秋招第一个面试,第一次HR,挂了,emmm\n2\t猿辅导\t笔试挂\t死于ACM\n3\t好未来\n笔试挂,感谢挂我之恩,hhhh"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-zzo6xjw",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-zzo6xjw",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "4\t完美世界\t二面挂,死于话多\t别给自己加戏,别给自己挖坑,不要表演我埋我自己!\n5\t虾皮\t简历挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-f91uxqi",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-f91uxqi",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "6\t蔚来\t提前批笔试挂,正式批offer,感谢蔚来还给我正式批投递机会!\t蔚来面试官素质高,但是流程...emmm\n7\t小米\t提前批简历挂,正式批offer\t太慢了\n8\tBIGO\t一面挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-o3ctasb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-o3ctasb",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "9\t度小满\t算是简历挂吧, 算法 和朋友A的题目数一样,他进了,我挂了\t迷~\n10\t百度\t三面挂,三面被嫌弃没实习非对口没学过软件工程\t😒😒😒😒😒😒😒"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-dxiqkr9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-dxiqkr9",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "11\t小鹏汽车\t简历挂,211过不了简历,听朋友说小鹏特别看重学历,周围很多211没过简历"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-s0s9xv5",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-s0s9xv5",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "12\t金山云\t简历挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-28o8w9f",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-28o8w9f",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "13\t快手\t简历挂,且不让投第二次\t😒"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-2qqgruj",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-2qqgruj",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "14\tPDD\t朋友先做的,第二次笔试题目和第一次一样,和朋友做的差不多,他过了我挂了,emmm\t迷~\n15\t有赞\t拒了笔试,因为发现是杭州"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-qvhs4mm",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-qvhs4mm",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "16\t货拉拉\t笔试过后没消息"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-f04g9wq",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-f04g9wq",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "17\t陌陌\t直接挂简历\t体验很差~boss上某架构师素质有待提高\n18\t途虎 养车\t挂简历"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-zb40uo6",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-zb40uo6",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "19\t斗鱼\t邀请我去武汉面试,emmmm,???????????拒了"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-6yuo194",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-6yuo194",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "20\t腾讯音乐\t笔试做不出来,挂了"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-96qypby",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-96qypby",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "21\t网易\t笔试挂了"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-2efyb9t",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-2efyb9t",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "22\t转转\temmmm,这个呢,emmmm,算了,一面挂\t实习,实习,实习!!!!!!!!!!!!!!!!\n23\t最右\t笔试后没消息"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-nfvea94",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-nfvea94",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "24\t奇安信\t七月份笔试,和三个朋友一起,到现在还是部门筛选!\t牛!!!!!!!!!!!!!!!\n25\t虎牙\t秒挂简历"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-cnp50yf",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-cnp50yf",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "26\t爱奇艺\t笔试挂,提前批影响正式批!\t提前批不会ACM,笔试挂了,直接影响正式批!\n27\t华为\t简历挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-sxy1nqc",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-sxy1nqc",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "28\t联想\t简历挂,这是提前批,正式批就懒得投了"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-u88v4w2",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-u88v4w2",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "29\t去哪儿\t笔试过后还要 排序 ,挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-eo4st9z",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-eo4st9z",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "30\t老虎\t二面挂\t体验极差\n31\t茄子快传\t二面挂\t遇到大哥了,面试官素质很好没得说,问的题比较偏比较深\n32\t知乎\t简历挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-j004y4f",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-j004y4f",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "33\t小红书\toffer\t感谢认可~\n34\t蓝湖\t应该hr挂了.好像说错话了\thr面要自信(自信过头了"
+						},
+						{
+							"Type": "NodeSub",
+							"Data": "sub",
+							"Children": [
+								{
+									"Type": "NodeSubOpenMarker"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "),但是不要瞎说话"
+								},
+								{
+									"Type": "NodeSubCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": ",说话之前过下脑子,能说吗这个,另外这个公司很看重 算法 !\n35\t360\toffer\t面试官人很好,今年给的也特别有诚意,不过开的太晚了,感谢认可吧~\n36\t美团\t投得晚了没HC刷KPI了\t早点准备早点投吧\n36\t贝壳\t二面挂"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-vu21c12",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-vu21c12",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "37\t欢聚\t一面后无消息\t一面聊的很开心,后面没感谢信,没下一步安排\n38\n58\n一面挂\n体验差,根据反馈大概率碰到KPI了"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-zdyhtvt",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-zdyhtvt",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "39\t乐信\t拒了二面\t深圳的岗位,面完了才发现,emmmm\n40\t兴业数金\t拒了面试\t面试官迟到二十多分钟,告辞,重新安排了面试直接拒了\n41\t字节\n二面挂\t提前批,正式批不想投了\n42\t搜狐\t投了没反馈"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-0falzaj",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-0falzaj",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "43\t京东\t笔试过了,简历复筛挂了"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-2kbfjqd",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-2kbfjqd",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "44\t同程旅行\t拒了面试"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-7nh71da",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-7nh71da",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "45\t自如\t拒了面试"
+						}
+					]
+				},
+				{
+					"ID": "20220309105443-ek8jzgo",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220309105443-ek8jzgo",
+						"updated": "20220309105443"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "46\t哔哩哔哩\t笔试挂\t部分公司部门直推可免笔试~\n47\t达达 集团\t拒了面试,太墨迹了"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309105458-yhrx8ac",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105458-yhrx8ac",
+				"updated": "20220309105458"
+			}
+		},
+		{
+			"ID": "20220309105634-0qyjce9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-0qyjce9",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3:关于学习前端的一些问题吧\n1：vue还是react\n我的回答是都行,不会因为你不会react而刷你(问过好几个面试官),重要的是你的基础知识掌握程度~（都要学，不同的公司，同一个公司的不同部门用的技术栈都会不同，有用单个的，有都用的，最后一般都要学。）"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-yfso36k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-yfso36k",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2：学习书籍\n我到很后面才发现还有人不知道红宝书,犀牛书和你不知道的JS.这几本书都很重要,其中红宝书是入门,犀牛书是进阶,你不知道的js是深入语言底层\nvue 我看的是 深入浅出 vue.js,源码讲得挺好的,学习vue的可以参考一下, 晚点我整理一下放到网盘,想要的自取吧\nhttp看的的http权威指南,很权威的一本书\n操作系统 ,看命吧,主要是通过 面经 总结,整个秋招问的基本都是正常的一些问题,进程,线程,协程,通信方式,其中就 茄子快传 碰到了大哥,问我什么时间片轮转 算法 ,常用的调度 算法 ,电脑可以同时听歌敲代码为什么等等,给我整不会了~\n这里包含了JS数据结构与 算法 ,你不知道的js上中下,红宝书,犀牛书.http,深入浅出vue.js,操作系统,计算机网络,cdn技术详解,css权威指南,js设计模式等书.部分书上可能有自己用ipad做的笔记,介意可忽略"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-ncq4a0f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-ncq4a0f",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3：webpack,node,ts,是强制要求吗\n不是,但是是加分点,知识广度一定的程度上可以弥补知识深度的不足,但是写上去的东西一定要会,别给自己挖坑,顺带把自己埋进去了...."
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-r1z0fmi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-r1z0fmi",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4;学习网站\n哔哩哔哩 有很多关于前端的课程,大家可以去选择性的看,我推荐的是黑马程序员和尚硅谷（我开始看错了视频，快一千集的视频，后面看了尚硅谷的，才发现以前看了个寂寞，讲的东西都浮于表面）,都挺好,还有就是技术社区掘金,也挺好"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-7kbiu5p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-7kbiu5p",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "6：关于前端高频问题\n这个大家就刷 面经 吧,就是老生常谈的八股文加一些进阶,多刷 面经 ,特别是大厂的 面经 ,优先刷大厂的,难度深度都会稍微有点大,后面再看中小公司的就会游刃有余了"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-h1mgsnq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-h1mgsnq",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "7：关于 算法\n其实吧, 算法 ,怎么说呢,筛选度极高,但是,最后工作中有用吗,有的面试官和我说有用,有的面试官说其实用的很少!,其实因人而异吧,比如你要自己造轮子, 算法 肯定得过关,就比如vue的 keep -alive的实现用了LRU~如果只是拧螺丝我觉得没啥用,但是!! 面试必考, 所以,背八股文的同时,好好刷 算法 吧,这里推荐力扣(简单题+中等题+高频,字节面试官的建议)和 牛客 的 算法 : 和前端大挑战: ,以及面向具体公司的codetop"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-tst7w4a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-tst7w4a",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "8：关于内推\n怎么说呢,最好不要 牛客 上随便找一个内推码填了就跑, 不是 官网投递的查不到进度的,到时候又找不到内推人很尴尬,有的内推可以免笔试,所以大家找内推一定要找靠谱的,或者能够加微信的以后方便联系的, 最后 很多 牛客 上的一些职位其实是员工发的,收到你的简历就拿去内推了,这里投递的 官网查不到状态,(感觉要挨喷,挨举报.....)而且你一定联系不上内推！！！！我投了那么多，只有两三个通过邮件联系我补充信息才得以联系到他们，其余的，官网查不到进度，人也联系不上！！！,所以一定要慎重"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-8w4p8w4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-8w4p8w4",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "9：多做笔记加一个小的tips\n前端八股文太多了所以一定要多做笔记，我最开始用的是notabality，做了五六百个笔记，后面发现，太多了，每次都找不到某个对应的笔记，做了笔记，但是也没完全做，这里推荐一个好用的做笔记的， 微软 的onenote，好像是office的套件，贼好用。如图，分类在整洁又便于查找"
+				}
+			]
+		},
+		{
+			"ID": "20220309105753-karu463",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105753-karu463",
+				"updated": "20220309105806"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220309105753-85ns0uf.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220309105806-nxdozac.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeBr",
+					"Data": "br"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "4:最后给学习前端的后来者的一些建议吧\n1：尽量有一段实习,给我很深的一个体验就是,我没实习,朋友有,我的面试难度,细节拉满深入到地狱,朋友的,这里聊一下带过了,那里聊一下,带过了,如果你没有广度,就只能问你深度了,所以实在不行,努力加深知识理解深度吧"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-ybcgm6f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-ybcgm6f",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2：简历上写的一定要是自己会的,比如写着熟悉https协议啊,操作系统啊,但是面试官反手问一个问题就是 我是谁我在哪,谁打我啊,.emmmm尴尬"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-3jkgtx6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-3jkgtx6",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3：早点准备,早点投实习,早点投提前批,很多公司八月多正式批就开了,说是能到十月底,可是,后面其实没hc了啊,而且遇到后面面试难度提高的~"
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-un5533g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-un5533g",
+				"updated": "20220309105634"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "4：hr面很重要,提前好好准备,沉稳,自信,把自己最好的一面展现出来"
+				},
+				{
+					"Type": "NodeSub",
+					"Data": "sub",
+					"Children": [
+						{
+							"Type": "NodeSubOpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "可以逆天改命"
+						},
+						{
+							"Type": "NodeSubCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309105634-az87s44",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309105634-az87s44",
+				"updated": "20220309113112"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "5;题外话\n最后啊，如果你能耐心看到这里，这里就给你一个小彩蛋吧hhh\n激活码：1000049901202104190****833572584\n这里 被屏蔽的是1 9 7 7四个数字\n当时买的笔记，挺有用的，希望能够帮助你hhhhh\n感谢蔚来, 小红书 ,360, 小米 的认可,最后十分抱歉于蔚来,面试体验最好的一个,最后给我的肯定也是最高的,个人口头接了offer,谈薪之后也收到了正式offer,后面又由于个人原因拒绝,十分抱歉于蔚来对我的肯定,对于给于我耐心解答的hr小姐姐,无形增加了您的工作量,十分抱歉,祝您工作顺利,如果您能看到的话~微信上和我说一下呀,给您道歉了被晾了好几天没回我,好尴尬呀"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "http://interview.poetries.top/docs/base.html#%E4%B8%80%E3%80%81html%E3%80%81http%E3%80%81web%E7%BB%BC%E5%90%88%E9%97%AE%E9%A2%98"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://interview.poetries.top/docs/base.html#%E4%B8%80%E3%80%81html%E3%80%81http%E3%80%81web%E7%BB%BC%E5%90%88%E9%97%AE%E9%A2%98"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309112245-qufto9u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309112245-qufto9u",
+				"updated": "20220309113941"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "10000499012021041901977833572584"
+				}
+			]
+		},
+		{
+			"ID": "20220309144342-l8od4gx",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309144342-l8od4gx",
+				"updated": "20220309144342"
+			}
+		},
+		{
+			"ID": "20220309153154-m68h0e8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309153154-m68h0e8",
+				"updated": "20220309160523"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "飞鼠基础架构"
+				}
+			]
+		},
+		{
+			"ID": "20220309154011-7k965r6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154011-7k965r6",
+				"updated": "20220309154016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "爱尔兰咖啡"
+				}
+			]
+		},
+		{
+			"ID": "20220309154018-f1h86x4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154018-f1h86x4",
+				"updated": "20220309154025"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实习岗"
+				}
+			]
+		},
+		{
+			"ID": "20220309154025-43kwfno",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154025-43kwfno",
+				"updated": "20220309154025"
+			}
+		},
+		{
+			"ID": "20220309153216-20mjmeu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309153216-20mjmeu",
+				"updated": "20220309153328"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.10 一面\n全程没有八股文，没有 leetcode 题。直接被按在地上摩擦，，，"
+				}
+			]
+		},
+		{
+			"ID": "20220309153328-5uhv6fb",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309153328-5uhv6fb",
+				"updated": "20220309153328"
+			},
+			"Children": [
+				{
+					"ID": "20220309153328-pu0fr7h",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309153328-pu0fr7h"
+					},
+					"Children": [
+						{
+							"ID": "20220309153328-pu6maqh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309153328-pu6maqh"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "假如现在本地无法实现加法功能，现有其他团队提供的api"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309153236-fxx65dq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309153236-fxx65dq",
+				"updated": "20220309153305"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "await asyncAdd = (a, b, (err, res) =\u003e {\n     // 利用网络请求实现a+b，成功结果返回res\n })\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309153332-ljz0oy6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309153332-ljz0oy6",
+				"updated": "20220309153339"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现需要改进该api，利用其实现一个add方法，使其能够实现多个数相加（写主要思路即可）（时间复杂度为logn）"
+				}
+			]
+		},
+		{
+			"ID": "20220309153247-f3q6nhd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309153247-f3q6nhd",
+				"updated": "20220309153708"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "function add(a,b,c...) { \n     //Todo \n }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309153358-iqoagln",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309153358-iqoagln",
+				"updated": "20220309153400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "疯狂被找问题，主要就是异步执行顺序的问题，最终也没写出来，，，评论区求个大神）"
+				}
+			]
+		},
+		{
+			"ID": "20220309153421-cr5zen4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309153421-cr5zen4",
+				"updated": "20220309153423"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有很多li标签且顺序不固定，怎么把最后一个class为b的li改为红色"
+				}
+			]
+		},
+		{
+			"ID": "20220309153444-ifrtg00",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220309153444-ifrtg00",
+				"updated": "20220309153457"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "aHRtbA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cul\u003e\n     \u003cli class=\"a\" /\u003e\n     \u003cli class=\"b\" /\u003e\n     \u003cli class=\"b\" /\u003e\n     \u003cli class=\"a\" /\u003e\n     ...\n \u003c/ul\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220309153445-5gtuvnq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309153445-5gtuvnq",
+				"updated": "20220309153446"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "答：使用伪类last-child。\n"
+				}
+			]
+		},
+		{
+			"ID": "20220309160608-hlsgwky",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160608-hlsgwky",
+				"updated": "20220309160608"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问：伪类的实现原理了解么？"
+				}
+			]
+		},
+		{
+			"ID": "20220309160612-q674puk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160612-q674puk",
+				"updated": "20220309160612"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "答：。。。（请求评论区大神）"
+				}
+			]
+		},
+		{
+			"ID": "20220309153500-monqsi5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309153500-monqsi5",
+				"updated": "20220309160621"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问：有一个类似表格（或者日历）的布局，每个单元格的border为1px，相邻单元格中间的border也为1px，怎么实现？"
+				}
+			]
+		},
+		{
+			"ID": "20220309160623-rtkagvr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160623-rtkagvr",
+				"updated": "20220309160623"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n答：从第二列开始margin-left：-1px，第二排开始margin-top：-1px"
+				}
+			]
+		},
+		{
+			"ID": "20220309160632-95k36mw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160632-95k36mw",
+				"updated": "20220309160632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在要实现选择某一单元格会高亮，怎么实现？"
+				}
+			]
+		},
+		{
+			"ID": "20220309160635-d4vr72w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160635-d4vr72w",
+				"updated": "20220309160635"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n答：（由于margin的方***让该单元格的右和下边框被覆盖，所以高亮看不到） 把该单元格右侧和下侧的单元格的左和上边框透明度设为0（脑子已经半浆糊了）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160644-tvper4k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160644-tvper4k",
+				"updated": "20220309160644"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问：下面单元格不难找，那你要怎么选择到该单元格的右侧单元格呢？"
+				}
+			]
+		},
+		{
+			"ID": "20220309160645-cfjxb1s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160645-cfjxb1s",
+				"updated": "20220309160645"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n答：（艰难思索）那就换种方法，把所有单元格左和上边框设为透明，然后第一行和第一列单独设回来。\n这题感觉自己说了个很笨的方法，肯定有很多更好的实现方法"
+				}
+			]
+		},
+		{
+			"ID": "20220309160651-kdou2sf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160651-kdou2sf",
+				"updated": "20220309160651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "讲讲性能优化，能实际实现的"
+				}
+			]
+		},
+		{
+			"ID": "20220309160653-t0ms6cz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160653-t0ms6cz",
+				"updated": "20220309160653"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n答：少用js操作Dom，统一修改Dom，少用闭包，改样式能用css不用js，css中不用算术表达式等等"
+				}
+			]
+		},
+		{
+			"ID": "20220309160658-j1c0g69",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160658-j1c0g69",
+				"updated": "20220309160658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问：这都是代码方面的是吧，那网络方面呢？"
+				}
+			]
+		},
+		{
+			"ID": "20220309160659-j12crww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160659-j12crww",
+				"updated": "20220309160659"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n答：（不懂、不了解）用http2肯定快\n之后的提问面试官都是基于我的回答去问的，才发现他竟然做了笔记，，，牛（问了挺多零碎的，记不住太多）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160719-43hu0ig",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160719-43hu0ig",
+				"updated": "20220309160719"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用js操作Dom，怎么知道Dom已经操作好了"
+				}
+			]
+		},
+		{
+			"ID": "20220309160716-k9v1o97",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160716-k9v1o97",
+				"updated": "20220309160716"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n少用闭包我不理解，你看构建工具啥的用的都是闭包，这个你怎么理解的（我背的啊，上哪理解去。开始记忆搜索：我是指比如一个功能，能用块级作用域实现也能用闭包实现，那就最好不用闭包。算过关了）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160728-uuupo5x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160728-uuupo5x",
+				"updated": "20220309160728"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "http2为什么快"
+				}
+			]
+		},
+		{
+			"ID": "20220309160729-hvzqlas",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160729-hvzqlas",
+				"updated": "20220309160729"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n（也是基于上一题的）html中link一个很大的css文件，导致加载很慢。那用户看到的浏览器加载过程是怎样的，是一直空白么？还是先出现个骨架？还是什么？如果中间有js语句，会怎么样？页面加载会终止么？。。。\n（实践证明，光背八股没用了，得真的把过程搞透啊xdm）\n2.14 二面\n自我介绍\n介绍实习项目，并一起讨论了一波"
+				}
+			]
+		},
+		{
+			"ID": "20220309160749-hu0q3ly",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220309160749-hu0q3ly",
+				"updated": "20220309160749"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开始八股（感觉面试官拿了本面试题库，真的是从头开始捋）："
+				}
+			]
+		},
+		{
+			"ID": "20220309160750-vif0k1i",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160750-vif0k1i",
+				"updated": "20220309160750"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HTML：meta标签干什么的，都有什么属性；doctype是干嘛的，都有哪些属性（三脸懵逼，，，）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160802-4bc5kut",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160802-4bc5kut",
+				"updated": "20220309160823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSS：position，display，float都有哪些属性；盒模型；"
+				}
+			]
+		},
+		{
+			"ID": "20220309160803-0y3eybg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160803-0y3eybg",
+				"updated": "20220309160821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS：es6；map和object区别；（忘了，反正挺基础的都）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160804-dleoucs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160804-dleoucs",
+				"updated": "20220309160804"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n开始做题："
+				}
+			]
+		},
+		{
+			"ID": "20220309160832-gjn8dl6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160832-gjn8dl6",
+				"updated": "20220309160832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数柯里化"
+				}
+			]
+		},
+		{
+			"ID": "20220309160832-rxllpez",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160832-rxllpez",
+				"updated": "20220309160832"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "合并有序数组："
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "leetcode的题"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://leetcode-cn.com/classic/problems/merge-sorted-array/description/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309153751-gidior1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309153751-gidior1",
+				"updated": "20220309153751"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n2.24 三面\n自我介绍\n学前端多久了（自我介绍说过了，，，）；为什么学前端（自我介绍也说过了，，，）\n讲一下最近写的项目（基本单项输出，没有讨论什么）\n开始八股（跟二面神似，我都惊了）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160848-er1iugs",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160848-er1iugs",
+				"updated": "20220309160848"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HTML：语义化标签说出几个；form表单的属性说一说；"
+				}
+			]
+		},
+		{
+			"ID": "20220309160849-c29k62l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160849-c29k62l",
+				"updated": "20220309160911"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "CSS：background的属性；隐藏元素的方法（说了三个之后又问有没有其他方法）；"
+				}
+			]
+		},
+		{
+			"ID": "20220309160850-8buq0li",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160850-8buq0li",
+				"updated": "20220309160912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS：自己写代码用过闭包么？前端向服务器请求数据，能想到哪些方法？"
+				}
+			]
+		},
+		{
+			"ID": "20220309160851-rh9bf5g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160851-rh9bf5g",
+				"updated": "20220309160851"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\n开始做题："
+				}
+			]
+		},
+		{
+			"ID": "20220309160855-8vlqtkn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160855-8vlqtkn",
+				"updated": "20220309160855"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "反转整数（-321 -\u003e -123; 1200 -\u003e 21）"
+				}
+			]
+		},
+		{
+			"ID": "20220309160856-sbouixv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309160856-sbouixv",
+				"updated": "20220309160915"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "约瑟夫环："
+				}
+			]
+		},
+		{
+			"ID": "20220309160858-6c0y7r3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309160858-6c0y7r3",
+				"updated": "20220309160858"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\nn男(B)n女(G)围一圈，从某一个人开始报数，报到m的出去，最后要剩下n男，即出去的是n个女\n例子：n=3，m=2,则符合题意的排列方式为[BGBGBG]"
+				}
+			]
+		},
+		{
+			"ID": "20220309154103-tm8komv",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309154103-tm8komv",
+				"updated": "20220309154103"
+			}
+		},
+		{
+			"ID": "20220309154226-k1tjhmg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309154226-k1tjhmg",
+				"updated": "20220309154231"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思谋科技"
+				}
+			]
+		},
+		{
+			"ID": "20220309154234-0m4i9ro",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154234-0m4i9ro",
+				"updated": "20220309154248"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "行行不行了"
+				}
+			]
+		},
+		{
+			"ID": "20220309154249-44fwwo7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154249-44fwwo7",
+				"updated": "20220309154249"
+			}
+		},
+		{
+			"ID": "20220309154105-qmojw93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154105-qmojw93",
+				"updated": "20220309154107"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2021/12/22）\n实习、项目介绍\nreact 和 vue 的区别，谈谈你的理解？\n组件渲染方式，使用感受\n太乱了，扯太远了，把umi都扯进来了，讲到后面已经变成生态的比较了\n项目前后端是自己搭建的吗？有没有使用模版？怎么部署的？\n移动端适配有没有实践过？\nrpx 的原理是什么？（项目里面有微信小程序）\n谈谈对 typescript 的理解？好处是什么？\n类型安全、健壮性、输入的提示\ntypescript 后端接口返回的数据如果出错啦怎么办？\n不完全信任类型安全，使用 ?.\nreact组件通信？useContext？还有什么别的方式吗？\nProps、Callback、Dva、UseReduer\n还了解过别的状态管理的方式吗？\nmobx\n项目中怎么用React作的组件优化？\nuseCallBack，useMemo\nvue 的响应式原理介绍\nvue2、vue3 总结一下即可\n全局样式怎么修改\nless :global{}\nTCP 和 UDP 的区别\nTCP连接的可靠性，udp的使用场景\nTCP 怎么保证传输的可靠性？如果ACK 1 2 3 4 5中 4 不见了怎么办？\n队头阻塞，面试官：一定会阻塞吗？\n超时重传，面试官：还有吗？等的话要等多久？（我应该在车底不应该在这里...）\nHTTP 和 HTTPS 有什么区别？SSL/TLS 的加密过程是怎么样的？（八股文）\n浏览器URL的解析全过程，越详细越好？（八股文）\n跨域是什么？怎么解决跨域？\n不小心扯到了反向代理\n反向代理怎么做？\n了解过nginx做反向代理，不过实习是用webpack做的\n讲了一下webpack怎么做反向，原理是什么？\n实习的项目是怎么部署构建的？\ngitlab flow 工作流 ，jenkins 不会读我去\nwebpack 的作用？loader 是干什么的？ plugins 是干什么的？有没有手写过？\nloader资源构建打包，plugins在构建中插入钩子\nloader对JS的处理？除了这些还对JS做了什么\n压缩代码节约空间，自执行函数，babel兼容低版本的浏览器\nPromise写一个sleep()\n手撕深拷贝，注意避免重复引用\n反问\n上面TCP答得很不好的解答\n面试官解答说只是了解一下课程掌握的情况\n很感兴趣思谋作为一家AI为导向的公司，前端主要是干什么的？\n对外：To B，给企业用户写业务平台，图像标注平台等等\n对内：给我详细的介绍了一个前端基建的部门，做一些前端基础构建的\n在我对基建部门表达了很感兴趣后面试官突然反问了我实习单位的业务（PS：我实习单位风评很差，面试官估计是想看看是不是真的如网上所讲是外包hhh）\n总结\n一开始讲得太乱啦，延伸太多东西出去了，简单明了回答面试官问题即可\nTCP 一定要多深入了解一下\nWebpack 也要恶补一下\n简历上的项目要尽量优化好\n面试官是个帅哥，人很nice！hr也很好！总体下来一面的体验还是很好滴！面试开始我还问他吃没吃饭，给他都逗乐了。许愿二面~"
+				}
+			]
+		},
+		{
+			"ID": "20220309154142-xo5gz6n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154142-xo5gz6n",
+				"updated": "20220309154142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面全程问项目，面试官一如继往的和蔼，后面听三面面试官介绍说是前某厂的高级工程师​，技术好+谦逊温和，夸！"
+				}
+			]
+		},
+		{
+			"ID": "20220309154142-6tubl1i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154142-6tubl1i",
+				"updated": "20220309154142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实习、项目介绍\n项目用了HTTPS但浏览器为什么提示证书不可信？为什么没有域名只有IP地址？\n答：HTTPS的作用；浏览器保存的证书集不包含我的服务商证书；我的域名没备案被封了。\n面试官解答：S层保护的是域名到IP的映射（确定某台服务器），使用IP地址则不必要了，而且URL与证书实际上不对应。\n跨域问题？项目怎么解决？项目的nginx配置了什么？围绕nginx问得超级详细！\n你的linux基础怎么样？云服务器用的是什么操作系统？linux相关的场景问题\n如果有个用户登陆过系统，但是忘了密码怎么办？\n如果被人登录了系统，怎么查看是否被登录过？\n如果你的系统有个病毒监听了某个端口，你要怎么发现它？nets ta t\n如果在当前系统里面有个文件记录了某个用户的账号密码，用什么命令找出来？grep\n如果要看当前的系统资源（CPU，进程等等）使用程度怎么办？ top\n如果要看系统的相关信息，版本、芯片、显卡，推荐用什么命令？screen\n如果你要下载一个静态资源怎么办？curl？apt？yum？wget？\n......还有两三道题我忘了 =。=\n项目是怎么部署在linux上的？后端也部署在一起吗？又深入和面试官讨论了若干问题～\n讲一下实习单位的整体开发流程？（和一面类似，但是深入问了开发分支什么的）\n代码能力怎么样？就让我们来写一道题目吧？\n准备阶段：出题并讲解题意，让我先思考再和他讲思路，等我讲完思路就建议我把解题过程先按文字写下来，即先写伪码再编程，同时时间和空间都不限制，只要能写出来就好。\n答题过程：我尝试选择使用了TypeScript来答题，但跳过了伪码阶段。中间在细节处理上因为失误导致卡壳，面试官及时安慰我不要紧张，同时让我再次和他分享思路，所幸后面使用编译后的JS代码➕debug解决了错误。\n当场复盘：自我总结分析了遇到问题的原因，以及对使用TypeScript却弄巧成拙的自我批评hhh\n面试官复盘：给了写代码的建议（先写伪码），做了TS使用场景的分析，对代码和工程能力表达了肯定（我真的特别开心又诚惶诚恐hhh！！）\n反问环节\n又和面试官讨论一些最近写项目遇到的麻烦，怎么平衡单元测试和端到端测试，测试覆盖率，开源仓库代码质量等等\n思谋实习的问题并向面试官致谢！\n总结\n经过两轮面试我就已经被思谋的面试官打动了，体验太棒，这种正常的面试过程，对我的知识体系的梳理有莫大的帮助。感觉面试官和我是平等的，这不像是一场面试反而是一种探讨，从技术的深度到广度，大佬的谦逊太有温度了😊。"
+				}
+			]
+		},
+		{
+			"ID": "20220309154142-gr51m8h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154142-gr51m8h",
+				"updated": "20220309154142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思谋科技 前端三面（30min）（2021/12/31）\n项目组长面试，题目综合上偏工程一些，对开源贡献和开发流程的问得较多"
+				}
+			]
+		},
+		{
+			"ID": "20220309154142-4kzhkxf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154142-4kzhkxf",
+				"updated": "20220309154142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实习、项目介绍，重点介绍了项目首屏加载的优化策略\n优化为什么要使用webp？webp和png等图片格式的区别？webp的底层原理 ➕ 算法 了解过吗？\nwebp的优化效果展示；将webp和其他图片格式进行压缩对比过；时间换空间但具体 算法 没了解\n介绍一下项目的 git flow ？怎么交 PR 的？做了什么贡献？\n能否详细讲一下在 github 上交 PR 的流程，越详细越好？\n有什么想学的？觉得自己还有哪些不足？\n又稍微问了几个开发流程的问题，大佬就开始介绍团队了 =~=\n介绍一、二面面试官，介绍他们给我的面评\n介绍团队分工，成员年龄等等\n互夸阶段，我感谢面试官临时面试我，大佬夸我有礼貌hhh\n反问\n其实没啥好问的了，leader该说的基本都介绍完毕了，于是莫名其妙又一次开启互夸环节hhh"
+				}
+			]
+		},
+		{
+			"ID": "20220309154142-xw3i2if",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154142-xw3i2if",
+				"updated": "20220309154142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结\nleader好年轻啊，如果顺利过了的话，就可以去思谋当面请教大佬们问题咯 QAQ"
+				}
+			]
+		},
+		{
+			"ID": "20220309154142-kldw8xu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154142-kldw8xu",
+				"updated": "20220309154142"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后续\n没有HR面了，直接就是oc谈薪等offer阶段了。\nPS：思谋的offer要等挺久的（逃）"
+				}
+			]
+		},
+		{
+			"ID": "20220309154312-a4kxdqq",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309154312-a4kxdqq",
+				"updated": "20220309154312"
+			}
+		},
+		{
+			"ID": "20220309154313-9qi7uyb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154313-9qi7uyb",
+				"updated": "20220309154313"
+			}
+		},
+		{
+			"ID": "20220309154303-xl3o7ba",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309154303-xl3o7ba",
+				"updated": "20220309154337"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "京东"
+				}
+			]
+		},
+		{
+			"ID": "20220309154420-dqpa16z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154420-dqpa16z",
+				"updated": "20220309154454"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四季奶青大杯正常糖"
+				}
+			]
+		},
+		{
+			"ID": "20220309154419-wepnqpm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154419-wepnqpm",
+				"updated": "20220309154419"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309154457-eevz6cf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154457-eevz6cf",
+				"updated": "20220309154457"
+			}
+		},
+		{
+			"ID": "20220309154330-ernck6t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154330-ernck6t",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一面"
+				}
+			]
+		},
+		{
+			"ID": "20220309161039-ptk3i9k",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309161039-ptk3i9k",
+				"updated": "20220309161043"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自我介绍, 问项目经历"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-rw8e70p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-rw8e70p",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue 和 React 区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-q78hlrb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-q78hlrb",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue 组件生命周期"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-s70q2kk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-s70q2kk",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue 组件修饰符(是个啥?)"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-bayfqr8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-bayfqr8",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "阻止事件冒泡的 API"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-wuvtdg7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-wuvtdg7",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "列举 CSS 选择器以及优先级"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-uocux00",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-uocux00",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "讲讲你知道的 CSS 动画属性有哪些"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-m1uhlnm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-m1uhlnm",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "let, const, var 区别"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-qe3fb8o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-qe3fb8o",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "手撕 算法 : 给定两个字符串 strA 和 strB, 求 strB 在 strA 中出现的次数"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-dypba2o",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-dypba2o",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如: strA = \"aaaa\"; strB = \"aa\"; 算作 strB 在 strA 中出现了 2 次"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-ksqywht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154330-ksqywht",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面"
+				}
+			]
+		},
+		{
+			"ID": "20220309161108-r8vgf5h",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309161108-r8vgf5h",
+				"updated": "20220309161108"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聊了 15 分钟微前端"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-fkkzutn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-fkkzutn",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微前端是什么, 有哪些特点和优势"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-rov4brt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-rov4brt",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "微前端实现的主要原理"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-my50j54",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-my50j54",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么解决样式隔离"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-yaopvs1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-yaopvs1",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如何解决主应用和子应用的隔离, 用 node.js 实现沙箱机制的原理"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-9muc2oj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-9muc2oj",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "讲讲 window.history 的原理, 为什么 popState 能够实现前端路由"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-zk5ezxr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-zk5ezxr",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "主应用修改了路由, 子应用如何感知到"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-yx8t0l7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-yx8t0l7",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "聊了 15 分钟 webpack"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-0xe1o73",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-0xe1o73",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你用过哪些 plugin"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-rob8t5r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-rob8t5r",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你有没有自己动手写过 plugin"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-6lc0kd1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-6lc0kd1",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在 webpack 打包构建 AST 以后做了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-8pl5lpe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-8pl5lpe",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "讲讲HMR机制"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-ummdwfc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-ummdwfc",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他"
+				}
+			]
+		},
+		{
+			"ID": "20220309154330-tmobcyj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220309154330-tmobcyj",
+				"updated": "20220309154330"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vue3 写过吗, 比 2 有哪些改进(他们部门技术栈是 vue)"
+				}
+			]
+		},
+		{
+			"ID": "20220309154525-4atv8n7",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220309154525-4atv8n7",
+				"updated": "20220309154525"
+			}
+		},
+		{
+			"ID": "20220309154526-bvkx119",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309154526-bvkx119",
+				"updated": "20220309154534"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网易互娱"
+				}
+			]
+		},
+		{
+			"ID": "20220309154741-k3wxho1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154741-k3wxho1",
+				"updated": "20220309154742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实习"
+				}
+			]
+		},
+		{
+			"ID": "20220309154611-xkrzdpq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154611-xkrzdpq",
+				"updated": "20220309154611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.自我介绍\n2.项目\n3.怎么去做优化项目\n4.在实习的时候学到了什么\n5.h5自适应响应式网站的方案\n6.scss mixin/import的用法\n7.position 的三个用法\n8.http状态码 缓存\n9.tcp udp 直播用什么协议 抢购系统用什么协议 为什么 看图解tcp学到了什么\n10.cookie 同源协议 cookie的相关字段\n11.怎么做跨域 什么资源可以跨域 jsonp原理 cors原理\n12.dns解析流程 怎么做优化\n13.promise的三个状态\n14.说一下 react hooks 什么是副作用\n15.用过iframe标签吗\n16.css实现一个随着父元素自缩放的盒子\n17.flex布局相关 flex1解释一下\n18.怎么学css\n19.怎么学习前端\n20.最近在看什么书\n反问:\n1.为什么官网是vue 招react（vue转react）\n2.评价和建议\n网易 二面"
+				}
+			]
+		},
+		{
+			"ID": "20220309154611-ght4gvy",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220309154611-ght4gvy",
+				"updated": "20220309154611"
+			},
+			"Children": [
+				{
+					"ID": "20220309154611-qzyr0mc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220309154611-qzyr0mc"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-r0xtff1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-r0xtff1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "写洗牌 算法 （忘了咋写XD）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-183jjrt",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220309154611-183jjrt"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-bkzeiqw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-bkzeiqw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "写堆 排序 （没写全磕磕碰碰 最后说了思路让过了）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-w0kh98p",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220309154611-w0kh98p"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-qy60fwc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-qy60fwc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "数组去重"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-ypd4tfd",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NC4=",
+						"Num": 4
+					},
+					"Properties": {
+						"id": "20220309154611-ypd4tfd"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-luvod7a",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-luvod7a"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "前端部署 cdn（cdn问的很深 具体问到一些配置怎么配置QAQ）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-hn492li",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "NS4=",
+						"Num": 5
+					},
+					"Properties": {
+						"id": "20220309154611-hn492li"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-xe6sl67",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-xe6sl67"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Js闭包问题 es6数据私有化"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-48baz5g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ni4=",
+						"Num": 6
+					},
+					"Properties": {
+						"id": "20220309154611-48baz5g"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-8c9cqqy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-8c9cqqy"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目（问的很深）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-c5z2hqy",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Ny4=",
+						"Num": 7
+					},
+					"Properties": {
+						"id": "20220309154611-c5z2hqy"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-4oyup0s",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-4oyup0s"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "Tcp 三次握手 四次挥手 问的也很深入"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-r1q2881",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OC4=",
+						"Num": 8
+					},
+					"Properties": {
+						"id": "20220309154611-r1q2881"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-66lzozd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-66lzozd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "学习路线，内容啥的比较虚的东西"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220309154611-v6zujzm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "OS4=",
+						"Num": 9
+					},
+					"Properties": {
+						"id": "20220309154611-v6zujzm"
+					},
+					"Children": [
+						{
+							"ID": "20220309154611-v3clw59",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220309154611-v3clw59"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "聊天\n10.反问 为什么vue迁移到react\n总结：答的不过流畅，很多深挖的点都被问住了QAQ确实还得多去实践\n但是面试官人很好，给了很多建议，帮我化解了尴尬"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309154621-85rap7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309154621-85rap7h",
+				"updated": "20220309154621"
+			}
+		}
+	]
+}

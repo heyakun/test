@@ -1,0 +1,1407 @@
+{
+	"ID": "20220309172749-dyw65fj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220309172749-dyw65fj",
+		"title": "== 运算符",
+		"updated": "20220309172829"
+	},
+	"Children": [
+		{
+			"ID": "20220309172800-grl3dji",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220309172800-grl3dji",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "彻底搞懂JS的==运算"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-2l9o2tg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-2l9o2tg",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "更新时间:2018-07-24 来源:黑马程序员 浏览量:1728"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-s9vh45b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-s9vh45b",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  大家知道，"
+				},
+				{
+					"Type": "NodeMark",
+					"Data": "mark",
+					"Children": [
+						{
+							"Type": "NodeMark2OpenMarker"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "是JavaScript中比较复杂的一个运算符。它的运算规则奇怪，容易让人犯错，从而成为JavaScript中“最糟糕的特性”之一。在仔细阅读了ECMAScript规范的基础上，我画了一张图，我想通过它你会彻底地搞清楚关于"
+						},
+						{
+							"Type": "NodeMark2CloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "的一切。同时，我也试图通过此文向大家证明==并不是那么糟糕的东西，它很容易掌握，甚至看起来很合理。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-8kuik8v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-8kuik8v",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先上图：\n​"
+				},
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "1532418763197_21.jpg"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://www.itheima.com/images/newslistPIC/1532418763181_21.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-aom7hih",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-aom7hih",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图1 ==运算规则的图形化表示"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-aikk7j7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-aikk7j7",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  ==运算规则的精确描述在此：The Abstract Equality Comparison Algorithm。但是，这么复杂的描述，你确定看完后脑子不晕？确定立马就能拿它指导实践？"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ykvm4w3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ykvm4w3",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  肯定不行，规范毕竟是给JavaScript运行环境的开发人员看的(比如V8引擎的开发人员们)，而不是给语言的使用者看的。而上图正是将规范中复杂的描述翻译成了更容易看懂的形式。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-3wpacwe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-3wpacwe",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在详细介绍图1中的每个部分前，我们来复习一下JS中关于类型的知识："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-3se0s0z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-3se0s0z",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  JS中的值有两种类型：原始类型(Primitive)、对象类型(Object)。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ell81or",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ell81or",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  基本类型包括：Undefined、Null、Boolean、Number和String等五种。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-pceu50g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-pceu50g",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  Undefined类型和Null类型的都只有一个值，即undefined和null；Boolean类型有两个值：true和false；Number类型的值有很多很多；String类型的值理论上有无数个。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-vxg39sd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-vxg39sd",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  所有对象都有valueOf()和toString()方法，它们继承自Object，当然也可能被子类重写。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-qt55enk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-qt55enk",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "现在考虑表达式："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-0yf0406",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-0yf0406",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "x == y"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-gqvj0gz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-gqvj0gz",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其中x和y是上述六种类型中某一种类型的值。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-sw0vh3c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-sw0vh3c",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当x和y的类型相同时，x == y可以转化为x === y，而后者是很简单的(唯一需要注意的可能是NaN)，所以下面我们只考虑x和y的类型不同的情况。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-vszaaby",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-vszaaby",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "一. 有和无"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-m75ymkg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-m75ymkg",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在图1中，JavaScript值的六种类型用蓝底色的矩形表示。它们首先被分成了两组："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-007f6w7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-007f6w7",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  String、Number、Boolean和Object (对应左侧的大矩形框)"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-zxg9i3t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-zxg9i3t",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  Undefined和Null (对应右侧的矩形框)"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-x85y8pe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-x85y8pe",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  分组的依据是什么？\n  我们来看一下，右侧的Undefined和Null是用来表示不确定、无或者空的，而右侧的四种类型都是确定的、有和非空。我们可以这样说："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-zsg2zkq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-zsg2zkq",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  左侧是一个存在的世界，右侧是一个空的世界。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-0u46khm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-0u46khm",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  所以，左右两个世界中的任意值做==比较的结果都是false是很合理的。(见图1中连接两个矩形的水平线上标的false)"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-nv3qe0k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-nv3qe0k",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "二. 空和空"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ud6gb3n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ud6gb3n",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  JavaScript中的undefined和null是另一个经常让我们崩溃的地方。通常它被认为是一个设计缺陷，这一点我们不去深究。不过我曾听说，    JavaScript的作者最初是这样想的："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-l4hs4j5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-l4hs4j5",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  假如你打算把一个变量赋予对象类型的值，但是现在还没有赋值，那么你可以用null表示此时的状态(证据之一就是typeof null 的结果是'object')；相反，假如你打算把一个变量赋予原始类型的值，但是现在还没有赋值，那么你可以用undefined表示此时的状态。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-2v5hpuc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-2v5hpuc",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不管这个传闻是否可信，它们两者做==比较的结果是true是很合理的。(见图1中右侧垂直线上标的true)"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-e7ckgzk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-e7ckgzk",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在进行下一步之前，我们先来说一下图1中的两个符号：大写字母N和P。这两个符号并不是PN结中正和负的意思。而是："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ijd88lj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ijd88lj",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "N表示ToNumber操作，即将操作数转为数字。它是规范中的抽象操作，但我们可以用JS中的Number()函数来等价替代。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-urrhjm1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-urrhjm1",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "P表示ToPrimitive操作，即将操作数转为原始类型的值。它也是规范中的抽象操作，同样也可以翻译成等价的JS代码。不过稍微复杂一些，简单说来，对于一个对象obj："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-y6kdta3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-y6kdta3",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ToPrimitive(obj)等价于：先计算obj.valueOf()，如果结果为原始值，则返回此结果；否则，计算obj.toString()，如果结果是原始值，则返回此结果；否则，抛出异常。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-kh8kmk2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-kh8kmk2",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "注：此处有个例外，即Date类型的对象，它会先调用toString()方法，后调用valueOf()方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-qhkcxnx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-qhkcxnx",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在图1中，标有N或P的线表示：当它连接的两种类型的数据做==运算时，标有N或P的那一边的操作数要先执行ToNumber或ToPrimitive变换。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ihdxngn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ihdxngn",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "三. 真与假"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-dqrz473",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-dqrz473",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  从图1可以看出，当布尔值与其他类型的值作比较时，布尔值会转化为数字，具体来说"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-1u3d32x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-1u3d32x",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "true -\u003e 1false -\u003e 0"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-afuvotz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-afuvotz",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  这一点也不需浪费过多口舌。想一下在C语言中，根本没有布尔类型，通常用来表示逻辑真假的正是整数1和0。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-6t4v6be",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-6t4v6be",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "四. 字符的序列"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-oe0uwa7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-oe0uwa7",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  在图1中，我们把String和Number类型分成了一组。为什么呢？在六种类型中，String和Number都是字符的序列(至少在字面上如此)。字符串是所有合法的字符的序列，而数字可以看成是符合特定条件的字符的序列。所以，数字可以看成字符串的一个子集。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-f75ieqr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-f75ieqr",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  根据图1，在字符串和数字做==运算时，需要使用ToNumber操作，把字符串转化为数字。假设x是字符串，y是数字，那么："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-g3mckso",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-g3mckso",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "x == y -\u003e Number(x) == y"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-bvx6015",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-bvx6015",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  那么字符串转化为数字的规则是怎样的呢？规范中描述得很复杂，但是大致说来，就是把字符串两边的空白字符去掉，然后把两边的引号去掉，看它能否组成一个合法的数字。如果是，转化结果就是这个数字；否则，结果是NaN。例如："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-8qjdc6x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-8qjdc6x",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Number('123') // 结果123Number('1.2e3') // 结果1200Number('123abc')// 结果NaNNumber('\\r\\n\\t123\\v\\f') // 结果123"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-zwdsy83",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-zwdsy83",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "当然也有例外，比如空白字符串转化为数字的结果是0。即"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-3tcukxh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-3tcukxh",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Number('') // 结果0Number('\\r\\n\\t \\v\\f') // 结果0"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-xjsz54s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-xjsz54s",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "五. 单纯与复杂"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-rkdh6li",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-rkdh6li",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  原始类型是一种单纯的类型，它们直接了当、容易理解。然而缺点是表达能力有限，难以扩展，所以就有了对象。对象是属性的集合，而属性本身又可以是对象。所以对象可以被构造得任意复杂，足以表示各种各样的事物。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ehkrxot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ehkrxot",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  但是，有时候事情复杂了也不是好事。比如一篇冗长的论文，并不是每个人都有时间、有耐心或有必要从头到尾读一遍，通常只了解其中心思想就够了。于是论文就有了关键字、概述。JavaScript中的对象也一样，我们需要有一种手段了解它的主要特征，于是对象就有了toString()和valueOf()方法。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-dttkdf1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-dttkdf1",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "toString()方法用来得到对象的一段文字描述；而valueOf()方法用来得到对象的特征值。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-tis2xq1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-tis2xq1",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  当然，这只是我自己的理解。顾名思义，toString()方法倾向于返回一个字符串。那么valueOf()方法呢？根据规范中的描述，它倾向于返回一个数字——尽管内置类型中，valueOf()方法返回数字的只有Number和Date。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-mb03gll",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-mb03gll",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据图1，当一个对象与一个非对象比较时，需要将对象转化为原始类型(虽然与布尔类型比较时，需要先将布尔类型变成数字类型，但是接下来还是要将对象类型变成原始类型)。这也是合理的，毕竟==是不严格的相等比较，我们只需要取出对象的主要特征来参与运算，次要特征放在一边就行了。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-o6g36wz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-o6g36wz",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "六. 万物皆数"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-9y1ckhn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-9y1ckhn",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  我们回过头来看一下图1。里面标有N或P的那几条连线是没有方向的。假如我们在这些线上标上箭头，使得连线从标有N或P的那一端指向另一端，那么会得到(不考虑undefined和null)："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-gvxfl2a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-gvxfl2a",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "1532418781994_22.jpg"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://www.itheima.com/images/newslistPIC/1532418781978_22.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-0f7ffzg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-0f7ffzg",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图2 ==运算过程中类型转化的趋势"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-7i7xur8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-7i7xur8",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  发现什么了吗？对，在运算过程中，所有类型的值都有一种向数字类型转化的趋势。毕竟曾经有名人说过："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-oblh37g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-oblh37g",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "万物皆数。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-aexgcpn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-aexgcpn",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "七. 举个栗子"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-klw4inz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-klw4inz",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  前面废话太多了，这里还是举个例子，来证明图1确实是方便有效可以指导实践的。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ljd9fpv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ljd9fpv",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例，计算下面表达式的值："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-p7ighkr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-p7ighkr",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[''] == false"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-jz3e6v0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-jz3e6v0",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  首先，两个操作数分别是对象类型、布尔类型。根据图1，需要将布尔类型转为数字类型，而false转为数字的结果是0，所以表达式变为："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-cg986y6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-cg986y6",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "[''] == 0"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-28hlq3s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-28hlq3s",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  两个操作数变成了对象类型、数字类型。根据图1，需要将对象类型转为原始类型："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-zg260e1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-zg260e1",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  首先调用[].valueOf()，由于数组的valueOf()方法返回自身，所以结果不是原始类型，继续调用[].toString()。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-k7a0s8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-k7a0s8n",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  对于数组来说，toString()方法的算法，是将每个元素都转为字符串类型，然后用逗号','依次连接起来，所以最终结果是空字符串''，它是一个原始类型的值。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-p3fmjxw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-p3fmjxw",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  此时，表达式变为："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-zlqs11l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-zlqs11l",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "'' == 0"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ogvwu6a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ogvwu6a",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  两个操作数变成了字符串类型、数字类型。根据图1，需要将字符串类型转为数字类型，前面说了空字符串变成数字是0。于是表达式变为："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-bppmiht",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-bppmiht",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0 == 0"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-nqr3or9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-nqr3or9",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  到此为止，两个操作数的类型终于相同了，结果明显是true。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-w467uo8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-w467uo8",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  从这个例子可以看出，要想掌握==运算的规则，除了牢记图1外，还需要记住那些内置对象的toString()和valueOf()方法的规则。包括Object、Array、Date、Number、String、Boolean等，幸好这没有什么难度。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ys1n97v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ys1n97v",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "八. 再次变形"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-7f3c5mx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-7f3c5mx",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  其实，图一还不够完美。为什么呢？因为对象与字符串/数字比较时都由对象来转型，但是与同样是原始类型的布尔类型比较时却需要布尔类型转型。实际上，只要稍稍分析一下，全部让对象来转为原始类型也是等价的。所以我们得到了最终的更加完美的图形："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ibkq4ef",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ibkq4ef",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "1532418787525_23.jpg"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://www.itheima.com/images/newslistPIC/1532418787525_23.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-rnr7g2o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-rnr7g2o",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图3 更完美的==运算规则的图形化表示"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-edpvzqv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-edpvzqv",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  有一个地方可能让你疑惑：为什么Boolean与String之间标了两个N？虽然按照规则应该是由Boolean转为数字，但是下一步String就要转为数字了，所以干脆不如两边同时转成数字。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ucnvini",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ucnvini",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "九. 总结一下"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-1czko8l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-1czko8l",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  前面说得很乱，根据我们得到的最终的图3，我们总结一下==运算的规则："
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-huqtp0y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-huqtp0y",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "undefined == null，结果是true。且它俩与所有其他值比较的结果都是false。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-7abb6vi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-7abb6vi",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "String == Boolean，需要两个操作数同时转为Number。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-ybi8jig",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-ybi8jig",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "String/Boolean == Number，需要String/Boolean转为Number。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172800-02ksra9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172800-02ksra9",
+				"updated": "20220309172800"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Object == Primitive，需要Object转为Primitive(具体通过valueOf和toString方法)。"
+				}
+			]
+		},
+		{
+			"ID": "20220309172829-rpa412u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220309172829-rpa412u",
+				"updated": "20220309172829"
+			}
+		}
+	]
+}

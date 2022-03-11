@@ -1,0 +1,87 @@
+{
+	"ID": "20220308124254-cfcitwz",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308124254-cfcitwz",
+		"title": "日常新文档",
+		"updated": "20220308131818"
+	},
+	"Children": [
+		{
+			"ID": "20220308124254-u5rswx9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220308124254-u5rswx9",
+				"updated": "20220308124310"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建题目"
+				}
+			]
+		},
+		{
+			"ID": "20220308124310-4h8u0un",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308124310-4h8u0un",
+				"updated": "20220308124317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建代码块"
+				}
+			]
+		},
+		{
+			"ID": "20220308131745-1ahbc3h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308131745-1ahbc3h",
+				"updated": "20220308131818"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220308131817-pg3o6k5"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "kea"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220308124704-7zz93r3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308124704-7zz93r3",
+				"updated": "20220308124704"
+			}
+		}
+	]
+}
