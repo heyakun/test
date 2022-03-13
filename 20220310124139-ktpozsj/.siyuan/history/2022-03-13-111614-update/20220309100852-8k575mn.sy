@@ -4,7 +4,7 @@
 	"Properties": {
 		"id": "20220309100852-8k575mn",
 		"title": "newcer - 0309更新",
-		"updated": "20220313141812"
+		"updated": "20220313110653"
 	},
 	"Children": [
 		{
@@ -9790,21 +9790,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "介绍一下项目的 git flow ？怎么交 PR 的？做了什么贡献？"
-				}
-			]
-		},
-		{
-			"ID": "20220313140234-utwq5t0",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140234-utwq5t0",
-				"updated": "20220313140234"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "\thttps://juejin.cn/post/6844903517811900424"
+					"Data": "介绍一下项目的 git flow ？怎么交 PR 的？做了什么贡献？\n"
 				}
 			]
 		},
@@ -10133,14 +10119,6 @@
 			]
 		},
 		{
-			"ID": "20220313140315-g30eono",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140315-g30eono",
-				"updated": "20220313140315"
-			}
-		},
-		{
 			"ID": "20220309154330-s70q2kk",
 			"Type": "NodeHeading",
 			"HeadingLevel": 3,
@@ -10169,14 +10147,6 @@
 					"Data": "阻止事件冒泡的 API"
 				}
 			]
-		},
-		{
-			"ID": "20220313140322-ykptdpf",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140322-ykptdpf",
-				"updated": "20220313140322"
-			}
 		},
 		{
 			"ID": "20220309154330-wuvtdg7",
@@ -10515,14 +10485,6 @@
 			]
 		},
 		{
-			"ID": "20220313140951-unbrotg",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140951-unbrotg",
-				"updated": "20220313140951"
-			}
-		},
-		{
 			"ID": "20220309154611-xkrzdpq",
 			"Type": "NodeParagraph",
 			"Properties": {
@@ -10532,357 +10494,7 @@
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": "1.自我介绍\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313140954-ys02nru",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140954-ys02nru",
-				"updated": "20220313140954"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "2.项目\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313140957-riifh5g",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140957-riifh5g",
-				"updated": "20220313140957"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "3.怎么去做优化项目\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313140955-jhmt4fl",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140955-jhmt4fl",
-				"updated": "20220313140955"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "4.在实习的时候学到了什么\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313140959-9u8s3ub",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140959-9u8s3ub",
-				"updated": "20220313140959"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "5.h5自适应响应式网站的方案\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141000-peag8on",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141000-peag8on",
-				"updated": "20220313141000"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "6.scss mixin/import的用法\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141001-8f9p2yr",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141001-8f9p2yr",
-				"updated": "20220313141001"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "7.position 的三个用法\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141002-fq8co2i",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141002-fq8co2i",
-				"updated": "20220313141002"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "8.http状态码 缓存\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141003-jiqx1u7",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141003-jiqx1u7",
-				"updated": "20220313141003"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "9.tcp udp 直播用什么协议 抢购系统用什么协议 为什么 看图解tcp学到了什么\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141004-jvmfb4s",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141004-jvmfb4s",
-				"updated": "20220313141004"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "10.cookie 同源协议 cookie的相关字段\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141004-mum66g4",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141004-mum66g4",
-				"updated": "20220313141004"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "11.怎么做跨域 什么资源可以跨域 jsonp原理 cors原理\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141004-e21vqgs",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141004-e21vqgs",
-				"updated": "20220313141004"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "12.dns解析流程 怎么做优化\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141004-ke7ufck",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141004-ke7ufck",
-				"updated": "20220313141004"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "13.promise的三个状态\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141005-r7xtfk8",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141005-r7xtfk8",
-				"updated": "20220313141005"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "14.说一下 react hooks 什么是副作用\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141005-vnmm9hk",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141005-vnmm9hk",
-				"updated": "20220313141005"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "15.用过iframe标签吗\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141005-kwidcfq",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141005-kwidcfq",
-				"updated": "20220313141005"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "16.css实现一个随着父元素自缩放的盒子\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313140943-slhnr4u",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140943-slhnr4u",
-				"updated": "20220313140943"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "17.flex布局相关 flex1解释一下"
-				}
-			]
-		},
-		{
-			"ID": "20220313140937-puxyym7",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313140937-puxyym7",
-				"updated": "20220313140940"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "\thttps://juejin.cn/post/7034314491580022820\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141011-z5pm6zs",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141011-z5pm6zs",
-				"updated": "20220313141011"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "18.怎么学css"
-				}
-			]
-		},
-		{
-			"ID": "20220313141210-gk6k6l9",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141210-gk6k6l9",
-				"updated": "20220313141212"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "\thttps://juejin.cn/post/6844903502691450888"
-				}
-			]
-		},
-		{
-			"ID": "20220313141013-9rplweh",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141013-9rplweh",
-				"updated": "20220313141013"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "19.怎么学习前端\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141013-j2kbyyn",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141013-j2kbyyn",
-				"updated": "20220313141013"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "20.最近在看什么书\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141014-vurnac7",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141014-vurnac7",
-				"updated": "20220313141014"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "反问:\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141015-py3hvme",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141015-py3hvme",
-				"updated": "20220313141015"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "1.为什么官网是vue 招react（vue转react）\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141015-vclzk9b",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141015-vclzk9b",
-				"updated": "20220313141015"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "2.评价和建议\n"
-				}
-			]
-		},
-		{
-			"ID": "20220313141015-rj48mah",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220313141015-rj48mah",
-				"updated": "20220313141015"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "网易 二面"
+					"Data": "1.自我介绍\n2.项目\n3.怎么去做优化项目\n4.在实习的时候学到了什么\n5.h5自适应响应式网站的方案\n6.scss mixin/import的用法\n7.position 的三个用法\n8.http状态码 缓存\n9.tcp udp 直播用什么协议 抢购系统用什么协议 为什么 看图解tcp学到了什么\n10.cookie 同源协议 cookie的相关字段\n11.怎么做跨域 什么资源可以跨域 jsonp原理 cors原理\n12.dns解析流程 怎么做优化\n13.promise的三个状态\n14.说一下 react hooks 什么是副作用\n15.用过iframe标签吗\n16.css实现一个随着父元素自缩放的盒子\n17.flex布局相关 flex1解释一下\n18.怎么学css\n19.怎么学习前端\n20.最近在看什么书\n反问:\n1.为什么官网是vue 招react（vue转react）\n2.评价和建议\n网易 二面"
 				}
 			]
 		},
@@ -10894,7 +10506,7 @@
 			},
 			"Properties": {
 				"id": "20220309154611-ght4gvy",
-				"updated": "20220313141812"
+				"updated": "20220309154611"
 			},
 			"Children": [
 				{
@@ -11038,57 +10650,13 @@
 					]
 				},
 				{
-					"ID": "20220313141734-yv06k3q",
+					"ID": "20220309154611-48baz5g",
 					"Type": "NodeListItem",
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
 						"Marker": "Ni4=",
 						"Num": 6
-					},
-					"Properties": {
-						"id": "20220313141734-yv06k3q",
-						"updated": "20220313141812"
-					},
-					"Children": [
-						{
-							"ID": "20220313141734-29iq5fp",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220313141734-29iq5fp",
-								"updated": "20220313141809"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "es6对于es5的日常改进"
-								}
-							]
-						},
-						{
-							"ID": "20220313141809-5mt041x",
-							"Type": "NodeParagraph",
-							"Properties": {
-								"id": "20220313141809-5mt041x",
-								"updated": "20220313141812"
-							},
-							"Children": [
-								{
-									"Type": "NodeText",
-									"Data": "https://juejin.cn/post/7016520448204603423"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220309154611-48baz5g",
-					"Type": "NodeListItem",
-					"ListData": {
-						"Typ": 1,
-						"Delimiter": 46,
-						"Marker": "Ny4=",
-						"Num": 7
 					},
 					"Properties": {
 						"id": "20220309154611-48baz5g"
@@ -11115,8 +10683,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "OC4=",
-						"Num": 8
+						"Marker": "Ny4=",
+						"Num": 7
 					},
 					"Properties": {
 						"id": "20220309154611-c5z2hqy"
@@ -11143,8 +10711,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "OS4=",
-						"Num": 9
+						"Marker": "OC4=",
+						"Num": 8
 					},
 					"Properties": {
 						"id": "20220309154611-r1q2881"
@@ -11171,8 +10739,8 @@
 					"ListData": {
 						"Typ": 1,
 						"Delimiter": 46,
-						"Marker": "MTAu",
-						"Num": 10
+						"Marker": "OS4=",
+						"Num": 9
 					},
 					"Properties": {
 						"id": "20220309154611-v6zujzm"
