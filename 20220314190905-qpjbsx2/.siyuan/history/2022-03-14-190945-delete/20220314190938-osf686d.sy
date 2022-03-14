@@ -1,0 +1,19 @@
+{
+	"ID": "20220314190938-osf686d",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220314190938-osf686d",
+		"title": "新文档",
+		"updated": "20220314190938"
+	},
+	"Children": [
+		{
+			"ID": "20220314190938-ouixdaz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314190938-ouixdaz",
+				"updated": "20220314190938"
+			}
+		}
+	]
+}

@@ -1,0 +1,25 @@
+{
+	"ID": "20220314191003-n9azbl3",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220314191003-n9azbl3",
+		"title": "daily note",
+		"updated": "20220314192545"
+	},
+	"Children": [
+		{
+			"ID": "20220314191003-fmrk6mc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314191003-fmrk6mc",
+				"updated": "20220314192545"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "、"
+				}
+			]
+		}
+	]
+}

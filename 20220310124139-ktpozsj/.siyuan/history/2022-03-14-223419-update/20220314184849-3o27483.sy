@@ -1,0 +1,668 @@
+{
+	"ID": "20220314184849-3o27483",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220314184849-3o27483",
+		"title": "随想录",
+		"updated": "20220314223320"
+	},
+	"Children": [
+		{
+			"ID": "20220314184849-qzd02h6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220314184849-qzd02h6",
+				"updated": "20220314184913"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二叉树"
+				}
+			]
+		},
+		{
+			"ID": "20220314185716-etw2jol",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220314185716-etw2jol",
+				"updated": "20220314185721"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基础知识"
+				}
+			]
+		},
+		{
+			"ID": "20220314184917-elh1mb6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220314184917-elh1mb6",
+				"updated": "20220314184942"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "递归法遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314190009-o64dyof",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220314190009-o64dyof",
+				"updated": "20220314190009"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20220314185449-dg5n3b4",
+					"Type": "NodeHeading",
+					"HeadingLevel": 3,
+					"Properties": {
+						"id": "20220314185449-dg5n3b4",
+						"updated": "20220314190009"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "前序遍历"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220314185949-ofvj59t",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220314185949-ofvj59t",
+				"updated": "20220314185958"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "col"
+				},
+				{
+					"ID": "20220314184943-tyqtc70",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20220314184943-tyqtc70",
+						"updated": "20220314185950"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "var preorderTraversal = function(root) {\n let res=[];\n const dfs=function(root){\n     if(root===null)return ;\n     //先序遍历所以从父节点开始\n     res.push(root.val);\n     //递归左子树\n     dfs(root.left);\n     //递归右子树\n     dfs(root.right);\n }\n //只使用一个参数 使用闭包进行存储结果\n dfs(root);\n return res;\n};\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220314184913-mjou495",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314184913-mjou495",
+				"updated": "20220314195924"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314185511-6148efw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314185511-6148efw",
+				"updated": "20220314195932"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var inorderTraversal = function(root) {\n    let res=[];\n    const dfs=function(root){\n        if(root===null){\n            return ;\n        }\n        dfs(root.left);\n        res.push(root.val);\n        dfs(root.right);\n    }\n    dfs(root);\n    return res;\n};\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314185558-nxs3bva",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314185558-nxs3bva",
+				"updated": "20220314185601"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314185610-5jq1bio",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314185610-5jq1bio",
+				"updated": "20220314185610"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var postorderTraversal = function(root) {\n    let res=[];\n    const dfs=function(root){\n        if(root===null){\n            return ;\n        }\n        dfs(root.left);\n        dfs(root.right);\n        res.push(root.val);\n    }\n    dfs(root);\n    return res;\n};"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314185601-bgajl8z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220314185601-bgajl8z",
+				"updated": "20220314190037"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "迭代法遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314204738-7rm8v54",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314204738-7rm8v54",
+				"updated": "20220314204745"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "前序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314204712-tr1ien2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314204712-tr1ien2",
+				"updated": "20220314204735"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 入栈 右 -\u003e 左\n// 出栈 中 -\u003e 左 -\u003e 右\nvar preorderTraversal = function(root, res = []) {\n    if(!root) return res;\n    const stack = [root];\n    let cur = null;\n    while(stack.length) {\n        cur = stack.pop();\n        res.push(cur.val);\n        cur.right \u0026\u0026 stack.push(cur.right);\n        cur.left \u0026\u0026 stack.push(cur.left);\n    }\n    return res;\n};\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314204757-ygylj11",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314204757-ygylj11",
+				"updated": "20220314204809"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "中序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314204813-eotbz2q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314204813-eotbz2q",
+				"updated": "20220314204822"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "中序遍历:\n\n// 入栈 左 -\u003e 右\n// 出栈 左 -\u003e 中 -\u003e 右\n\nvar inorderTraversal = function(root, res = []) {\n    const stack = [];\n    let cur = root;\n    while(stack.length || cur) {\n        if(cur) {\n            stack.push(cur);\n            // 左\n            cur = cur.left;\n        } else {\n            // --\u003e 弹出 中\n            cur = stack.pop();\n            res.push(cur.val); \n            // 右\n            cur = cur.right;\n        }\n    };\n    return res;\n};\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314204809-ceppvh8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314204809-ceppvh8",
+				"updated": "20220314204829"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "后序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314185659-ag9ga6h",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314185659-ag9ga6h",
+				"updated": "20220314204835"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "后序遍历:\n\n// 入栈 左 -\u003e 右\n// 出栈 中 -\u003e 右 -\u003e 左 结果翻转\n\nvar postorderTraversal = function(root, res = []) {\n    if (!root) return res;\n    const stack = [root];\n    let cur = null;\n    do {\n        cur = stack.pop();\n        res.push(cur.val);\n        cur.left \u0026\u0026 stack.push(cur.left);\n        cur.right \u0026\u0026 stack.push(cur.right);\n    } while(stack.length);\n    return res.reverse();\n};\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314190025-3juk9jv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220314190025-3juk9jv",
+				"updated": "20220314190046"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "层序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314205430-q7idtfe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314205430-q7idtfe",
+				"updated": "20220314205539"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "LeetCode102"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://leetcode-cn.com/problems/binary-tree-level-order-traversal/submissions/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220314190111-0268gnt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314190111-0268gnt",
+				"updated": "20220314190111"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var levelOrder = function(root) {\n    //二叉树的层序遍历\n    let res=[],queue=[];\n    queue.push(root);\n    if(root===null){\n        return res;\n    }\n    while(queue.length!==0){\n        // 记录当前层级节点数\n        let length=queue.length;\n        //存放每一层的节点 \n        let curLevel=[];\n        for(let i=0;i\u003clength;i++){\n            let node=queue.shift();\n            curLevel.push(node.val);\n            // 存放当前层下一层的节点\n            node.left\u0026\u0026queue.push(node.left);\n            node.right\u0026\u0026queue.push(node.right);\n        }\n        //把每一层的结果放到结果数组\n        res.push(curLevel);\n    }\n    return res;\n};"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314190117-6mvqmer",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220314190117-6mvqmer",
+				"updated": "20220314190154"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "翻转二叉树"
+				}
+			]
+		},
+		{
+			"ID": "20220314211247-75vko4b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314211247-75vko4b",
+				"updated": "20220314211320"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "leetcode226"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://leetcode-cn.com/problems/invert-binary-tree/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220314190208-bszpxpm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314190208-bszpxpm",
+				"updated": "20220314190236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "递归版本实现-前序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314190157-evv39nn",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314190157-evv39nn",
+				"updated": "20220314190157"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var invertTree = function(root) {\n    //1. 首先使用递归版本的前序遍历实现二叉树翻转\n    //交换节点函数\n    const inverNode=function(left,right){\n        let temp=left;\n        left=right;\n        right=temp;\n        //需要重新给root赋值一下\n        root.left=left;\n        root.right=right;\n    }\n    //确定递归函数的参数和返回值inverTree=function(root)\n    //确定终止条件\n    if(root===null){\n        return root;\n    }\n    //确定节点处理逻辑 交换\n    inverNode(root.left,root.right);\n    invertTree(root.left);\n    invertTree(root.right);\n    return root;\n};"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314190201-4qf3cdj",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220314190201-4qf3cdj",
+				"updated": "20220314190242"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "层序遍历"
+				}
+			]
+		},
+		{
+			"ID": "20220314190255-2z1klfe",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314190255-2z1klfe",
+				"updated": "20220314190255"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var invertTree = function(root) {\n    //我们先定义节点交换函数\n    const invertNode=function(root,left,right){\n        let temp=left;\n        left=right;\n        right=temp;\n        root.left=left;\n        root.right=right;\n    }\n    //使用层序遍历\n    let queue=[];\n    if(root===null){\n        return root;\n    } \n    queue.push(root);\n    while(queue.length){\n        let length=queue.length;\n        while(length--){\n            let node=queue.shift();\n            //节点处理逻辑\n            invertNode(node,node.left,node.right);\n            node.left\u0026\u0026queue.push(node.left);\n            node.right\u0026\u0026queue.push(node.right);\n        }\n    }\n    return root;\n};"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314190243-jgx9sum",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220314190243-jgx9sum",
+				"updated": "20220314190318"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对称二叉树"
+				}
+			]
+		},
+		{
+			"ID": "20220314190320-8elmn7o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314190320-8elmn7o",
+				"updated": "20220314190400"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "参见随想录"
+				}
+			]
+		},
+		{
+			"ID": "20220314190337-sf5a1ez",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220314190337-sf5a1ez",
+				"updated": "20220314190337"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "var isSymmetric = function(root) {\n    //使用递归遍历左右子树 递归三部曲\n    // 1. 确定递归的参数 root.left root.right和返回值true false \n    const compareNode=function(left,right){\n        //2. 确定终止条件 空的情况\n        if(left===null\u0026\u0026right!==null||left!==null\u0026\u0026right===null){\n            return false;\n        }else if(left===null\u0026\u0026right===null){\n            return true;\n        }else if(left.val!==right.val){\n            return false;\n        }\n        //3. 确定单层递归逻辑\n        let outSide=compareNode(left.left,right.right);\n        let inSide=compareNode(left.right,right.left);\n        return outSide\u0026\u0026inSide;\n    }\n    if(root===null){\n        return true;\n    }\n    return compareNode(root.left,root.right);\n};"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220314223246-vkkfeh0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314223246-vkkfeh0",
+				"updated": "20220314223320"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "题目.md"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/题目-20220314223320-pr3dutb.md"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		}
+	]
+}

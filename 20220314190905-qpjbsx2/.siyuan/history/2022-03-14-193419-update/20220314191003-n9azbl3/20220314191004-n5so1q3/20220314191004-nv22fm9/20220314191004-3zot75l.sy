@@ -1,0 +1,72 @@
+{
+	"ID": "20220314191004-3zot75l",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220314191004-3zot75l",
+		"title": "2022-03-14",
+		"updated": "20220314192717"
+	},
+	"Children": [
+		{
+			"ID": "20220314191004-qgb61hk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314191004-qgb61hk",
+				"updated": "20220314192630"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220314185659-ag9ga6h"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "// 入栈 右 -\u003e 左// 出栈 中 -\u003e 左 -\u003e 右var preorderTraversal = fu..."
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220314192639-m74aziu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314192639-m74aziu",
+				"updated": "20220314192717"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "逻辑没搞清就开始写了"
+				}
+			]
+		},
+		{
+			"ID": "20220314192717-oyazz1h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220314192717-oyazz1h",
+				"updated": "20220314192717"
+			}
+		}
+	]
+}
