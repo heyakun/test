@@ -1,0 +1,864 @@
+{
+	"ID": "20220314190909-wkor8vv",
+	"Type": "NodeDocument",
+	"Properties": {
+		"icon": "1f3d2",
+		"id": "20220314190909-wkor8vv",
+		"title": "卡片目录",
+		"updated": "20220315195649"
+	},
+	"Children": [
+		{
+			"ID": "20220315183435-wshp88z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220315183435-wshp88z",
+				"updated": "20220315184436"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总结"
+				}
+			]
+		},
+		{
+			"ID": "20220315183743-g85e0jx",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220315183743-g85e0jx",
+				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
+				"updated": "20220315195649"
+			},
+			"Children": [
+				{
+					"ID": "20220315184312-1a5fjxn",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220315184312-1a5fjxn",
+						"updated": "20220315184420"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "算法"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220315183808-5zijm70",
+					"Type": "NodeList",
+					"ListData": {
+						"Typ": 3
+					},
+					"Properties": {
+						"id": "20220315183808-5zijm70",
+						"updated": "20220315195649"
+					},
+					"Children": [
+						{
+							"ID": "20220315183824-x0g39g0",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220315183824-x0g39g0",
+								"updated": "20220315193426"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker",
+									"TaskListItemChecked": true
+								},
+								{
+									"ID": "20220315183824-fvtg7s5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315183824-fvtg7s5",
+										"updated": "20220315184850"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "二叉树的递归 和迭代 层序遍历"
+										}
+									]
+								},
+								{
+									"ID": "20220315195615-bmunerx",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315195615-bmunerx",
+										"updated": "20220315195622"
+									}
+								},
+								{
+									"ID": "20220315184955-km9kv3j",
+									"Type": "NodeList",
+									"ListData": {},
+									"Properties": {
+										"id": "20220315184955-km9kv3j"
+									},
+									"Children": [
+										{
+											"ID": "20220315184955-vpn3mh3",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315184955-vpn3mh3"
+											},
+											"Children": [
+												{
+													"ID": "20220315184955-ti6c0go",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315184955-ti6c0go"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "144.二叉树的前序遍历"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315184955-3de9ovk",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315184955-3de9ovk"
+											},
+											"Children": [
+												{
+													"ID": "20220315184955-3koxfpt",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315184955-3koxfpt"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "145.二叉树的后序遍历"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315184955-5q50vnw",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315184955-5q50vnw"
+											},
+											"Children": [
+												{
+													"ID": "20220315184955-q5f7ub5",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315184955-q5f7ub5"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "94.二叉树的中序遍历"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-j84t603",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-j84t603"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-6wzkse6",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-6wzkse6"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "102.二叉树的层序遍历"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-nhsr3h5",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-nhsr3h5"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-xogzr8i",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-xogzr8i"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "107.二叉树的层次遍历II"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-9wxepdq",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-9wxepdq"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-avdxgsh",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-avdxgsh"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "199.二叉树的右视图"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-qxpgclr",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-qxpgclr"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-3po5dp3",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-3po5dp3"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "637.二叉树的层平均值"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-gwph391",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-gwph391"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-nez8jz7",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-nez8jz7"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "429.N叉树的层序遍历"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-dnuhnfk",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-dnuhnfk"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-k2a3rft",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-k2a3rft"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "515.在每个树行中找最大值"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-16xxsb7",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-16xxsb7"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-w3pw7gv",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-w3pw7gv"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "116.填充每个节点的下一个右侧节点指针"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-359gh1h",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-359gh1h"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-rqjftkj",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-rqjftkj"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "117.填充每个节点的下一个右侧节点指针II"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-2eoy3i1",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-2eoy3i1"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-k7mrurm",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-k7mrurm"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "104.二叉树的最大深度"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315185040-dfse1ga",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315185040-dfse1ga"
+											},
+											"Children": [
+												{
+													"ID": "20220315185040-8puwdus",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315185040-8puwdus"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "111.二叉树的最小深度"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220315183850-04598xo",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220315183850-04598xo",
+								"updated": "20220315195649"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker",
+									"TaskListItemChecked": true
+								},
+								{
+									"ID": "20220315183850-d0r7gts",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315183850-d0r7gts",
+										"updated": "20220315184229"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "翻转二叉树"
+										}
+									]
+								},
+								{
+									"ID": "20220315195632-f934ie3",
+									"Type": "NodeList",
+									"ListData": {
+										"Typ": 3
+									},
+									"Properties": {
+										"id": "20220315195632-f934ie3",
+										"updated": "20220315195649"
+									},
+									"Children": [
+										{
+											"ID": "20220315195655-qkbdtmj",
+											"Type": "NodeListItem",
+											"ListData": {
+												"Typ": 3,
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315195655-qkbdtmj"
+											},
+											"Children": [
+												{
+													"Type": "NodeTaskListItemMarker"
+												},
+												{
+													"ID": "20220315195655-bv9vec8",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315195655-bv9vec8"
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220315185051-8bplmkd",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315185051-8bplmkd",
+										"updated": "20220315185218"
+									},
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "leetcode226"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://leetcode-cn.com/problems/invert-binary-tree/"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220315183931-vfbq2r2",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220315183931-vfbq2r2",
+								"updated": "20220315195641"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20220315183931-jrkxc54",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315183931-jrkxc54",
+										"updated": "20220315183939"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "对称二叉树"
+										}
+									]
+								},
+								{
+									"ID": "20220315195442-9sjkwxh",
+									"Type": "NodeList",
+									"ListData": {
+										"Typ": 3
+									},
+									"Properties": {
+										"id": "20220315195442-9sjkwxh"
+									},
+									"Children": [
+										{
+											"ID": "20220315195346-9lkits1",
+											"Type": "NodeListItem",
+											"ListData": {
+												"Typ": 3,
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315195346-9lkits1",
+												"updated": "20220315195530"
+											},
+											"Children": [
+												{
+													"Type": "NodeTaskListItemMarker"
+												},
+												{
+													"ID": "20220315195346-uywal8z",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315195346-uywal8z"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "572.另一个树的子"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315195537-k6hd0sv",
+											"Type": "NodeListItem",
+											"ListData": {
+												"Typ": 3,
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315195537-k6hd0sv"
+											},
+											"Children": [
+												{
+													"Type": "NodeTaskListItemMarker"
+												},
+												{
+													"ID": "20220315195537-jchucq3",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315195537-jchucq3",
+														"updated": "20220315195551"
+													},
+													"Children": [
+														{
+															"Type": "NodeLink",
+															"Data": "span",
+															"Children": [
+																{
+																	"Type": "NodeOpenBracket"
+																},
+																{
+																	"Type": "NodeLinkText",
+																	"Data": "leetcode101"
+																},
+																{
+																	"Type": "NodeCloseBracket"
+																},
+																{
+																	"Type": "NodeOpenParen"
+																},
+																{
+																	"Type": "NodeLinkDest",
+																	"Data": "https://leetcode-cn.com/problems/symmetric-tree/"
+																},
+																{
+																	"Type": "NodeCloseParen"
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220315195554-5t1vm11",
+											"Type": "NodeListItem",
+											"ListData": {
+												"Typ": 3,
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220315195554-5t1vm11"
+											},
+											"Children": [
+												{
+													"Type": "NodeTaskListItemMarker"
+												},
+												{
+													"ID": "20220315195554-i2ulgnk",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220315195554-i2ulgnk",
+														"updated": "20220315195558"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "100.相同的树"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220315183940-mq4bwhf",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220315183940-mq4bwhf"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20220315183940-pef3ghp",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315183940-pef3ghp",
+										"updated": "20220315184240"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "二叉树最大深度"
+										}
+									]
+								},
+								{
+									"ID": "20220315185323-y1sh4nb",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315185323-y1sh4nb",
+										"updated": "20220315185400"
+									},
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "leetcode104"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220315184241-yuao1hw",
+							"Type": "NodeListItem",
+							"ListData": {
+								"Typ": 3,
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220315184241-yuao1hw"
+							},
+							"Children": [
+								{
+									"Type": "NodeTaskListItemMarker"
+								},
+								{
+									"ID": "20220315184241-qyufwxv",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315184241-qyufwxv",
+										"updated": "20220315184245"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "二叉树最小深度"
+										}
+									]
+								},
+								{
+									"ID": "20220315185426-tjugvls",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220315185426-tjugvls",
+										"updated": "20220315185434"
+									},
+									"Children": [
+										{
+											"Type": "NodeLink",
+											"Data": "span",
+											"Children": [
+												{
+													"Type": "NodeOpenBracket"
+												},
+												{
+													"Type": "NodeLinkText",
+													"Data": "leetcode111"
+												},
+												{
+													"Type": "NodeCloseBracket"
+												},
+												{
+													"Type": "NodeOpenParen"
+												},
+												{
+													"Type": "NodeLinkDest",
+													"Data": "https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/"
+												},
+												{
+													"Type": "NodeCloseParen"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220315183447-cc3iqqo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220315183447-cc3iqqo",
+				"updated": "20220315183447"
+			}
+		}
+	]
+}

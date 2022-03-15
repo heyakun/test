@@ -5,21 +5,20 @@
 		"icon": "1f3d2",
 		"id": "20220314190909-wkor8vv",
 		"title": "卡片目录",
-		"updated": "20220315205101"
+		"updated": "20220315200825"
 	},
 	"Children": [
 		{
 			"ID": "20220315183435-wshp88z",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
+			"Type": "NodeParagraph",
 			"Properties": {
 				"id": "20220315183435-wshp88z",
-				"updated": "20220315205913"
+				"updated": "20220315184436"
 			},
 			"Children": [
 				{
 					"Type": "NodeText",
-					"Data": " 算法"
+					"Data": "总结"
 				}
 			]
 		},
@@ -29,7 +28,7 @@
 			"Properties": {
 				"id": "20220315183743-g85e0jx",
 				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
-				"updated": "20220315185133"
+				"updated": "20220315200825"
 			},
 			"Children": [
 				{
@@ -58,7 +57,7 @@
 					},
 					"Properties": {
 						"id": "20220315183808-5zijm70",
-						"updated": "20220315185133"
+						"updated": "20220315200825"
 					},
 					"Children": [
 						{
@@ -72,7 +71,7 @@
 							"Properties": {
 								"fold": "1",
 								"id": "20220315183824-x0g39g0",
-								"updated": "20220315195816"
+								"updated": "20220315185040"
 							},
 							"Children": [
 								{
@@ -301,7 +300,8 @@
 										"Typ": 3
 									},
 									"Properties": {
-										"id": "20220315184955-km9kv3j"
+										"id": "20220315184955-km9kv3j",
+										"updated": "20220315185040"
 									},
 									"Children": [
 										{
@@ -523,7 +523,8 @@
 												"Marker": "Kg=="
 											},
 											"Properties": {
-												"id": "20220315185040-dfse1ga"
+												"id": "20220315185040-dfse1ga",
+												"updated": "20220315185040"
 											},
 											"Children": [
 												{
@@ -533,7 +534,8 @@
 													"ID": "20220315185040-8puwdus",
 													"Type": "NodeParagraph",
 													"Properties": {
-														"id": "20220315185040-8puwdus"
+														"id": "20220315185040-8puwdus",
+														"updated": "20220315185040"
 													},
 													"Children": [
 														{
@@ -666,7 +668,7 @@
 							"Properties": {
 								"fold": "1",
 								"id": "20220315183931-vfbq2r2",
-								"updated": "20220315195641"
+								"updated": "20220315200825"
 							},
 							"Children": [
 								{
@@ -693,7 +695,8 @@
 										"Typ": 3
 									},
 									"Properties": {
-										"id": "20220315195442-9sjkwxh"
+										"id": "20220315195442-9sjkwxh",
+										"updated": "20220315200825"
 									},
 									"Children": [
 										{
@@ -826,13 +829,11 @@
 								"Marker": "Kg=="
 							},
 							"Properties": {
-								"id": "20220315183940-mq4bwhf",
-								"updated": "20220315202527"
+								"id": "20220315183940-mq4bwhf"
 							},
 							"Children": [
 								{
-									"Type": "NodeTaskListItemMarker",
-									"TaskListItemChecked": true
+									"Type": "NodeTaskListItemMarker"
 								},
 								{
 									"ID": "20220315183940-pef3ghp",
@@ -895,13 +896,11 @@
 								"Marker": "Kg=="
 							},
 							"Properties": {
-								"id": "20220315184241-yuao1hw",
-								"updated": "20220315204636"
+								"id": "20220315184241-yuao1hw"
 							},
 							"Children": [
 								{
-									"Type": "NodeTaskListItemMarker",
-									"TaskListItemChecked": true
+									"Type": "NodeTaskListItemMarker"
 								},
 								{
 									"ID": "20220315184241-qyufwxv",
@@ -954,771 +953,17 @@
 									]
 								}
 							]
-						},
-						{
-							"ID": "20220315212058-li74psj",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315212058-li74psj"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315212058-l05ypgo",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315212058-l05ypgo"
-									}
-								}
-							]
 						}
 					]
 				}
 			]
 		},
 		{
-			"ID": "20220315204706-qvb67hk",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20220315204706-qvb67hk",
-				"updated": "20220315204849"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "项目"
-				}
-			]
-		},
-		{
-			"ID": "20220315204850-vms2cyv",
-			"Type": "NodeBlockquote",
-			"Properties": {
-				"id": "20220315204850-vms2cyv",
-				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
-				"updated": "20220315204852"
-			},
-			"Children": [
-				{
-					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e"
-				},
-				{
-					"ID": "20220315204852-6tmuwn6",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220315204852-6tmuwn6"
-					}
-				}
-			]
-		},
-		{
-			"ID": "20220315204923-ydzpbwm",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20220315204923-ydzpbwm",
-				"updated": "20220315204931"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "计算机网络"
-				}
-			]
-		},
-		{
-			"ID": "20220315204935-kv7gvvx",
-			"Type": "NodeBlockquote",
-			"Properties": {
-				"id": "20220315204935-kv7gvvx",
-				"style": "color: var(--b3-card-info-color); background-color: var(--b3-card-info-background);",
-				"updated": "20220315204939"
-			},
-			"Children": [
-				{
-					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e"
-				},
-				{
-					"ID": "20220315204939-gpzymxs",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220315204939-gpzymxs"
-					}
-				}
-			]
-		},
-		{
-			"ID": "20220315205052-w65jrdh",
-			"Type": "NodeHeading",
-			"HeadingLevel": 2,
-			"Properties": {
-				"id": "20220315205052-w65jrdh",
-				"updated": "20220315205101"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "分享"
-				}
-			]
-		},
-		{
-			"ID": "20220315205105-d31l0wo",
-			"Type": "NodeBlockquote",
-			"Properties": {
-				"id": "20220315205105-d31l0wo",
-				"updated": "20220315205439"
-			},
-			"Children": [
-				{
-					"Type": "NodeBlockquoteMarker",
-					"Data": "\u003e"
-				},
-				{
-					"ID": "20220315205119-bn5dr7k",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220315205119-bn5dr7k",
-						"updated": "20220315205130"
-					},
-					"Children": [
-						{
-							"Type": "NodeText",
-							"Data": "神三元的博客"
-						}
-					]
-				},
-				{
-					"ID": "20220315205433-r8djjx8",
-					"Type": "NodeParagraph",
-					"Properties": {
-						"id": "20220315205433-r8djjx8",
-						"updated": "20220315205439"
-					},
-					"Children": [
-						{
-							"Type": "NodeBlockRef",
-							"Data": "span",
-							"Children": [
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeOpenParen"
-								},
-								{
-									"Type": "NodeBlockRefID",
-									"Data": "20220313091132-itcerpn"
-								},
-								{
-									"Type": "NodeBlockRefSpace"
-								},
-								{
-									"Type": "NodeBlockRefDynamicText",
-									"Data": "第1篇: 能不能说一说浏览器缓存?"
-								},
-								{
-									"Type": "NodeCloseParen"
-								},
-								{
-									"Type": "NodeCloseParen"
-								}
-							]
-						}
-					]
-				},
-				{
-					"ID": "20220315205745-bf1e463",
-					"Type": "NodeList",
-					"ListData": {
-						"Typ": 3
-					},
-					"Properties": {
-						"id": "20220315205745-bf1e463",
-						"updated": "20220315210209"
-					},
-					"Children": [
-						{
-							"ID": "20220315205745-wa9k101",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315205745-wa9k101"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315205343-ht825bv",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315205343-ht825bv",
-										"updated": "20220315205603"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-w64p6qz"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第2篇: 能不能说一说浏览器的本地存储？各自优劣如何？"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315205745-hiz07d9",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315205745-hiz07d9"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315205604-tlp8rfh",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315205604-tlp8rfh",
-										"updated": "20220315205731"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-rp3lmgo"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第3篇: 说一说从输入URL到页面呈现发生了什么？——网络篇"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315205756-fgt8o4q",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315205756-fgt8o4q"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315205756-rrw56hk",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315205756-rrw56hk",
-										"updated": "20220315205824"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-538v0lf"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第4篇: 说一说从输入URL到页面呈现发生了什么？——解析算法篇"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315205857-p8397vz",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315205857-p8397vz"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315205857-up1pnnp",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315205857-up1pnnp",
-										"updated": "20220315205857"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-zffby83"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第5篇: 说一说从输入URL到页面呈现发生了什么？——渲染过程篇"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315205940-cbxfpk1",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315205940-cbxfpk1"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315205940-2wn0jq8",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315205940-2wn0jq8",
-										"updated": "20220315210008"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-5efyzow"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefText",
-													"Data": "第6篇: 谈谈你对重绘和回流的理解。"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315210030-kwf5d55",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315210030-kwf5d55"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315210030-npud8ko",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315210030-npud8ko",
-										"updated": "20220315210040"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-t48exh9"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第7篇: 能不能说一说XSS攻击？"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315210102-tq4x1hg",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315210102-tq4x1hg"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315210102-8icdrmj",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315210102-8icdrmj",
-										"updated": "20220315210103"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-ecm7j0o"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第8篇: 能不能说一说CSRF攻击？"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315210114-54tajsg",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315210114-54tajsg"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315210114-eap11u4",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315210114-eap11u4",
-										"updated": "20220315210115"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-0m5a2f7"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第9篇:HTTPS为什么让数据传输更安全？"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315210126-9mn08re",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315210126-9mn08re"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315210126-qr8s7ng",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315210126-qr8s7ng",
-										"updated": "20220315210126"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-18pzij5"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第10篇: 能不能实现事件的防抖和节流？"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						},
-						{
-							"ID": "20220315210209-9gl1kul",
-							"Type": "NodeListItem",
-							"ListData": {
-								"Typ": 3,
-								"BulletChar": 42,
-								"Marker": "Kg=="
-							},
-							"Properties": {
-								"id": "20220315210209-9gl1kul",
-								"updated": "20220315210209"
-							},
-							"Children": [
-								{
-									"Type": "NodeTaskListItemMarker"
-								},
-								{
-									"ID": "20220315210209-szglvdn",
-									"Type": "NodeParagraph",
-									"Properties": {
-										"id": "20220315210209-szglvdn",
-										"updated": "20220315210209"
-									},
-									"Children": [
-										{
-											"Type": "NodeBlockRef",
-											"Data": "span",
-											"Children": [
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeOpenParen"
-												},
-												{
-													"Type": "NodeBlockRefID",
-													"Data": "20220313091132-f1bujmc"
-												},
-												{
-													"Type": "NodeBlockRefSpace"
-												},
-												{
-													"Type": "NodeBlockRefDynamicText",
-													"Data": "第11篇: 能不能实现图片懒加载？"
-												},
-												{
-													"Type": "NodeCloseParen"
-												},
-												{
-													"Type": "NodeCloseParen"
-												}
-											]
-										}
-									]
-								}
-							]
-						}
-					]
-				}
-			]
-		},
-		{
-			"ID": "20220315205624-2p3o45l",
+			"ID": "20220315183447-cc3iqqo",
 			"Type": "NodeParagraph",
 			"Properties": {
-				"id": "20220315205624-2p3o45l",
-				"updated": "20220315205624"
+				"id": "20220315183447-cc3iqqo",
+				"updated": "20220315183447"
 			}
 		}
 	]
