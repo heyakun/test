@@ -1,0 +1,393 @@
+{
+	"ID": "20220317214817-cpeewow",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317214817-cpeewow",
+		"title": "eslint 与 prettier冲突",
+		"updated": "20220317215602"
+	},
+	"Children": [
+		{
+			"ID": "20220317214817-or8brxs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317214817-or8brxs",
+				"updated": "20220317215050"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "eslint 和 prettier最好只使用一个"
+				}
+			]
+		},
+		{
+			"ID": "20220317214909-ag64dhd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317214909-ag64dhd",
+				"updated": "20220317215000"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "prettier的配置写在"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".prettierc"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 文件"
+				}
+			]
+		},
+		{
+			"ID": "20220317215002-kbsrb4q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317215002-kbsrb4q",
+				"updated": "20220317215012"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n  \"useTabs\": false,\n  \"tabWidth\": 2,\n  \"printWidth\": 80,\n  \"singleQuote\": true,\n  \"trailingComma\": \"none\",\n  \"semi\": false\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317215013-slctd5d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317215013-slctd5d",
+				"updated": "20220317215132"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "eslint配置文件"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": ".eslintrc.js"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317215211-04yaqxe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317215211-04yaqxe",
+				"updated": "20220317215348"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "'plugin:prettier/recommended' 覆盖上面5条规则里相同的配置 （前提安装了eslint-plugin-prettier）"
+				}
+			]
+		},
+		{
+			"ID": "20220317215337-2d68l65",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220317215337-2d68l65",
+				"updated": "20220317215339"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220317215339-ucnnog5",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"id": "20220317215339-ucnnog5",
+						"updated": "20220317215339"
+					},
+					"Children": [
+						{
+							"ID": "20220317215339-dpypfzz",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220317215339-dpypfzz"
+							},
+							"Children": [
+								{
+									"ID": "20220317215339-il3zy3u",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220317215339-il3zy3u"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "先安装"
+										},
+										{
+											"Type": "NodeCodeSpan",
+											"Data": "code",
+											"Children": [
+												{
+													"Type": "NodeCodeSpanOpenMarker"
+												},
+												{
+													"Type": "NodeCodeSpanContent",
+													"Data": "npm install --save-dev eslint-plugin-prettier"
+												},
+												{
+													"Type": "NodeCodeSpanCloseMarker"
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220317215339-0vnk3yp",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220317215339-0vnk3yp"
+							},
+							"Children": [
+								{
+									"ID": "20220317215339-dy5070p",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220317215339-dy5070p"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "然后修改eslint的配置"
+										},
+										{
+											"Type": "NodeCodeSpan",
+											"Data": "code",
+											"Children": [
+												{
+													"Type": "NodeCodeSpanOpenMarker"
+												},
+												{
+													"Type": "NodeCodeSpanContent",
+													"Data": "\"extends\": ['自己的eslint配置包', \"prettier\"]"
+												},
+												{
+													"Type": "NodeCodeSpanCloseMarker"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": "，将"
+										},
+										{
+											"Type": "NodeCodeSpan",
+											"Data": "code",
+											"Children": [
+												{
+													"Type": "NodeCodeSpanOpenMarker"
+												},
+												{
+													"Type": "NodeCodeSpanContent",
+													"Data": "prettier"
+												},
+												{
+													"Type": "NodeCodeSpanCloseMarker"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": "放在最后，因为后面的配置项会覆盖前面的；"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220317215339-f4w6zj1",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220317215339-f4w6zj1"
+							},
+							"Children": [
+								{
+									"ID": "20220317215339-id9nrie",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220317215339-id9nrie"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "然后修改rules，表示将prettier的规则配置写入eslint，这样将报错源统一为eslint，具体可以看官网"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220317215339-6rbb0ri",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317215339-6rbb0ri",
+						"updated": "20220317215339"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "作者：dqqbl\n链接：https://www.jianshu.com/p/be27685feeee\n来源：简书\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317215110-5er3yx8",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317215110-5er3yx8",
+				"updated": "20220317215208"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  extends: [\n    'plugin:vue/vue3-essential',\n    'eslint:recommended',\n    '@vue/typescript/recommended',\n    '@vue/prettier',\n    '@vue/prettier/@typescript-eslint',\n    'plugin:prettier/recommended'\n  ],\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317215126-qh9o2yi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317215126-qh9o2yi",
+				"updated": "20220317215558"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "报错源只用eslint  关闭prettier的报错"
+				}
+			]
+		},
+		{
+			"ID": "20220317215530-1wrpfmf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317215530-1wrpfmf",
+				"updated": "20220317215556"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "'prettier/prettier': 0"
+				}
+			]
+		},
+		{
+			"ID": "20220317215446-wlj3nh2",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317215446-wlj3nh2",
+				"updated": "20220317215522"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  rules: {\n    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',\n    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off',\n    '@typescript-eslint/no-var-requires': 'off',\n\n    'prettier/prettier': 0\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317215602-ptr8a83",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317215602-ptr8a83",
+				"updated": "20220317215602"
+			}
+		}
+	]
+}

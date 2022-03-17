@@ -1,0 +1,140 @@
+{
+	"ID": "20220317205831-mz8lii8",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317205831-mz8lii8",
+		"title": "vscode 保存自动eslint",
+		"updated": "20220317210018"
+	},
+	"Children": [
+		{
+			"ID": "20220317205831-hhzi2a8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317205831-hhzi2a8",
+				"updated": "20220317205905"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vscode安装eslint插件"
+				}
+			]
+		},
+		{
+			"ID": "20220317205907-mxw13wt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317205907-mxw13wt",
+				"updated": "20220317205920"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "image.png"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/image-20220317205920-24etmu6.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317205922-nv0vn0p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317205922-nv0vn0p",
+				"updated": "20220317205936"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "npm 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220317205938-gftsa48",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317205938-gftsa48",
+				"updated": "20220317210005"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "    \"eslint\": \"^6.7.2\",\n    \"eslint-plugin-prettier\": \"^3.3.1\",\n    \"eslint-plugin-vue\": \"^7.0.0\",\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317205845-oivtgdd",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317205845-oivtgdd",
+				"updated": "20220317205845"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n        \"eslint.autoFixOnSave\": true,\n        \"eslint.validate\": [\n            \"javascript\",\n            {\n                \"language\": \"vue\",\n                \"autoFix\": true\n            },\n            \"html\",\n            \"vue\"\n        ],\n        \"editor.codeActionsOnSave\": {\n            \"source.fixAll.eslint\": true\n        }\n}"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317210018-2pjkd1m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317210018-2pjkd1m",
+				"updated": "20220317210018"
+			}
+		}
+	]
+}

@@ -1,0 +1,962 @@
+{
+	"ID": "20220317202813-t5o6fy6",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317202813-t5o6fy6",
+		"title": "elementplus 按需导入",
+		"updated": "20220317203649"
+	},
+	"Children": [
+		{
+			"ID": "20220317202813-yne7xyp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220317202813-yne7xyp",
+				"updated": "20220317202844"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "安装"
+				}
+			]
+		},
+		{
+			"ID": "20220317202858-lyerwrn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317202858-lyerwrn",
+				"updated": "20220317202920"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "npm i element-plus"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-pq57ssg",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220317203402-pq57ssg",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "按需导入"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "#"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://element-plus.org/zh-CN/guide/quickstart.html#%E6%8C%89%E9%9C%80%E5%AF%BC%E5%85%A5"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-tg22axc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-tg22axc",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "您需要使用额外的插件来导入要使用的组件。"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-nflx9wp",
+			"Type": "NodeHeading",
+			"HeadingLevel": 4,
+			"Properties": {
+				"id": "20220317203402-nflx9wp",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自动导入 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "推荐"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "#"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://element-plus.org/zh-CN/guide/quickstart.html#%E8%87%AA%E5%8A%A8%E5%AF%BC%E5%85%A5-%E6%8E%A8%E8%8D%90"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-muj253t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-muj253t",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "首先你需要安装"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "unplugin-vue-components"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 和 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "unplugin-auto-import"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "这两款插件"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-kt41bwp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317203402-kt41bwp",
+				"updated": "20220317203431"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "YmFzaA=="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "npm install -D unplugin-vue-components unplugin-auto-import\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-kz93r73",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-kz93r73",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "然后把下列代码插入到你的 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Vite"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 或 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "Webpack"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的配置文件中"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-2s9xbrd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"id": "20220317203402-2s9xbrd",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Vite"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "#"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://element-plus.org/zh-CN/guide/quickstart.html#vite"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-my6b4ui",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317203402-my6b4ui",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// vite.config.ts\nimport AutoImport from 'unplugin-auto-import/vite'\nimport Components from 'unplugin-vue-components/vite'\nimport { ElementPlusResolver } from 'unplugin-vue-components/resolvers'\n\nexport default {\n  plugins: [\n    // ...\n    AutoImport({\n      resolvers: [ElementPlusResolver()],\n    }),\n    Components({\n      resolvers: [ElementPlusResolver()],\n    }),\n  ],\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-5u3ltge",
+			"Type": "NodeHeading",
+			"HeadingLevel": 5,
+			"Properties": {
+				"fold": "1",
+				"id": "20220317203402-5u3ltge",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Webpack"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "#"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://element-plus.org/zh-CN/guide/quickstart.html#webpack"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-f1a5te9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220317203402-f1a5te9",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// webpack.config.js\nconst AutoImport = require('unplugin-auto-import/webpack')\nconst Components = require('unplugin-vue-components/webpack')\nconst { ElementPlusResolver } = require('unplugin-vue-components/resolvers')\n\nmodule.exports = {\n  // ...\n  plugins: [\n    AutoImport({\n      resolvers: [ElementPlusResolver()],\n    }),\n    Components({\n      resolvers: [ElementPlusResolver()],\n    }),\n  ],\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-r2v8891",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220317203402-r2v8891",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "想了解更多打包 ("
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Rollup"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://rollupjs.org/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ", "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Vue CLI"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://cli.vuejs.org/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": ") 和配置工具，请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "unplugin-vue-components"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/antfu/unplugin-vue-components#installation"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 和 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "unplugin-auto-import"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/antfu/unplugin-auto-import#install"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "。"
+				}
+			]
+		},
+		{
+			"ID": "20220317203552-ykm82k7",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"heading-fold": "1",
+				"id": "20220317203552-ykm82k7",
+				"updated": "20220317203649"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220317203553-oo8iw99",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317203553-oo8iw99"
+					}
+				},
+				{
+					"ID": "20220317203554-4lntwwa",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20220317203554-4lntwwa",
+						"updated": "20220317203649"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "// vue.config.js\nmodule.exports = {\n  configureWebpack: {\n    plugins: [\n      require('unplugin-vue-components/webpack')({ /* options */ }),\n      require('unplugin-auto-import/webpack')({ /* options */ }),\n    ],\n  },\n}  \n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-pmci703",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220317203402-pmci703",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "手动导入"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "#"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://element-plus.org/zh-CN/guide/quickstart.html#%E6%89%8B%E5%8A%A8%E5%AF%BC%E5%85%A5"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-5h1xkjn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-5h1xkjn",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Element Plus 提供了基于 ES Module 开箱即用的 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Tree Shaking"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://webpack.js.org/guides/tree-shaking/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 功能。"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-no47i7a",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-no47i7a",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但是你需要安装 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "unplugin-element-plus"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/element-plus/unplugin-element-plus"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 来导入样式。 请参考 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "文档"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://github.com/element-plus/unplugin-element-plus#readme"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 了解如何配置它。"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-bp4hb1r",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220317203402-bp4hb1r",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220317203402-dc3q1ml",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317203402-dc3q1ml"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "App.vue"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-s1vyv5l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317203402-s1vyv5l",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003cel-button\u003eI am ElButton\u003c/el-button\u003e\n\u003c/template\u003e\n\u003cscript\u003e\n  import { ElButton } from 'element-plus'\n  export default {\n    components: { ElButton },\n  }\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-ymergx3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317203402-ymergx3",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// vite.config.ts\nimport ElementPlus from 'unplugin-element-plus/vite'\n\nexport default {\n  plugins: [ElementPlus()],\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-d2856cl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-d2856cl",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "WARNING"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-j0sfu87",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-j0sfu87",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果您使用 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "unplugin-element-plus"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 并且只使用组件 API，您需要手动导入样式。"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-5fazwn6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317203402-5fazwn6",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "示例︰"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-msf4q1n",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317203402-msf4q1n",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import 'element-plus/es/components/message/style/css'\nimport { ElMessage } from 'element-plus'\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317203402-bb8uz2m",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220317203402-bb8uz2m",
+				"updated": "20220317203402"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快捷搭建项目模板"
+				}
+			]
+		}
+	]
+}

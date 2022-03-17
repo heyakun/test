@@ -4,7 +4,8 @@
 	"Properties": {
 		"id": "20220317090318-s50babq",
 		"title": "day31 项目搭建 e88c7",
-		"type": "doc"
+		"type": "doc",
+		"updated": "20220317201543"
 	},
 	"Children": [
 		{
@@ -4707,6 +4708,14 @@
 					"CodeBlockFenceLen": 3
 				}
 			]
+		},
+		{
+			"ID": "20220317201543-ctkmoyp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201543-ctkmoyp",
+				"updated": "20220317201543"
+			}
 		}
 	]
 }
