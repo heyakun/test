@@ -1,0 +1,278 @@
+{
+	"ID": "20220317094022-awkd2qy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317094022-awkd2qy",
+		"title": "遇到问题",
+		"updated": "20220317104935"
+	},
+	"Children": [
+		{
+			"ID": "20220317094022-8sa22dh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317094022-8sa22dh",
+				"updated": "20220317094053"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220317094052-wx4n0qy"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "Cannot find module '@componentsHelloWorld.vue' or its corresponding type declarations.Vetur(2307)"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104333-7cagwuz",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220317104333-7cagwuz",
+				"updated": "20220317104409"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220317104401-ap9zpoe",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317104401-ap9zpoe",
+						"updated": "20220317104409"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "."
+						},
+						{
+							"Type": "NodeBlockRef",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeBlockRefID",
+									"Data": "20220317104409-dat4d7j"
+								},
+								{
+									"Type": "NodeBlockRefSpace"
+								},
+								{
+									"Type": "NodeBlockRefDynamicText",
+									"Data": "Updates were rejected because the remote contains work that you do"
+								},
+								{
+									"Type": "NodeCloseParen"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104641-3inncfc",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220317104641-3inncfc",
+				"updated": "20220317104702"
+			},
+			"Children": [
+				{
+					"ID": "20220317104643-z7jivcg",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317104643-z7jivcg",
+						"updated": "20220317104702"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "."
+						},
+						{
+							"Type": "NodeBlockRef",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeBlockRefID",
+									"Data": "20220317104702-y9mgkdt"
+								},
+								{
+									"Type": "NodeBlockRefSpace"
+								},
+								{
+									"Type": "NodeBlockRefDynamicText",
+									"Data": "Updates were rejected because the tip of your current branch is behind 解决方案"
+								},
+								{
+									"Type": "NodeCloseParen"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220317104749-ijdylh1",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220317104749-ijdylh1",
+				"updated": "20220317104753"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220317104750-f10yp9p",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317104750-f10yp9p",
+						"updated": "20220317104753"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "."
+						},
+						{
+							"Type": "NodeBlockRef",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeBlockRefID",
+									"Data": "20220317104753-0u1p7cx"
+								},
+								{
+									"Type": "NodeBlockRefSpace"
+								},
+								{
+									"Type": "NodeBlockRefDynamicText",
+									"Data": "错误提示 Integrate the remote changes... 的解决方法"
+								},
+								{
+									"Type": "NodeCloseParen"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104926-avmjzwy",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220317104926-avmjzwy",
+				"updated": "20220317104935"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220317104927-fgys5gc",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220317104927-fgys5gc",
+						"updated": "20220317104935"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "."
+						},
+						{
+							"Type": "NodeBlockRef",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeBlockRefID",
+									"Data": "20220317104935-fcyjzb4"
+								},
+								{
+									"Type": "NodeBlockRefSpace"
+								},
+								{
+									"Type": "NodeBlockRefDynamicText",
+									"Data": "interactive rebase in progress"
+								},
+								{
+									"Type": "NodeCloseParen"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

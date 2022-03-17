@@ -1,0 +1,424 @@
+{
+	"ID": "20220317104935-fcyjzb4",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317104935-fcyjzb4",
+		"title": "interactive rebase in progress",
+		"updated": "20220317104959"
+	},
+	"Children": [
+		{
+			"ID": "20220317104938-73qop7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-73qop7d",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git status 出错 interactive rebase in progress； onto 796e78f_爱倒腾的博客 - CSDN 博客_interactive rebase"
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-9w643is",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-9w643is",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "今天准备提交代码时, 查看分支状态 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git status"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 提示以下错误"
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-nlrsrnz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-nlrsrnz",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img-blog.csdnimg.cn/20210220222444801.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDUxNDY2NQ==,size_16,color_FFFFFF,t_70"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-jgfvzhe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-jgfvzhe",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看一番发现, 由于之前使用过 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git pull --rebase origin develop"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 命令拉取代码, 使用过"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git rebase"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "执行代码覆盖, 但是上一次进程还没有完成导致"
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-gd2u14j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-gd2u14j",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "原因:"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-7nb3d5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-7nb3d5f",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "查看"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "git"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 的提示, 大概意思是 你当前正在编辑的提交将要覆盖在 "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "796e78"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "commitid"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 上"
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-epsds6e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-epsds6e",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "两种解决方案"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-led143p",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220317104938-led143p",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"ID": "20220317104938-gn2rb7j",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220317104938-gn2rb7j"
+					},
+					"Children": [
+						{
+							"ID": "20220317104938-3p2v0hq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104938-3p2v0hq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git commit --amend"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令修订当前的提交"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220317104938-gb5rl3s",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220317104938-gb5rl3s"
+					},
+					"Children": [
+						{
+							"ID": "20220317104938-ay3mqqs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104938-ay3mqqs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "使用 "
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "git rebase --continue"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " 命令继续代码的提交 (推荐), 执行之后, 需要重新提交, 解决一下当前的代码冲突之后重新提交直至没有"
+								},
+								{
+									"Type": "NodeCodeSpan",
+									"Data": "code",
+									"Children": [
+										{
+											"Type": "NodeCodeSpanOpenMarker"
+										},
+										{
+											"Type": "NodeCodeSpanContent",
+											"Data": "rebase"
+										},
+										{
+											"Type": "NodeCodeSpanCloseMarker"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "提示, 就可以正常提交了"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104938-tney77n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104938-tney77n",
+				"updated": "20220317104938"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全文完"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,238 @@
+{
+	"ID": "20220317104409-dat4d7j",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317104409-dat4d7j",
+		"title": "Updates were rejected because the remote contains work that you do",
+		"updated": "20220317104608"
+	},
+	"Children": [
+		{
+			"ID": "20220317104458-77lcvlj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-77lcvlj",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "GitHub 提交的时显示 Updates were rejected because the remote contains work that you do_EmbededCoder 的博客 - CSDN 博客每次建立新的仓库，提交的时总会出现这样的错误。Updates were rejected because the remote "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "contains"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://so.csdn.net/so/search?q=contains\u0026spm=1001.2101.3001.7020"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " work that you do"
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-w37kdk5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-w37kdk5",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "错误的 git 提交的步骤："
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-b3bxkpo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-b3bxkpo",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git init                        // 初始化仓库\ngit add  .                   // 添加文件到本地暂存区    或用  git add   (文件 name)\ngit "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "commit"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://so.csdn.net/so/search?q=commit\u0026spm=1001.2101.3001.7020"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " -m “first commit”       // 提交到本地仓库\ngit remote add origin    远程仓库地址            // 添加远程仓库\ngit push -u origin master                                // 把本地仓库的 master 分支推送到远程仓库 master 分支\n这样就显示这样的问题了，如下图。"
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-k61p9sz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-k61p9sz",
+				"updated": "20220317104545"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "tstmp_20220317104543.jpg"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/tstmp_20220317104543-20220317104544-xotcu1d.jpg"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-7z5kmyp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-7z5kmyp",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "经过查资料发现是因为我们在本地新建库后，与远程仓库的内容不一致导致的（远程仓库有一些内容本地没有）。"
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-95i35mr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-95i35mr",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为此在向远程库推送的时候，要先进行 pull 同步远程仓库，让本地新建的库和远程库进行同步。\n正确步骤："
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-bb07k2p",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-bb07k2p",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git init                            // 初始化仓库\ngit add .                         // 添加到本地暂存区   或用  git add   (文件 name)\ngit commit -m “first commit”                      // 提交到本地仓库\ngit remote add origin    远程仓库地址       // 添加远程仓库\ngit pull origin master                                 // 把远程仓库 master 分支拉取到本地仓库 master 分支\ngit push -u origin master                           // 把本地仓库的 master 分支推送到远程仓库 master 分支\n————————————————"
+				}
+			]
+		},
+		{
+			"ID": "20220317104458-kysbdna",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104458-kysbdna",
+				"updated": "20220317104458"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全文完本文由 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "简悦 SimpRead"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://ksria.com/simpread"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 优化，用以提升阅读体验"
+				}
+			]
+		}
+	]
+}

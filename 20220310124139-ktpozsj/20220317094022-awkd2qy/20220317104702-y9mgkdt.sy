@@ -1,0 +1,448 @@
+{
+	"ID": "20220317104702-y9mgkdt",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317104702-y9mgkdt",
+		"title": "Updates were rejected because the tip of your current branch is behind 解决方案",
+		"updated": "20220317104715"
+	},
+	"Children": [
+		{
+			"ID": "20220317104705-sugt497",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104705-sugt497",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "git 中 Updates were rejected because the tip of your current branch is behind 解决方案_DedicationYu 的博客 - CSDN 博客"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-ymtop1u",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220317104705-ymtop1u",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-2gnjyvo",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220317104705-2gnjyvo"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-co5vfwo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-co5vfwo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "错误说明"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-3d89qq4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104705-3d89qq4",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "出现这个错误的原因是 git 本地仓库的当前版本低于远程仓库的版本 (大白话就是：你在 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "github"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://so.csdn.net/so/search?q=github\u0026spm=1001.2101.3001.7020"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 上进行的修改没有同步到本地 git 仓库中)。"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-gj73jsa",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220317104705-gj73jsa",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-tccpek6",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220317104705-tccpek6"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-0gpp6b2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-0gpp6b2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "错误原因"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-cd90xah",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220317104705-cd90xah",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-5dtpnxm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220317104705-5dtpnxm"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-ecxrrm1",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-ecxrrm1"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "第一种错误的原因"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-8i3cdwu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104705-8i3cdwu",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "某一天你在本地仓库进行了相关修改然后上传到远程仓库中，这时本地仓库和远程仓库都是同步的，不会出现这种错误。过了几天你突然在 github 看到了一个错误需要修改，但你并没有通过本地仓库进行修改而是直接在 github 上进行修改，然后保存修改。这里就要注意一个问题，之前你通过本地仓库进行修改文章最后都会上传到远程仓库 (也就是 github 中)，这就保证了远程仓库和本地仓库是同步的，但是如果你直接在远程仓库(github) 中进行修改，默认是不会上传到本地的，这就导致了一个问题，本地仓库中的相关内容没有被修改，而远程仓库中的相关内容被修改，这里可以理解为远程仓库更新了而本地仓库没有更新，这就导致了本地仓库的版本落后于远程仓库，也就是本地仓库和远程仓库版本不一致。而你现在直接在本地仓库这个落后的仓库中修改相关文件然后上传到远程仓库中就会出现错误，本地的修改是基于之前版本的修改，这种修改无法基于远程仓库中这种之后的版本，因为要修改的地方原本的内容都不同就会导致有些修改方法无法实现(比如说本地仓库要把 1 变为 2 就加一就可以了，但是远程仓库不是 1 而是 3，这是如果用本地仓库的修改方法也加一就会变为 4，这显然是不合适的)。"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-djxmrmf",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220317104705-djxmrmf",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-vn3cnrz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220317104705-vn3cnrz"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-o5m81xd",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-o5m81xd"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "第二种原因"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-u7cj869",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104705-u7cj869",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在企业开发中，通常一个项目不是由一个人独立完成的而是由多个人共同完成的，由于另外的程序员更改了相关的代码并向远程上传了更改，而你没有同步他的更改而是在之前的基础上也更改了并上传就会出现版本低于远程版本的错误无法修改。举个简单的例子，要实现一个算式 3 先加一在减二最终得到 2 的功能，实现这个功能需要两步：先加一 j，然后减二。假设你负责实现加一的功能，另外一个程序员实现减二的功能，现在本地仓库和远程仓库的数字都是 3，正常情况下是你先实现加一的功能使本地的数字变为 4 然后上传到远程使远程的数字变为 4，然后另一位程序员将远程更改后的数字 4 同步到本地使本地的数字也变为 4，然后在本地 4 的基础上实现减二的功能使其变为 2 然后上传到远程使其也变为 2，最后你同步远程的 2 到本地使你的本地数字也变为 2，这样就实现了该功能。但是由于你的个人原因，让另一位程序员提前你一步实现减二的功能并上传到远程，导致远程的数字变为了 0，而你现在上传加一的功能肯定是会报错的，如果成功那么远程就变为了 1 这显然是达不到功能需求的。"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-hzl955d",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220317104705-hzl955d",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-x02mvjm",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "My4=",
+						"Num": 3
+					},
+					"Properties": {
+						"id": "20220317104705-x02mvjm"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-mtqt2bg",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-mtqt2bg"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "解决方案"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-rlani2f",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220317104705-rlani2f",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-r91e77c",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220317104705-r91e77c"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-f53x9pi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-f53x9pi"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "错误的解决方案 (注意是错误的解决方案)"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-uugeprf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317104705-uugeprf",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "在终端下输入：git push -u origin master -f\n   这句话执行的后果就是在远程仓库中进行的相关修改会被删除，使远程仓库回到你本地仓库未修改之前的那个版本，\n   然后上传你基于本地仓库的修改。这如果在企业开发中就会让别的程序员的这些天的开发付之东流，一切回到解放前。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-vl2cf9j",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220317104705-vl2cf9j",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"ID": "20220317104705-vqjq6qc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220317104705-vqjq6qc"
+					},
+					"Children": [
+						{
+							"ID": "20220317104705-ikx6dot",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317104705-ikx6dot"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "正确的解决方案"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-1ifzf93",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104705-1ifzf93",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先在终端下输入：git pull origin master"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-zv3qsih",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317104705-zv3qsih",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "这句话是说将远程中进行的相关修改保存下来\n  但这时可能会报错：error: Your local changes to the following files would be overwritten by merge:\n  解决方案看我另一篇博客：https://blog.csdn.net/IT_SoftEngineer/article/details/107133284\n  解决上述问题后就可保证远程仓库的更新会被同步到本地而本地仓库的修改也不会被覆盖\n  然后就是add,commit,push命令将本地的修改上传到远程仓库中\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317104705-bc44esl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104705-bc44esl",
+				"updated": "20220317104705"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全文完"
+				}
+			]
+		}
+	]
+}

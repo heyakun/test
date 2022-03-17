@@ -1,0 +1,249 @@
+{
+	"ID": "20220317104753-0u1p7cx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317104753-0u1p7cx",
+		"title": "错误提示 Integrate the remote changes... 的解决方法",
+		"updated": "20220317104813"
+	},
+	"Children": [
+		{
+			"ID": "20220317104756-4gy6ddv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104756-4gy6ddv",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Git 错误提示 Integrate the remote changes... 的解决方法_apidev 的博客 - CSDN 博客### "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Git"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://so.csdn.net/so/search?q=Git\u0026spm=1001.2101.3001.7020"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 在 push 推送时，报错提示信息如下："
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-rifux0t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317104756-rifux0t",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "hint: Updates were rejected because the tip of your current branch is behind\nhint: its remote counterpart. Integrate the remote changes (e.g.\nhint: 'git pull ...') before pushing again.\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-p27wva7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220317104756-p27wva7",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原因"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "分析"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://so.csdn.net/so/search?q=%E5%88%86%E6%9E%90\u0026spm=1001.2101.3001.7020"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-froo1jt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104756-froo1jt",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "是由于本地和远程仓库两者代码文件不同步，因此需要先 pull，进行合并然后再进行 push"
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-i887pmc",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220317104756-i887pmc",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "解决方法："
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-1dv5wx9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104756-1dv5wx9",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1、先使用 pull 命令："
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-fu6f2xz",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317104756-fu6f2xz",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git pull --rebase origin master\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-5tjv2e1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104756-5tjv2e1",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2、再使用 push 命令："
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-gkclyls",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317104756-gkclyls",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "git push -u origin master\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317104756-eg183k5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317104756-eg183k5",
+				"updated": "20220317104756"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全文完"
+				}
+			]
+		}
+	]
+}

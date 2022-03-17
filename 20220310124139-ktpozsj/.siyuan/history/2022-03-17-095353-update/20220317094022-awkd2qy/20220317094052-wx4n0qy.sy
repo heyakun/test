@@ -1,0 +1,255 @@
+{
+	"ID": "20220317094052-wx4n0qy",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317094052-wx4n0qy",
+		"title": "Cannot find module '@componentsHelloWorld.vue' or its corresponding type declarations.Vetur(2307)",
+		"updated": "20220317094629"
+	},
+	"Children": [
+		{
+			"ID": "20220317094309-sjittid",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317094309-sjittid",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "error"
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-ravmbwx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317094309-ravmbwx",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Cannot find module ‘@/components/test1.helloworld/test1.vue’ or its corresponding type declarations.Vetur(2307)"
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-dv7xpav",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317094309-dv7xpav",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "solution"
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-a8ixtqb",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220317094309-a8ixtqb",
+				"updated": "20220317094333"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 此写法会报错\nimport Test11 from '@/components/test1.helloworld/test1.vue'\n// 此写法不会报错\nimport Test11 from '../components/test1.helloworld/test1.vue'\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-fpxv4mr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317094309-fpxv4mr",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一般是由于 Visual Studio Code 中安装了 Vetur 插件，它要求："
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-ty1ri49",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1
+			},
+			"Properties": {
+				"id": "20220317094309-ty1ri49",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"ID": "20220317094309-ypyw00f",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "MS4=",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220317094309-ypyw00f"
+					},
+					"Children": [
+						{
+							"ID": "20220317094309-2vya0f5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317094309-2vya0f5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目在工作区根目录（就是把项目文件夹拖进 vscode 后的效果）"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220317094309-zzj3nye",
+					"Type": "NodeListItem",
+					"ListData": {
+						"Typ": 1,
+						"Delimiter": 46,
+						"Marker": "Mi4=",
+						"Num": 2
+					},
+					"Properties": {
+						"id": "20220317094309-zzj3nye"
+					},
+					"Children": [
+						{
+							"ID": "20220317094309-as5j63l",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317094309-as5j63l"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "项目排在第一位（不在第一位可以鼠标拖动项目移到第一位）"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-4h3pd6z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317094309-4h3pd6z",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeBang"
+						},
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://img-blog.csdnimg.cn/img_convert/0349186c25bbdea0bcde06fee8caf454.png"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317094309-s5nflk7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317094309-s5nflk7",
+				"updated": "20220317094309"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "全文完本文由 "
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "简悦 SimpRead"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://ksria.com/simpread"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 优化，用以提升阅读体验"
+				}
+			]
+		},
+		{
+			"ID": "20220317094629-sw91519",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317094629-sw91519",
+				"updated": "20220317094629"
+			}
+		}
+	]
+}
