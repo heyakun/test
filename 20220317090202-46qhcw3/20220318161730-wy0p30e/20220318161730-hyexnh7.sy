@@ -1,0 +1,1355 @@
+{
+	"ID": "20220318161730-hyexnh7",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-hyexnh7",
+		"title": "04 网络请求service-post账号密码",
+		"type": "doc",
+		"updated": "20220319203554"
+	},
+	"Children": [
+		{
+			"ID": "20220319201051-b531ch3",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220319201051-b531ch3",
+				"updated": "20220319201118"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文件目录"
+				}
+			]
+		},
+		{
+			"ID": "20220319201120-1qflk4p",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220319201120-1qflk4p",
+				"updated": "20220319201138"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220319201136-weej0q3",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"custom-f": "bg",
+						"id": "20220319201136-weej0q3",
+						"updated": "20220319201138"
+					},
+					"Children": [
+						{
+							"ID": "20220319201138-ljjeb3l",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220319201138-ljjeb3l"
+							},
+							"Children": [
+								{
+									"ID": "20220319201138-yg5wk6k",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220319201138-yg5wk6k",
+										"updated": "20220319201141"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "service"
+										}
+									]
+								},
+								{
+									"ID": "20220319201142-impdv93",
+									"Type": "NodeList",
+									"ListData": {},
+									"Properties": {
+										"id": "20220319201142-impdv93"
+									},
+									"Children": [
+										{
+											"ID": "20220319201142-nvwdnmt",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319201142-nvwdnmt"
+											},
+											"Children": [
+												{
+													"ID": "20220319201142-is56wq5",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319201142-is56wq5",
+														"updated": "20220319201231"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "login页面需要的网络请求"
+														}
+													]
+												},
+												{
+													"ID": "20220319201235-s4ybmez",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220319201235-s4ybmez"
+													},
+													"Children": [
+														{
+															"ID": "20220319201232-4iq5y1c",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319201232-4iq5y1c"
+															},
+															"Children": [
+																{
+																	"ID": "20220319201232-eph4l17",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319201232-eph4l17",
+																		"updated": "20220319201250"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "login.ts"
+																		}
+																	]
+																},
+																{
+																	"ID": "20220319201303-4scl40f",
+																	"Type": "NodeList",
+																	"ListData": {},
+																	"Properties": {
+																		"id": "20220319201303-4scl40f"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220319201302-b5mz3vs",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220319201302-b5mz3vs"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220319201302-a2chmbr",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220319201302-a2chmbr",
+																						"updated": "20220319201341"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "参数是账号和密码，返回菜单目录"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319201250-bp80ism",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319201250-bp80ism"
+															},
+															"Children": [
+																{
+																	"ID": "20220319201250-zmmwhsr",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319201250-zmmwhsr",
+																		"updated": "20220319201258"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "type.ts"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319201412-a6iwgtn",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319201412-a6iwgtn"
+											},
+											"Children": [
+												{
+													"ID": "20220319201412-vu5jsfe",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319201412-vu5jsfe",
+														"updated": "20220319201452"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "request(公用封装请求方法)"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319201454-rf72xhm",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319201454-rf72xhm"
+											},
+											"Children": [
+												{
+													"ID": "20220319201454-c57wlxi",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319201454-c57wlxi",
+														"updated": "20220319201507"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "index.ts入口文件"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319201508-zmf3cs3",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319201508-zmf3cs3"
+											},
+											"Children": [
+												{
+													"ID": "20220319201508-nmmo510",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319201508-nmmo510",
+														"updated": "20220319201517"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "type.ts 类型文件"
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-9xlpdti",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-9xlpdti"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service里创建login文件夹"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-uw9xxh2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-uw9xxh2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service/login/type"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-9dr88k9",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-9dr88k9"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export interface IAccount {\n  name: string\n  password: string\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-zq04w9k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-zq04w9k"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service/login/login.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-2m46baa",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-2m46baa"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { IAccount } from './type'\nimport hyRequest from '..'\n\nenum **LoginAPI** {\n  AccountLogin = **'/login'**\n}\nexport function accountLoginRequest(account: IAccount) {\n  return hyRequest.**post**({\n    url: **LoginAPI.AccountLogin,**\n    data: account\n  })\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-hlokx37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-hlokx37"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login\\login.ts  拿到请求的数据"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-3sgss9r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-3sgss9r"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import \nactions: {\n    async accountLoginAction({ commit }, payload: **IAccount**) {\n      console.log('执行accountLoginAction', payload)\n      const loginResult = await accountLoginRequest(payload)\n      console.log(loginResult)\n    }\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-nyu1n23",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-nyu1n23"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击登录（父组件） hanleLoginClick调用loginAction"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-nepr6bf",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-nepr6bf"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-bd8xq9j",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-bd8xq9j"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-nrfrncf",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220318161730-nrfrncf"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e "
+								},
+								{
+									"ID": "20220318161730-amvhcp1",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220318161730-amvhcp1"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "（子组件）定义loginAction  调用dispatch(login/accountLoginAction)"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-z7liwij",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"MarkerOffset": 1,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-z7liwij"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-gsjx7vb",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220318161730-gsjx7vb"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e"
+								},
+								{
+									"ID": "20220318161730-4sam0ka",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220318161730-4sam0ka"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "（store\\login）异步"
+										},
+										{
+											"Type": "NodeCodeSpan",
+											"CodeMarkerLen": 1,
+											"Children": [
+												{
+													"Type": "NodeCodeSpanOpenMarker",
+													"Data": "`"
+												},
+												{
+													"Type": "NodeCodeSpanContent",
+													"Data": "async"
+												},
+												{
+													"Type": "NodeCodeSpanCloseMarker",
+													"Data": "`"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": "  定义 accountLoginAction  同步"
+										},
+										{
+											"Type": "NodeCodeSpan",
+											"CodeMarkerLen": 1,
+											"Children": [
+												{
+													"Type": "NodeCodeSpanOpenMarker",
+													"Data": "`"
+												},
+												{
+													"Type": "NodeCodeSpanContent",
+													"Data": "await"
+												},
+												{
+													"Type": "NodeCodeSpanCloseMarker",
+													"Data": "`"
+												}
+											]
+										},
+										{
+											"Type": "NodeText",
+											"Data": " 调用accountLoginRequest"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-00opmmr",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-00opmmr"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-8rjjuz8",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220318161730-8rjjuz8"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e "
+								},
+								{
+									"ID": "20220318161730-05jrtn5",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220318161730-05jrtn5"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "（service\\login\\login）定义accountLoginRequest 调用hyRequest.post（）拿到返回值"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ugibzq0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-ugibzq0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service\\login\\login 定义"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-qglnmuz",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-qglnmuz"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:50出现跨域错误"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-3u3u32e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-3u3u32e"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "开发阶段可以配置webpack "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "devServer proxy代理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-wiq1ebn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-wiq1ebn"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vueconfig.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-64jrtx6",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-64jrtx6"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "module.exports = {\n  // 1.配置方式一: CLI提供的属性\n  outputDir: './build',\n  // publicPath: './',\n  **devServer: {\n    proxy: {\n      '^/api': {\n        target: 'http://152.136.185.210:5000',\n        pathRewrite: {\n          '^/api': ''\n        },\n        changeOrigin: true\n      }\n    }\n  },**\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-60smxq5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-60smxq5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "request 的baseurl修改"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-z1tnqfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-z1tnqfx"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "request/config"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-8tvse1i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-8tvse1i"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "let BASE_URL = ''\nconst TIME_OUT = 10000\n\nif (process.env.NODE_ENV === 'development') {\n  **BASE_URL = '/api'**\n} else if (process.env.NODE_ENV === 'production') {\n  BASE_URL = 'http://coderwhy.org/prod'\n} else {\n  BASE_URL = 'http://coderwhy.org/test'\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-lqnt6jc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-lqnt6jc"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "loginResult 打印输出结果"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-zsusdr6",
+			"Type": "NodeList",
+			"ListData": {
+				"Typ": 1,
+				"Tight": true,
+				"Start": 1,
+				"Delimiter": 46,
+				"Padding": 3,
+				"Marker": "MQ==",
+				"Num": 1
+			},
+			"Properties": {
+				"id": "20220318161730-zsusdr6"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-54equf2",
+					"Type": "NodeListItem",
+					"Data": "1",
+					"ListData": {
+						"Typ": 1,
+						"Tight": true,
+						"Start": 1,
+						"Delimiter": 46,
+						"Padding": 3,
+						"Marker": "MQ==",
+						"Num": 1
+					},
+					"Properties": {
+						"id": "20220318161730-54equf2"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-x06zigo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-x06zigo"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "{code: 0, data: {…}}"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-1seufvt",
+							"Type": "NodeList",
+							"ListData": {
+								"Typ": 1,
+								"Tight": true,
+								"Start": 1,
+								"Delimiter": 46,
+								"Padding": 3,
+								"MarkerOffset": 1,
+								"Marker": "MQ==",
+								"Num": 1
+							},
+							"Properties": {
+								"id": "20220318161730-1seufvt"
+							},
+							"Children": [
+								{
+									"ID": "20220318161730-o7pjkdk",
+									"Type": "NodeListItem",
+									"Data": "1",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 1,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 1,
+										"Marker": "MQ==",
+										"Num": 1
+									},
+									"Properties": {
+										"id": "20220318161730-o7pjkdk"
+									},
+									"Children": [
+										{
+											"ID": "20220318161730-28kgla7",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220318161730-28kgla7"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "code: 0"
+												}
+											]
+										}
+									]
+								},
+								{
+									"ID": "20220318161730-uzc3sqb",
+									"Type": "NodeListItem",
+									"Data": "2",
+									"ListData": {
+										"Typ": 1,
+										"Tight": true,
+										"Start": 2,
+										"Delimiter": 46,
+										"Padding": 3,
+										"MarkerOffset": 1,
+										"Marker": "Mg==",
+										"Num": 2
+									},
+									"Properties": {
+										"id": "20220318161730-uzc3sqb"
+									},
+									"Children": [
+										{
+											"ID": "20220318161730-w9yzrnb",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220318161730-w9yzrnb"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "data: {"
+												},
+												{
+													"Type": "NodeStrong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "id"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": 1, "
+												},
+												{
+													"Type": "NodeStrong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "name"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": \"coderwhy\", "
+												},
+												{
+													"Type": "NodeStrong",
+													"Children": [
+														{
+															"Type": "NodeStrongA6kOpenMarker",
+															"Data": "**"
+														},
+														{
+															"Type": "NodeText",
+															"Data": "token"
+														},
+														{
+															"Type": "NodeStrongA6kCloseMarker",
+															"Data": "**"
+														}
+													]
+												},
+												{
+													"Type": "NodeText",
+													"Data": ": \"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MSwib…GArBjI4Aox4JBBTsNiHX20vPd26qzbe8wIDhw5K32icfKqbHA\"}"
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-o3wosxf",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161730-o3wosxf"
+			}
+		},
+		{
+			"ID": "20220318161730-bypze81",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-bypze81"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login.ts  拿到请求的数据进行解构"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-10kn5kf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-10kn5kf"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "actions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n      console.log('执行accountLoginAction', payload)\n      const loginResult = await accountLoginRequest(payload)\n      console.log(loginResult)\n\t\t\t**const { id, name, token } = loginResult.data**\n    }\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-fuogdse",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-fuogdse"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:55loginResult类型"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "unknown"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-52oy6t0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-52oy6t0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原因在Post方法："
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-3yoizbl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-3yoizbl"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service/request/index"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-za9tjlm",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-za9tjlm"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "post\u003cT\u003e(config: HYRequestConfig\u003cT\u003e): Promise\u003cT\u003e {\n    return this.request\u003cT\u003e({ ...config, method: 'POST' })\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-93gr7ja",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-93gr7ja"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "post要求传入泛型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-65z0go6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-65z0go6"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service\\login\\type 指定IData类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ulr5h53",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-ulr5h53"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于data的数据是不确定的，默认any ,其他情况 需要传入"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-lfsgfte",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-lfsgfte"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export interface IAccount {\n  name: string\n  password: string\n}\n\nexport interface ILoginResult {\n  id: number\n  name: string\n  token: string\n}\n\nexport interface IDataType\u003cT = any\u003e {\n  code: number\n  data: T\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-m6pdesf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-m6pdesf"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "传入service/login/login.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-5v0oxpt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-5v0oxpt"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { IAccount, **IDataType**, **ILoginResult** } from './type'\n\nexport function accountLoginRequest(account: IAccount) {\n  return hyRequest.post**\u003cIDataType\u003cILoginResult\u003e\u003e**({\n    url: LoginAPI.AccountLogin,\n    data: account\n  })\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-cp3vwis",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-cp3vwis"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "actions里请求过来token，再commit进行保存"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-r0x5f2v",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-r0x5f2v"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mutations: {\n    **changeToken**(state, token: string) {\n      state.token = token\n    }\n  },\n\nactions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n      console.log('执行accountLoginAction', payload)\n      const loginResult = await accountLoginRequest(payload)\n      console.log(loginResult)\n\t\t\t**const { id, name, token } = loginResult.data\n\t\t\tcommit('changeToken', token)**\n    }\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220319203554-2l45she",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319203554-2l45she",
+				"updated": "20220319203554"
+			}
+		}
+	]
+}

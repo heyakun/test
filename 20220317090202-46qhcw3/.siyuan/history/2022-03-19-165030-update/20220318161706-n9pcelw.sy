@@ -1,0 +1,19 @@
+{
+	"ID": "20220318161706-n9pcelw",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161706-n9pcelw",
+		"title": "day34 项目前提知识准备",
+		"type": "doc",
+		"updated": "20220319164541"
+	},
+	"Children": [
+		{
+			"ID": "20220319164541-mrtf88r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319164541-mrtf88r"
+			}
+		}
+	]
+}

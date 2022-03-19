@@ -1,0 +1,445 @@
+{
+	"ID": "20220318132230-8r0d4vm",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318132230-8r0d4vm",
+		"title": "01最简封装",
+		"updated": "20220319163806"
+	},
+	"Children": [
+		{
+			"ID": "20220318132230-2k7i6ni",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220318132230-2k7i6ni",
+				"updated": "20220318132315"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220318132315-r2lwxmr",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220318132315-r2lwxmr",
+						"updated": "20220318132315"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "目录结构\n"
+						}
+					]
+				},
+				{
+					"ID": "20220318132315-hkyykvc",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"custom-f": "bg",
+						"id": "20220318132315-hkyykvc",
+						"updated": "20220318132315"
+					},
+					"Children": [
+						{
+							"ID": "20220318132315-ngl6lk9",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220318132315-ngl6lk9",
+								"updated": "20220318132315"
+							},
+							"Children": [
+								{
+									"ID": "20220318132315-br4zi71",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220318132315-br4zi71",
+										"updated": "20220318132315"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "src"
+										}
+									]
+								},
+								{
+									"ID": "20220318132315-j4l117e",
+									"Type": "NodeList",
+									"ListData": {},
+									"Properties": {
+										"id": "20220318132315-j4l117e",
+										"updated": "20220318132315"
+									},
+									"Children": [
+										{
+											"ID": "20220318132315-274ggdy",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220318132315-274ggdy",
+												"updated": "20220318132315"
+											},
+											"Children": [
+												{
+													"ID": "20220318132315-3hxjq14",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220318132315-3hxjq14",
+														"updated": "20220318132315"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "service"
+														}
+													]
+												},
+												{
+													"ID": "20220318132315-0wct5sn",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220318132315-0wct5sn",
+														"updated": "20220318132315"
+													},
+													"Children": [
+														{
+															"ID": "20220318132315-rveadgv",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220318132315-rveadgv",
+																"updated": "20220318132315"
+															},
+															"Children": [
+																{
+																	"ID": "20220318132315-tez79vy",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220318132315-tez79vy",
+																		"updated": "20220318132315"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "index.ts  // 2.导入类  创建实例   导出实例"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220318132315-4ri4o8j",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220318132315-4ri4o8j",
+																"updated": "20220318132315"
+															},
+															"Children": [
+																{
+																	"ID": "20220318132315-erk0jo8",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220318132315-erk0jo8",
+																		"updated": "20220318132315"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "request"
+																		}
+																	]
+																},
+																{
+																	"ID": "20220318132315-qhmdjf3",
+																	"Type": "NodeList",
+																	"ListData": {},
+																	"Properties": {
+																		"id": "20220318132315-qhmdjf3",
+																		"updated": "20220318132315"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220318132315-4dzmwsq",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220318132315-4dzmwsq",
+																				"updated": "20220318132315"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220318132315-0jeqq94",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220318132315-0jeqq94",
+																						"updated": "20220318132315"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "index.ts //  1.导入axios    导出封装 类"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220318132315-xv512zg",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220318132315-xv512zg"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220318132315-kdpl38u",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220318132315-kdpl38u",
+																						"updated": "20220318132315"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "config.ts"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220318132315-dxn08nr",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220318132315-dxn08nr"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220318132315-fy935tp",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220318132315-fy935tp",
+																						"updated": "20220318132315"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "type.ts"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318132317-lc4k27i",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318132317-lc4k27i",
+				"updated": "20220318132520"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "request/index.ts 导入axios 导出类"
+				}
+			]
+		},
+		{
+			"ID": "20220318132336-8ljfj86",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220318132336-8ljfj86",
+				"updated": "20220318132345"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import axios, { AxiosInstance, AxiosRequestConfig } from 'axios'\n\nclass YKRequest {\n  instance: AxiosInstance\n  constructor(config: AxiosRequestConfig) {\n    this.instance = axios.create(config)\n  }\n  request(config: AxiosRequestConfig): Promise\u003cany\u003e {\n    const p = new Promise((resolve, reject) =\u003e {\n      this.instance.request(config).then((res) =\u003e {\n        resolve(res.data)\n      })\n    })\n\n    return p\n  }\n}\n\nexport default YKRequest\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220318132354-1fe6brr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318132354-1fe6brr",
+				"updated": "20220318132426"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "index.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318132427-0eyu5wn",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220318132427-0eyu5wn",
+				"updated": "20220318132502"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220318132429-j77e52w",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220318132429-j77e52w",
+						"updated": "20220318132502"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "导入类 ，导出实例"
+						}
+					]
+				},
+				{
+					"ID": "20220318132439-xt7fbp7",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20220318132439-xt7fbp7",
+						"updated": "20220318132439"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "anM="
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "import YKRequest from './request'\nimport { BASE_URL, TIME_OUT } from './request/config'\n\nconst ykRequest = new YKRequest({\n  baseURL: BASE_URL,\n  timeout: TIME_OUT\n})\n\nexport default ykRequest"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318132523-lj0hfng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318132523-lj0hfng",
+				"updated": "20220318132523"
+			}
+		},
+		{
+			"ID": "20220318132528-hjm9aod",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318132528-hjm9aod",
+				"updated": "20220318132530"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用"
+				}
+			]
+		},
+		{
+			"ID": "20220318132531-1733bg1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220318132531-1733bg1",
+				"updated": "20220318132554"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import ykRequest from './service'\nykRequest.request({ url: 'home/multidata' }).then((res) =\u003e {\n  console.log('res的结果', res)\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220318132559-uisk6d7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318132559-uisk6d7",
+				"updated": "20220318132559"
+			}
+		}
+	]
+}

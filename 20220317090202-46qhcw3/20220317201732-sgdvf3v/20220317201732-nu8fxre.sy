@@ -1,0 +1,638 @@
+{
+	"ID": "20220317201732-nu8fxre",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317201732-nu8fxre",
+		"title": "04全局拦截器和request拦截器封装",
+		"type": "doc",
+		"updated": "20220319163903"
+	},
+	"Children": [
+		{
+			"ID": "20220317201732-n5m02pj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-n5m02pj"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "// 拦截器（从config里取出来的拦截器）"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-ysy0wnm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ysy0wnm"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "this.interceptors = "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "config.interceptors （要求config里必须有interceptors属性）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-3uexd51",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-3uexd51"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所有实例都有的拦截器（不要求"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "有interceptors属性"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "）"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-miaurju",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-miaurju"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "constructor(config: HYRequestConfig) {\n    this.instance = axios.create(config)\n    this.interceptors = config.interceptors\n    // 拦截器（从config里取出来的拦截器）\n    this.instance.interceptors.request.use(\n      this.interceptors?.requestInterceptors,\n      this.interceptors?.requestInterceptorsCatch\n    )\n\n    this.instance.interceptors.response.use(\n      this.interceptors?.responseInterceptors,\n      this.interceptors?.requestInterceptorsCatch\n    )\n    // 所有实例都有的拦截器\n    this.instance.interceptors.request.use(\n      (config) =\u003e {\n        console.log('所有的实例都有的拦截器: 请求成功拦截')\n        return config\n      },\n      (err) =\u003e {\n        console.log('所有的实例都有的拦截器: 请求失败拦截')\n        return err\n      }\n    )\n    this.instance.interceptors.response.use(\n      (res) =\u003e {\n        console.log('所有的实例都有的拦截器: 响应成功拦截')\n        return res\n      },\n      (err) =\u003e {\n        console.log('所有的实例都有的拦截器: 响应失败拦截')\n        return err\n      }\n    )\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-5d72ca6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-5d72ca6"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:19 单个请求的拦截器"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-yx783lb",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220317201732-yx783lb"
+			}
+		},
+		{
+			"ID": "20220317201732-rst1xyd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-rst1xyd"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前封装类class里request方法传入的config是原始类型AxiosRequestConfig"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-rim2d9e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-rim2d9e"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "AxiosRequestConfig 不存在拦截器"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-xb1zfa3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-xb1zfa3"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "  request(config: AxiosRequestConfig): void {\n    this.instance.request(config).then((res) =\u003e {\n      console.log('刚刚封装好的request方法', res)\n    })\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-t4cddvn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-t4cddvn"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在main.ts里request（）传入的参数里不能穿拦截器"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-f7fwv3t",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-f7fwv3t"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "hyRequest.request({\n  url: 'home/multidata',\n  method: 'GET'\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-4nc5d3o",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220317201732-4nc5d3o"
+			}
+		},
+		{
+			"ID": "20220317201732-1m87ruj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-1m87ruj"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "class封装"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-410ssrj",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-410ssrj"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nconstructor(config: HYRequestConfig) {\n    this.instance = axios.create(config)\n    this.interceptors = config.interceptors\n    // 拦截器\n    this.instance.interceptors.request.use(\n      this.interceptors?.requestInterceptor,\n      this.interceptors?.requestInterceptorCatch\n    )\n\n    this.instance.interceptors.response.use(\n      this.interceptors?.responseInterceptor,\n      this.interceptors?.requestInterceptorCatch\n    )\n}\n// 修改request 方法\nrequest(config: HYRequestConfig): void {\n    if (config.interceptors?.requestInterceptor) {\n      **config = config.interceptors.requestInterceptor(config)**\n    }\n\n    this.instance.**request**(config).then((res) =\u003e {\n      **console.log('刚刚封装好的request方法', res)**\n    })\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-js0p36d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-js0p36d"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "入口文件"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-0k1rp5g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-0k1rp5g"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const hyRequest = new HYRequest({\n  baseURL: BASE_URL,\n  timeout: TIME_OUT\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-mgaimrs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-mgaimrs"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-d1yms7y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-d1yms7y"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "hyRequest.request({\n  url: 'home/multidata',\n  method: 'GET',\n  **interceptors: {\n    requestInterceptor: (config) =\u003e {\n      console.log('单独请求的config')\n      return config\n    }\n  }**\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-q3sv8zx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-q3sv8zx"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "执行结果"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-teifdgh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-teifdgh"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单独请求的config"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "index.ts?922c:55 刚刚封装好的request方法 {data: {…}, status: 200, statusText: \"OK\", headers: {…}, config: {…}, …}"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-0fap3ly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-0fap3ly"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "config = config.interceptors.requestInterceptor(config)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-w7awvbr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-w7awvbr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这个意思就是一个普通函数的调用，返回值config在进行真正的request请求，手动写逻辑，完成在请求时拦截的功能，"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "但是没有处理error的情况"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-y3tg3z8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-y3tg3z8"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "this.instance.interceptors.response.use(fn1,fn2）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-y3wzz2y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-y3wzz2y"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "内置的拦截器，只要执行request方法就会执行"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-6u08uqm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-6u08uqm"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "同理"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-phja4na",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-phja4na"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "request/index"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-6w8gz48",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-6w8gz48"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "request(config: HYRequestConfig): void {\n    if (config.interceptors?.requestInterceptor) {\n      config = config.interceptors.requestInterceptor(config)\n    }\n\n    this.instance.request(config).then((res) =\u003e {\n      **if (config.interceptors?.responseInterceptor) {\n        res = config.interceptors.responseInterceptor(res)\n      }**\n      console.log('刚刚封装好的request方法', res)\n    })\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-ppb0p2l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ppb0p2l"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-x66ueqi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-x66ueqi"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "hyRequest.request({\n  url: 'home/multidata',\n  method: 'GET',\n  interceptors: {\n    **requestInterceptor: (config) =\u003e {\n      console.log('单独请求的config')\n      return config\n    },**\n\n    **responseInterceptor: (res) =\u003e {\n      console.log('单独处理res')\n      return res\n    }**\n  }\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-xbk76bw",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220317201732-xbk76bw"
+			}
+		}
+	]
+}

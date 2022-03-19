@@ -1,0 +1,626 @@
+{
+	"ID": "20220317201732-sgdvf3v",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317201732-sgdvf3v",
+		"title": "day33 axio 61370",
+		"type": "doc",
+		"updated": "20220319164025"
+	},
+	"Children": [
+		{
+			"ID": "20220317201732-jwo3w8p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-jwo3w8p"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "day33 axios封装"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-40c1luf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-40c1luf"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0:09 - 0：26 封装逻辑"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-xnmlzw5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-xnmlzw5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "封装网络请求"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-vdg0kv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-vdg0kv8",
+				"updated": "20220317201732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么封装？1不能过度依赖axios ，后续可以替换，2 避免重复代码"
+				}
+			]
+		},
+		{
+			"ID": "20220318093430-twmgmcj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318093430-twmgmcj",
+				"updated": "20220318093501"
+			}
+		},
+		{
+			"ID": "20220317201732-ximh5w4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ximh5w4",
+				"updated": "20220317201732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前项目是依赖axios的库，如果替换axios，需要修改很多代码"
+				}
+			]
+		},
+		{
+			"ID": "20220318091946-jivmr9a",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220318091946-jivmr9a",
+				"updated": "20220318093007"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220318091949-m9iklr0",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220318091949-m9iklr0",
+						"updated": "20220318092003"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "目录结构\n"
+						}
+					]
+				},
+				{
+					"ID": "20220318092404-8tyfrrb",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"custom-f": "bg",
+						"id": "20220318092404-8tyfrrb",
+						"updated": "20220318093007"
+					},
+					"Children": [
+						{
+							"ID": "20220318092413-ucv96ij",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220318092413-ucv96ij",
+								"updated": "20220318093007"
+							},
+							"Children": [
+								{
+									"ID": "20220318092413-n8sjgc9",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220318092413-n8sjgc9",
+										"updated": "20220318092415"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "src"
+										}
+									]
+								},
+								{
+									"ID": "20220318092418-u3ltskc",
+									"Type": "NodeList",
+									"ListData": {},
+									"Properties": {
+										"id": "20220318092418-u3ltskc",
+										"updated": "20220318093007"
+									},
+									"Children": [
+										{
+											"ID": "20220318092417-iyjc11t",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220318092417-iyjc11t",
+												"updated": "20220318093007"
+											},
+											"Children": [
+												{
+													"ID": "20220318092417-zflw1vl",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220318092417-zflw1vl",
+														"updated": "20220318092431"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "service"
+														}
+													]
+												},
+												{
+													"ID": "20220318092434-42sqo0r",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220318092434-42sqo0r",
+														"updated": "20220318093007"
+													},
+													"Children": [
+														{
+															"ID": "20220318092433-5palzce",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220318092433-5palzce",
+																"updated": "20220318093007"
+															},
+															"Children": [
+																{
+																	"ID": "20220318092433-c5wzpcx",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220318092433-c5wzpcx",
+																		"updated": "20220318093007"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "index.ts  // 2.导入类  创建实例   导出实例"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220318092439-kv5mvst",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220318092439-kv5mvst",
+																"updated": "20220318092956"
+															},
+															"Children": [
+																{
+																	"ID": "20220318092439-qknzrdw",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220318092439-qknzrdw",
+																		"updated": "20220318092444"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "request"
+																		}
+																	]
+																},
+																{
+																	"ID": "20220318092446-b7miwih",
+																	"Type": "NodeList",
+																	"ListData": {},
+																	"Properties": {
+																		"id": "20220318092446-b7miwih",
+																		"updated": "20220318092956"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220318092446-nktrm9p",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220318092446-nktrm9p",
+																				"updated": "20220318092956"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220318092446-0mkhgqq",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220318092446-0mkhgqq",
+																						"updated": "20220318092956"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "index.ts //  1.导入axios    导出封装 类"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220318092458-atw57ne",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220318092458-atw57ne"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220318092458-6a2shtg",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220318092458-6a2shtg",
+																						"updated": "20220318092503"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "config.ts"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220318092512-5wbzc16",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220318092512-5wbzc16"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220318092512-hakydkf",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220318092512-hakydkf",
+																						"updated": "20220318092515"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "type.ts"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318131853-ua2vdzg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318131853-ua2vdzg",
+				"updated": "20220318132230"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockRef",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeBlockRefID",
+							"Data": "20220318132230-8r0d4vm"
+						},
+						{
+							"Type": "NodeBlockRefSpace"
+						},
+						{
+							"Type": "NodeBlockRefDynamicText",
+							"Data": "01最简封装"
+						},
+						{
+							"Type": "NodeCloseParen"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-lnp5iwh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-lnp5iwh"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建request文件夹/index.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-wsr6526",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-wsr6526"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建service/index.ts作为统一出口"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-cg3l275",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-cg3l275"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建类：内容包括所有请求的方法"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-5enfrpb",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220317201732-5enfrpb"
+			},
+			"Children": [
+				{
+					"ID": "20220317201732-ezq6491",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"fold": "0",
+						"id": "20220317201732-ezq6491"
+					},
+					"Children": [
+						{
+							"ID": "20220317201732-g8jdlyo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317201732-g8jdlyo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service/request/index.ts(仅当前文件对axios 有依赖，如果更换其他库，直接修改本文件代码即可)"
+								}
+							]
+						},
+						{
+							"ID": "20220317201732-iw6hpsl",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220317201732-iw6hpsl"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import axios from 'axios'\nclass HYRequest {\n//请求方法\n  request(){}\n\tget(){}\n}\nexport default HYRequest\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-ow1v64j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ow1v64j"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建入口文件service/index.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-68lapp1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-68lapp1"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建类的实例"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-5bl5g4i",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-5bl5g4i"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import HYRequest from './request'\nconst hyRequest = new HYRequest()\nexport default hyRequest\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-m8cbbxm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-m8cbbxm"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他文件使用"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-argsa7u",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-argsa7u"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import hyRequest from './service'\nhyRequest.request({})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		}
+	]
+}

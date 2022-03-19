@@ -1,0 +1,461 @@
+{
+	"ID": "20220318161730-78qwjlr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-78qwjlr",
+		"title": "06 路由跳转到首页",
+		"type": "doc",
+		"updated": "20220319222943"
+	},
+	"Children": [
+		{
+			"ID": "20220319210259-ccjgyrn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220319210259-ccjgyrn",
+				"updated": "20220319210315"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "router文档目录"
+				}
+			]
+		},
+		{
+			"ID": "20220319210315-uyfkryo",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220319210315-uyfkryo",
+				"updated": "20220319222943"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220319210317-cga6ny0",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"custom-f": "bg",
+						"id": "20220319210317-cga6ny0",
+						"updated": "20220319222943"
+					},
+					"Children": [
+						{
+							"ID": "20220319210325-4yjsmht",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220319210325-4yjsmht",
+								"updated": "20220319222943"
+							},
+							"Children": [
+								{
+									"ID": "20220319210325-2sg8owz",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220319210325-2sg8owz",
+										"updated": "20220319210329"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "router"
+										}
+									]
+								},
+								{
+									"ID": "20220319210332-tzlhm7c",
+									"Type": "NodeList",
+									"ListData": {},
+									"Properties": {
+										"id": "20220319210332-tzlhm7c",
+										"updated": "20220319222943"
+									},
+									"Children": [
+										{
+											"ID": "20220319210330-32hxihv",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319210330-32hxihv",
+												"updated": "20220319222943"
+											},
+											"Children": [
+												{
+													"ID": "20220319210330-jily6jj",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319210330-jily6jj",
+														"updated": "20220319222943"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "index.ts()入口文件）(从登录  到 首页的路由导航)"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319210351-xjpd68f",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319210351-xjpd68f"
+											},
+											"Children": [
+												{
+													"ID": "20220319210351-bm6jgep",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319210351-bm6jgep",
+														"updated": "20220319210415"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "main(页面跳转)"
+														}
+													]
+												},
+												{
+													"ID": "20220319210418-smem64t",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220319210418-smem64t"
+													},
+													"Children": [
+														{
+															"ID": "20220319210418-ze9knqy",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319210418-ze9knqy"
+															},
+															"Children": [
+																{
+																	"ID": "20220319210418-piccbq0",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319210418-piccbq0",
+																		"updated": "20220319210455"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "analysis子页面"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319210456-4xotywv",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319210456-4xotywv"
+															},
+															"Children": [
+																{
+																	"ID": "20220319210456-a5mx62b",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319210456-a5mx62b",
+																		"updated": "20220319210504"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "product子页面"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319210504-m2dv929",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319210504-m2dv929"
+															},
+															"Children": [
+																{
+																	"ID": "20220319210504-ol9ozeu",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319210504-ol9ozeu",
+																		"updated": "20220319210511"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "story子页面"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319210511-rcdx2sz",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319210511-rcdx2sz"
+															},
+															"Children": [
+																{
+																	"ID": "20220319210511-5wxkdtw",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319210511-5wxkdtw",
+																		"updated": "20220319210525"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "system 子页面"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319210525-hfsoodq",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319210525-hfsoodq"
+															},
+															"Children": [
+																{
+																	"ID": "20220319210525-xb0w55y",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319210525-xb0w55y"
+																	}
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-lyk0uhl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-lyk0uhl"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login\\login"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-xxwnrgl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-xxwnrgl"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import router from '@/router'\n\nactions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n\t\t\t。。。\n      // 4.跳到首页\n      router.push('/main')\n    },\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-kj4b5e0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-kj4b5e0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改路由，重定向先到首页/main，"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "导航守卫"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，如果没有"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "token（从未登录过）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "就跳转到"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "login"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "页面"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-4jlbhsp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-4jlbhsp"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "router\\index"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-gurpsns",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-gurpsns"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const routes: RouteRecordRaw[] = [\n  {\n    path: '/',\n    redirect: '/main'\n  },\n\nrouter.beforeEach((to) =\u003e {\n  if (to.path !== '/login') {\n    const token = localCache.getCache('token')\n    if (!token) {\n      return '/login'\n    }\n  }\n})\n\nexport default router\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220319210842-9znrkeg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319210842-9znrkeg",
+				"updated": "20220319210842"
+			}
+		}
+	]
+}

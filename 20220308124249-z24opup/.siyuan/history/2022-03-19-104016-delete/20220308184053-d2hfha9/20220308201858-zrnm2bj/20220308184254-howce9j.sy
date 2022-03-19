@@ -1,0 +1,18 @@
+{
+	"ID": "20220308184254-howce9j",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308184254-howce9j",
+		"title": "2.二分查找",
+		"updated": "20220319104016"
+	},
+	"Children": [
+		{
+			"ID": "20220319104016-xjuxbli",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319104016-xjuxbli"
+			}
+		}
+	]
+}

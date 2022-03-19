@@ -1,0 +1,1417 @@
+{
+	"ID": "20220318161730-78qwjlr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-78qwjlr",
+		"title": "06 跳转到首页",
+		"type": "doc",
+		"updated": "20220319192524"
+	},
+	"Children": [
+		{
+			"ID": "20220318161730-lyk0uhl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-lyk0uhl"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login\\login"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-xxwnrgl",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-xxwnrgl"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import router from '@/router'\n\nactions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n\t\t\t。。。\n      // 4.跳到首页\n      router.push('/main')\n    },\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-kj4b5e0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-kj4b5e0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改路由，重定向先到首页/main，"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "导航守卫"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，如果没有"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "token（从未登录过）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "就跳转到"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "login"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "页面"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-4jlbhsp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-4jlbhsp"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "router\\index"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-gurpsns",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-gurpsns"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const routes: RouteRecordRaw[] = [\n  {\n    path: '/',\n    redirect: '/main'\n  },\n\nrouter.beforeEach((to) =\u003e {\n  if (to.path !== '/login') {\n    const token = localCache.getCache('token')\n    if (!token) {\n      return '/login'\n    }\n  }\n})\n\nexport default router\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-j5txj8g",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-j5txj8g"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:38 刷新 vuex数据会消失，"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-8e5ztsx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-8e5ztsx"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但是本地缓存不会消失，为了防止vuex state数据刷新后消失，每次刷新就"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "先把缓存里的数据给 state 里赋值"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-jw6xp40",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-jw6xp40"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\index"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-vjzj3ys",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-vjzj3ys"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export function setupStore() {\n  store.dispatch('**login/loadLocalLogin**')\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-uaky4xo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-uaky4xo"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login\\login 定义"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ebr0t3y",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-ebr0t3y"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "actions:{\n\t**loadLocalLogin**({ commit }) {\n      **const token = localCache.getCache('token')**\n      if (token) {\n        **commit('changeToken', token)**\n      }\n      const userInfo = localCache.getCache('userInfo')\n      if (userInfo) {\n        commit('changeUserInfo', userInfo)\n      }\n      const userMenus = localCache.getCache('userMenus')\n      if (userMenus) {\n        commit('changeUserMenus', userMenus)\n      }\n    }\n}\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-vvmlrr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-vvmlrr0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ier8g0z",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-ier8g0z"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { setupStore } from './store'\n**setupStore()**\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ov1e2ca",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-ov1e2ca"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于每一次刷新，都会重新加载页面，在main.ts里调用，vuex的数据会重新从本地缓存里拿到数据"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-u82jsp9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-u82jsp9"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:43 -"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-rkmpns7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-rkmpns7"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:50"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-6hd1z5f",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-6hd1z5f"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "完整代码"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-xejm4in",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-xejm4in"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-5a64p22",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-5a64p22"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-j5jw0xz",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-j5jw0xz"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "login-panel.vue"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-7xplxl4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-7xplxl4"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003ctemplate\u003e\n  \u003cdiv class=\"login-panel\"\u003e\n    \u003cel-tabs type=\"border-card\" stretch v-model=\"currentTab\"\u003e\n      \u003cel-tab-pane name=\"account\"\u003e\n        \u003ctemplate #label\u003e\n          \u003cspan\u003e\u003ci class=\"el-icon-date\"\u003e\u003c/i\u003e 账号登录\u003c/span\u003e\n        \u003c/template\u003e\n        \u003clogin-account ref=\"accountRef\" /\u003e\n      \u003c/el-tab-pane\u003e\n\n      \u003cel-tab-pane name=\"phone\"\u003e\n        \u003ctemplate #label\u003e\n          \u003cspan\u003e\u003ci class=\"el-icon-date\"\u003e\u003c/i\u003e 手机登录\u003c/span\u003e\n        \u003c/template\u003e\n        \u003clogin-phone ref=\"phoneRef\"\u003e\u003c/login-phone\u003e\n      \u003c/el-tab-pane\u003e\n    \u003c/el-tabs\u003e\n\n    \u003cdiv class=\"account-tab\"\u003e\n      \u003cel-checkbox v-model=\"isKeepPassword\"\u003e记住密码\u003c/el-checkbox\u003e\n      \u003cel-link type=\"primary\"\u003e忘记密码\u003c/el-link\u003e\n    \u003c/div\u003e\n\n    \u003cel-button class=\"login-btn\" type=\"primary\" @click=\"handleLogin\"\n      \u003e立即登录\u003c/el-button\n    \u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\n\u003cscript lang=\"ts\"\u003e\nimport { defineComponent, ref } from 'vue'\nimport LoginAccount from './login-account.vue'\nimport LoginPhone from './login-phone.vue'\n\nexport default defineComponent({\n  components: { LoginPhone, LoginAccount },\n  setup() {\n    const isKeepPassword = ref(true)\n    const accountRef = ref\u003cInstanceType\u003ctypeof LoginAccount\u003e\u003e()\n    const phoneRef = ref\u003cInstanceType\u003ctypeof LoginPhone\u003e\u003e()\n\n    const currentTab = ref\u003cstring\u003e('account')\n    const handleLogin = () =\u003e {\n      console.log('立即登录按钮')\n      if (currentTab.value === 'account') {\n        accountRef.value?.loginAction(isKeepPassword.value)\n      } else {\n        console.log('拿到phoneref，调用phoneLogin里的loginAction')\n        phoneRef.value?.loginAction(isKeepPassword.value)\n      }\n    }\n    return {\n      isKeepPassword,\n      handleLogin,\n      accountRef,\n      phoneRef,\n      currentTab\n    }\n  }\n})\n\u003c/script\u003e\n\u003cstyle lang=\"less\" scoped\u003e\n.login-panel {\n  width: 320px;\n}\n.title {\n  text-align: center;\n}\n.account-tab {\n  display: flex;\n  justify-content: space-between;\n  margin-top: 10px;\n}\n.login-btn {\n  width: 100%;\n  margin-top: 10px;\n}\n\u003c/style\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-qiw8nid",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-qiw8nid"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-n6ny3no",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-n6ny3no"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "login-account.vue"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-mhehxek",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-mhehxek"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003ctemplate\u003e\n  \u003cdiv class=\"account\"\u003e\n    \u003cel-form :rules=\"rules\" :model=\"account\" label-width=\"60px\" ref=\"formRef\"\u003e\n      \u003cel-form-item label=\"账号:\" prop=\"name\"\u003e\n        \u003cel-input v-model=\"account.name\"\u003e\u003c/el-input\u003e\n      \u003c/el-form-item\u003e\n      \u003cel-form-item label=\"密码:\" prop=\"password\"\u003e\n        \u003cel-input v-model=\"account.password\"\u003e\u003c/el-input\u003e\n      \u003c/el-form-item\u003e\n    \u003c/el-form\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\n\u003cscript lang=\"ts\"\u003e\nimport { ElForm } from 'element-plus'\nimport { defineComponent, reactive, ref } from 'vue'\nimport { rules } from '../config/account-config'\nimport localCache from '../../../utils/cache'\nimport { useStore } from 'vuex'\nexport default defineComponent({\n  setup() {\n    const account = reactive({\n      name: localCache.getCache('name') ?? '',\n      password: localCache.getCache('password') ?? ''\n    })\n    const formRef = ref\u003cInstanceType\u003ctypeof ElForm\u003e\u003e()\n    const store = useStore()\n    const loginAction = (isKeepPassword: boolean) =\u003e {\n      formRef.value?.validate((valid) =\u003e {\n        console.log('表单的验证是否通过？', valid)\n        if (valid) {\n          if (isKeepPassword) {\n            console.log('执行保存账号密码操作')\n            localCache.setCache('name', account.name)\n            localCache.setCache('password', account.password)\n          } else {\n            localCache.deleteCache('name')\n            localCache.deleteCache('password')\n          }\n          console.log('跳转到下一个页面')\n          store.dispatch('login/accountLoginAction', { ...account })\n        }\n      })\n    }\n    return {\n      account,\n      rules,\n      loginAction,\n      formRef\n    }\n  }\n})\n\u003c/script\u003e\n\n\u003cstyle lang=\"less\" scoped\u003e\n.account {\n}\n\u003c/style\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-nlvzbah",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-nlvzbah"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-xv7mf8z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-xv7mf8z"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "utils/cache"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-eimnylr",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-eimnylr"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "class LocalCache {\n  setCache(key: string, value: any) {\n    window.localStorage.setItem(key, JSON.stringify(value))\n  }\n  getCache(key: string) {\n    // obj =\u003e string =\u003e obj\n    const value = window.localStorage.getItem(key)\n    if (value) {\n      return JSON.parse(value)\n    }\n  }\n\n  deleteCache(key: string) {\n    window.localStorage.removeItem(key)\n  }\n\n  clearCache() {\n    window.localStorage.clear()\n  }\n}\n\nexport default new LocalCache()\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-z7j6dby",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-z7j6dby"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-46begjs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-46begjs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/index"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-5fy7zne",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-5fy7zne"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { createStore } from 'vuex'\nimport login from './login/login'\nimport { IRootState } from './type'\n\nconst store = createStore\u003cIRootState\u003e({\n  modules: {login},\n  state: () =\u003e {\n    return {\n      name: 'coderwhy',\n      age: 18\n    }\n  },\n  mutations: {},\n  actions: {}\n})\nexport function setupStore() {\n  store.dispatch('login/loadLocalLogin')\n  console.log('setupStore调用了')\n}\nexport default store\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-c7p5jek",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-c7p5jek"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-sjs9jxi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-sjs9jxi"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/type(IRootState )"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-ypywgc8",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-ypywgc8"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export interface IRootState {\n  name: string\n  age: number\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-7kliqdu",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-7kliqdu"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-dd0hw8n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-dd0hw8n"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/login/type(IloginState )"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-bmkmj8m",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-bmkmj8m"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export interface IloginState {\n  token: string\n  userInfo: any\n  userMenus: any\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-vrdtjol",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-vrdtjol"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-oax9m1b",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-oax9m1b"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/login/login"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-qddsq5h",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-qddsq5h"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { Module } from 'vuex'\nimport { IloginState } from './type'\nimport { IRootState } from '../type'\nimport {\n  accountLoginRequest,\n  requestUserInfoById,\n  requestUserMenuById\n} from '@/service/login/login'\nimport { IAccount } from '@/service/login/type'\nimport localCache from '@/utils/cache'\nimport router from '@/router'\n\nconst loginModule: Module\u003cIloginState, IRootState\u003e = {\n  namespaced: true,\n  state() {\n    return {\n      token: '',\n      userInfo: '',\n      userMenus: ''\n    }\n  },\n  getters: {},\n  mutations: {\n    changeToken(state, token: string) {\n      state.token = token\n    },\n    changeUserInfo(state, userInfo) {\n      state.userInfo = userInfo\n    },\n    changeUserMenu(state, userMenu) {\n      state.userMenus = userMenu\n    }\n  },\n  actions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n      console.log('执行accountLoginAction')\n      console.log('拿到payload数据', payload)\n      const loginResult = await accountLoginRequest(payload)\n      console.log('根据账号密码请求来的数据', loginResult)\n      const { id, token } = loginResult.data\n      localCache.setCache('token', token)\n      commit('changeToken', token)\n\n      const userInfoResult = await requestUserInfoById(id)\n      const userInfo = userInfoResult.data\n      console.log('根据id拿到的userInfo数据', userInfoResult)\n      localCache.setCache('userInfo', userInfo)\n      commit('changeUserInfo', userInfo)\n\n      const userMenuResult = await requestUserMenuById(id)\n      const userMenu = userMenuResult.data\n      console.log('根据id拿到的userMenu数据', userMenuResult)\n      localCache.setCache('userMenus', userMenu)\n\n      commit('changeUserMenu', userMenu)\n\n      // 4.跳到首页\n      router.push('/main')\n    },\n\n    loadLocalLogin({ commit }) {\n      const token = localCache.getCache('token')\n      if (token) {\n        commit('changeToken', token)\n      }\n      const userInfo = localCache.getCache('userInfo')\n      if (userInfo) {\n        commit('changeUserInfo', userInfo)\n      }\n      const userMenu = localCache.getCache('userMenus')\n      if (userMenu) {\n        commit('changeUserMenu', userMenu)\n      }\n    }\n  }\n}\n\nexport default loginModule\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-n4g8q3k",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161730-n4g8q3k"
+			}
+		},
+		{
+			"ID": "20220318161730-7tb4sjr",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-7tb4sjr"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-gv7khvp",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-gv7khvp"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-il1ckki",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-il1ckki"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service/login"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-390pqkk",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-390pqkk"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { IAccount, IDataType, ILoginResult } from './type'\nimport hyRequest from '..'\n\nenum LoginAPI {\n  AccountLogin = './login',\n  LoginUserInfo = './users/',\n  LoginMenu = '/role/'\n}\n\nexport function accountLoginRequest(account: IAccount) {\n  return hyRequest.post\u003cIDataType\u003cILoginResult\u003e\u003e({\n    url: LoginAPI.AccountLogin,\n    data: account\n  })\n}\n\nexport function requestUserInfoById(id: number) {\n  return hyRequest.get\u003cIDataType\u003e({\n    url: LoginAPI.LoginUserInfo + id,\n    showLoading: false\n  })\n}\n\nexport function requestUserMenuById(id: number) {\n  return hyRequest.get\u003cIDataType\u003e({\n    url: LoginAPI.LoginMenu + id + '/menu',\n    showLoading: false\n  })\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-r2mispk",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-r2mispk"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-60tzzjo",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-60tzzjo"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service/login/type"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-vkk879v",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-vkk879v"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "export interface IAccount {\n  name: string\n  password: string\n}\nexport interface ILoginResult {\n  id: number\n  name: string\n  token: string\n}\n\nexport interface IDataType\u003cT = any\u003e {\n  code: numbe\n  data: T\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-70nhluv",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-70nhluv"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-kyeiedq",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-kyeiedq"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service/index (修改：携带token)"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-pzpmdaj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-pzpmdaj"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import HYRequest from './request'\nimport { BASE_URL, TIME_OUT } from './request/config'\nimport localCache from '@/utils/cache'\nconst hyRequest = new HYRequest({\n  baseURL: BASE_URL,\n  timeout: TIME_OUT,\n  interceptors: {\n    requestInterceptors: (config) =\u003e {\n      const token = localCache.getCache('token')\n      if (token) {\n        // console.log('拦截器里的token', token)\n        config.headers.Authorization = `Bearer ${token}`\n      }\n      return config\n    },\n    requestInterceptorsCatch: (err) =\u003e {\n      return err\n    },\n    responseInterceptors: (config) =\u003e {\n      return config\n    }\n    // responseInterceptorsCatch: (err) =\u003e {\n    //   return err\n    // }\n  }\n})\n\nexport default hyRequest\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-o474p2l",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161730-o474p2l"
+			}
+		},
+		{
+			"ID": "20220318161730-o8m5mst",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-o8m5mst"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-nzpxe14",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-nzpxe14"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-6djf3te",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-6djf3te"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "router/index"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-cjvnkfj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-cjvnkfj"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'\nimport localCache from '@/utils/cache'\nconst routes: Array\u003cRouteRecordRaw\u003e = [\n  {\n    path: '/',\n    redirect: '/main'\n  },\n  {\n    path: '/login',\n    name: 'login',\n    component: () =\u003e import('../views/login/login.vue')\n  },\n  {\n    path: '/main',\n    name: 'main',\n    component: () =\u003e import('../views/main/main.vue')\n  }\n]\n\nconst router = createRouter({\n  history: createWebHashHistory(),\n  routes\n})\n\nrouter.beforeEach((to) =\u003e {\n  if (to.path !== '/login') {\n    const token = localCache.getCache('token')\n    if (!token) {\n      return '/login'\n    }\n  }\n})\nexport default router\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-aio8pd0",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161730-aio8pd0"
+			}
+		},
+		{
+			"ID": "20220318161730-2lpiy3p",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-2lpiy3p"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-b4w18me",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-b4w18me"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-y02xfe4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-y02xfe4"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "request/config （修改：跨域请求问题）"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-arp0vn9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-arp0vn9"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "let BASE_URL = ''\nconst TIME_OUT = 10000\n\nif (process.env.NODE_ENV === 'development') {\n  BASE_URL = '/api'\n} else if (process.env.NODE_ENV === 'production') {\n  BASE_URL = 'http://coderwhy.org/prod'\n} else {\n  BASE_URL = 'http://coderwhy.org/test'\n}\n\nexport { BASE_URL, TIME_OUT }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-qselp7l",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-qselp7l"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-9u9qhxx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-9u9qhxx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "vueconfig（修改：跨域请求问题）"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-k9ppuzu",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-k9ppuzu"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const path = require('path')\n\nmodule.exports = {\n  // cli 提供的一些属性，可能与webpack名称不一样\n  outputDir: './build',\n  devServer: {\n    proxy: {\n      '^/api': {\n        target: 'http://152.136.185.210:5000',\n        pathRewrite: {\n          '^/api': ''\n        },\n        changeOrigin: true\n      }\n    }\n  }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-y25v25g",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-y25v25g"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-lm9g3sc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-lm9g3sc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "main(修改：防止刷新vuex数据消失)"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-faz3ps4",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-faz3ps4"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { setupStore } from './store'\nconst app = createApp(App)\nsetupStore()\napp.mount('#app')\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-n1menp7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-n1menp7"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前登录界面完成，"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-9c6hdlu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-9c6hdlu"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "此时拿到token id userInfo userMenu 数据进入登录之后的菜单页面进行展示"
+				}
+			]
+		}
+	]
+}

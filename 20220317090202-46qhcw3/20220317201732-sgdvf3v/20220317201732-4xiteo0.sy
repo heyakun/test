@@ -1,0 +1,342 @@
+{
+	"ID": "20220317201732-4xiteo0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317201732-4xiteo0",
+		"title": "03拦截器（继续完善类-实例config）",
+		"type": "doc",
+		"updated": "20220319163818"
+	},
+	"Children": [
+		{
+			"ID": "20220317201732-jb7zv8o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-jb7zv8o"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拦截器里"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-uovbi3s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-uovbi3s"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "扩展 AxiosRequestConfig （原生vue的类型）的内容，在其基础上扩展了四个接口类型"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-29ffslw",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-29ffslw"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "// 自定义拦截器的类型\n// 四个接口类型 ： 函数类型\ninterface HYRequestInterceptors {\n  requestInterceptors: (config: AxiosRequestConfig) =\u003e AxiosRequestConfig\n  requestInterceptorsCatch: (error: any) =\u003e any\n  responseInterceptors: (config: AxiosResponse) =\u003e AxiosResponse\n  responseInterceptorsCatch: (error: any) =\u003e any\n}\n// 让 HYRequestConfig  继承自 AxiosRequestConfig ，\n// 补充一个类型，在constructor \ninterface HYRequestConfig extends AxiosRequestConfig {\n  interceptors: HYRequestInterceptors\n}\n//修改config: HYRequestConfig 替换AxiosRequestConfig\nclass HYRequest {\n  instance: AxiosInstance\n  constructor(config: HYRequestConfig) {\n    this.instance = axios.create(config)\n  }\n  request(config: AxiosRequestConfig): void {\n    this.instance.request(config).then((res) =\u003e {\n      console.log('刚刚封装好的request方法', res)\n    })\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-s48ac1l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-s48ac1l"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "入口文件"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-i4fj4w3",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-i4fj4w3"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const hyRequest = new HYRequest({\n  baseURL: BASE_URL,\n  timeout: TIME_OUT,\n  interceptors: {\n    requestInterceptors: (config) =\u003e {\n      return config\n    },\n    requestInterceptorsCatch: (err) =\u003e {\n      return err\n    },\n    responseInterceptors: (config) =\u003e {\n      return config\n    },\n    responseInterceptorsCatch: (err) =\u003e {\n      return err\n    }\n  }\n})\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-0v7xhgt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-0v7xhgt"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "main.ts做请求"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-rj6ry6l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-rj6ry6l"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "hyRequest.request({\n  url: 'home/multidata',\n  method: 'GET'\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-xb7jw9c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-xb7jw9c"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "声明class"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-pxa1lpy",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-pxa1lpy"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "class HYRequest {\n  instance: AxiosInstance\n\t  interceptors: HYRequestInterceptors\n\n  constructor(config: HYRequestConfig) {\n    this.instance = axios.create(config)\n    this.interceptors = config.interceptors\n    // 拦截器\n    this.instance.interceptors.request.use(\n      this.interceptors.requestInterceptors,\n      this.interceptors.requestInterceptorsCatch\n    )\n\n    this.instance.interceptors.response.use(\n      this.interceptors.responseInterceptors,\n      this.interceptors.requestInterceptorsCatch\n    )\n  }\n  request(config: AxiosRequestConfig): void {\n    this.instance.request(config).then((res) =\u003e {\n      console.log('刚刚封装好的request方法', res)\n    })\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-s9cisfx",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220317201732-s9cisfx"
+			}
+		},
+		{
+			"ID": "20220317201732-l73f3fb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-l73f3fb"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "拦截器类型应该是可选"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-ojqf9tk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ojqf9tk"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "四个拦截函数修改成可选"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-lmoa66h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-lmoa66h"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对应的可选链也修改成可选的"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-c31tywb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-c31tywb"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "将接口内容"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-x5x7s5t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-x5x7s5t"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "抽离出一个文件"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "./type"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-n56vykf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-n56vykf"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { AxiosRequestConfig, AxiosResponse } from 'axios'\nexport interface HYRequestInterceptors {\n  requestInterceptors?: (config: AxiosRequestConfig) =\u003e AxiosRequestConfig\n  requestInterceptorsCatch?: (error: any) =\u003e any\n  responseInterceptors?: (config: AxiosResponse) =\u003e AxiosResponse\n  responseInterceptorsCatch?: (error: any) =\u003e any\n}\n\nexport interface HYRequestConfig extends AxiosRequestConfig {\n  interceptors?: HYRequestInterceptors\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		}
+	]
+}

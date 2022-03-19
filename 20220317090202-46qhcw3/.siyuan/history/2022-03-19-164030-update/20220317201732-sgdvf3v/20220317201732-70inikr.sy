@@ -1,0 +1,488 @@
+{
+	"ID": "20220317201732-70inikr",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317201732-70inikr",
+		"title": "05 token拦截和两种错误拦截",
+		"type": "doc",
+		"updated": "20220319163920"
+	},
+	"Children": [
+		{
+			"ID": "20220317201732-duanl3o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-duanl3o"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "请求携带token，(写在请求拦截处，可以写在全局的请求拦截处)"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-2255d4y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-2255d4y"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "放进"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "headers.Authorization"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-jdcdp3b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-jdcdp3b"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "**config.headers.Authorization = "
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "Bearer ${token}"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-4ufbsta",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220317201732-4ufbsta"
+			},
+			"Children": [
+				{
+					"ID": "20220317201732-1fzoxci",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220317201732-1fzoxci"
+					},
+					"Children": [
+						{
+							"ID": "20220317201732-puqfuhu",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317201732-puqfuhu"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service/index"
+								}
+							]
+						},
+						{
+							"ID": "20220317201732-jco9rt2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220317201732-jco9rt2"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const hyRequest = new HYRequest({\n  baseURL: BASE_URL,\n  timeout: TIME_OUT,\n  interceptors: {\n    requestInterceptors: (config) =\u003e {\n\t\t\t**const token = ''\n      if (token) {\n        config.headers.Authorization = `Bearer ${token}`\n      }**\n      console.log('随便什么的拦截器')\n      return config\n    },\n    requestInterceptorsCatch: (err) =\u003e {\n      return err\n    },\n    responseInterceptors: (config) =\u003e {\n      return config\n    }\n    // responseInterceptorsCatch: (err) =\u003e {\n    //   return err\n    // }\n  }\n})\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-gc1isv8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-gc1isv8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "axios 返回的res 是做了一层封装，服务器返回的数据在 "
+				},
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "res.data"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://res.data"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "  res 的全部部分为绿框，真正数据为红色框"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-26xi5dd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-26xi5dd"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们要用的数据data —— \u003e 服务器封装{ sucess  : returncode:    data:  } ——- \u003e axios封装{ config ：   data: { sucess  :  code:    data:  } }"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-k1y8zrq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-k1y8zrq"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "服务器封装了一些请求成功失败的相关信息"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-sj6dsj7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-sj6dsj7"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!"
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Untitled"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled-20220317201732-9myyl9q.png"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-hzwcur0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-hzwcur0"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "请求失败-拦截"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-vm2i6rg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-vm2i6rg"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "失败的两种情况"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-i13k44s",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-i13k44s"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "响应拦截"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-6y4isip",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-6y4isip"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两种情况的错误分别存在"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-jspx59v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-jspx59v"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "err.response.status"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-ju9xm2t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ju9xm2t"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "data.returnCode"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-fs22ral",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220317201732-fs22ral"
+			},
+			"Children": [
+				{
+					"ID": "20220317201732-v1zxawp",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220317201732-v1zxawp"
+					},
+					"Children": [
+						{
+							"ID": "20220317201732-f3dqeqk",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317201732-f3dqeqk"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "request/index"
+								}
+							]
+						},
+						{
+							"ID": "20220317201732-xjcr29u",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220317201732-xjcr29u"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "//全局拦截器\nthis.instance.interceptors.response.use(\n      (res) =\u003e {\n        console.log('所有的实例都有的拦截器: 响应成功拦截')\n        **const data = res.data\n        if (data.returnCode === '-1001') {\n          console.log('请求失败~, 错误信息')\n        } else {\n          return data\n        }**\n      },\n      (err) =\u003e {\n        console.log('所有的实例都有的拦截器: 响应失败拦截')\n        **if (err.response.status === 404) {\n          console.log('404的错误~')\n        }**\n        return err\n      }\n    )\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

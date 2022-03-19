@@ -1,0 +1,286 @@
+{
+	"ID": "20220318161730-wy0p30e",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-wy0p30e",
+		"title": "day35 点击登录 到 首页跳转",
+		"type": "doc",
+		"updated": "20220319192600"
+	},
+	"Children": [
+		{
+			"ID": "20220318161730-4ilag1p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-4ilag1p",
+				"updated": "20220319192115"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "day35 账号密码保存和发送请求"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-fnzjj6l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-fnzjj6l"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0:09 - 0:31  上届回顾"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-cmf9max",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220318161730-cmf9max"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "ref"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "\u003cInstanceType\u003ctypeof LoginAccount\u003e\u003e"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "()"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "语法介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-bfndujg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-bfndujg"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "泛型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-zo8no8l",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-zo8no8l"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "每个组件 导出的对象 并不直接是一个对象而是一个组件的"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "“描述”"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，可以看成一个类，而在其他组件里使用的时候，\u003cdemo /\u003e 根据组件描述 ，创建了一个"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "组件实例"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-kazu5xs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-kazu5xs"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "ref"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " \u003cLoginAccount\u003e 不可行， LoginAccount 只是普通的组件"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-xi2ihb3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-xi2ihb3"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "ref"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 拿到的应该是拥有构造函数的实例类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-sr1q0yw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-sr1q0yw"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "typeof LoginAccount 先拿到描述对象的实例类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-hxnd5ng",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-hxnd5ng"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:25 InstanceType 函数，能够得到typeof LoginAccount 拥有构造函数的实例 类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-8frhyf0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-8frhyf0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ts文档：typescriptlang.org"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-14wl2nw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-14wl2nw"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:28-1:43 项目接口文档 postman使用"
+				}
+			]
+		}
+	]
+}

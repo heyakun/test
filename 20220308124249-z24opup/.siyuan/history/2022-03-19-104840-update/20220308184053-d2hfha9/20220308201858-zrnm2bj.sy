@@ -1,34 +1,20 @@
 {
-	"ID": "20220308184146-dbij6bo",
+	"ID": "20220308201858-zrnm2bj",
 	"Type": "NodeDocument",
 	"Properties": {
-		"id": "20220308184146-dbij6bo",
-		"title": "数组",
-		"updated": "20220308184326"
+		"id": "20220308201858-zrnm2bj",
+		"title": "新文档",
+		"updated": "20220319104016"
 	},
 	"Children": [
-		{
-			"ID": "20220308184146-1to5s49",
-			"Type": "NodeHeading",
-			"HeadingLevel": 1,
-			"Properties": {
-				"id": "20220308184146-1to5s49",
-				"updated": "20220308184253"
-			},
-			"Children": [
-				{
-					"Type": "NodeText",
-					"Data": "1.数组基础"
-				}
-			]
-		},
 		{
 			"ID": "20220308184254-howce9j",
 			"Type": "NodeHeading",
 			"HeadingLevel": 1,
 			"Properties": {
 				"id": "20220308184254-howce9j",
-				"updated": "20220308184313"
+				"title": "2.二分查找",
+				"updated": "20220319104016"
 			},
 			"Children": [
 				{

@@ -1,0 +1,688 @@
+{
+	"ID": "20220318161730-qpilhu1",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-qpilhu1",
+		"title": "05 发送其他请求",
+		"type": "doc",
+		"updated": "20220319192508"
+	},
+	"Children": [
+		{
+			"ID": "20220318161730-wfllfvo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-wfllfvo"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "const { id, name, token } = loginResult.data"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-t4e75kw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-t4e75kw"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "base路径"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "/ login"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "里请求  目前点击能拿到三个数据"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ebyk21c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-ebyk21c"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "base路径/users /"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "id"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "里请求更多用户数据"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-c0xfuc8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-c0xfuc8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service\\login\\login"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ulybj9p",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-ulybj9p"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "enum LoginAPI {\n  AccountLogin = '/login',\n  **LoginUserInfo = '/users/'**, // 用法: /users/1\n}\n\nexport function requestUserInfoById(id: number) {\n  return hyRequest.get\u003cIDataType\u003e({\n    url: **LoginAPI.LoginUserInfo + id**,\n    showLoading: false\n  })\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-9m8fn3r",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003caside\u003e\n💡 1 请求用户数据的方法用的是get 方法 ，\n2 由于请求的数据结构太过复杂，可以采用json to ts 方法\n3 这里为了简便操作，使用了**\u003cIDataType\u003e**  any类型",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220318161730-9m8fn3r"
+			}
+		},
+		{
+			"ID": "20220318161730-g7r18cn",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/aside\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220318161730-g7r18cn"
+			}
+		},
+		{
+			"ID": "20220318161730-3himnvv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-3himnvv"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:12 json to ts 代码转模型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-pvg3331",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-pvg3331"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "百度搜索即可"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-1fq6zr0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-1fq6zr0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:17"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-nyap994",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-nyap994"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "mutations: {\n    changeUserInfo(state, userInfo: any) {\n      state.userInfo = userInfo\n    }\n  },\nactions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n\t\t\t//第一个请求：根据账号密码拿到 id name token\n\t\t\t//第二个请求：根据\n      const userInfoResult = await requestUserInfoById(**id**)\n      const userInfo = userInfoResult.data\n      commit('changeUserInfo', userInfo)\n\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-6kigs0m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-6kigs0m"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "GET [http://localhost:8080/api/users/1](http://localhost:8080/api/users/1) 401 (Unauthorized)"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-rxuka86",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220318161730-rxuka86"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "请求错误401 没有权限"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-tuksqfs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-tuksqfs"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "原因：请求用户数据需要携带token ，以及登录后的每个操作都需要携带token"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-v3xdyot",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-v3xdyot"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两种方法： 1 登录后即可拿到 token保存到vuex里， 每个操作都使用，"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2 保存到本地缓存"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-4mrhi8g",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-4mrhi8g"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import localCache from '@/utils/cache'\n...\nactions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n      // 1.实现登录逻辑\n      const loginResult = await accountLoginRequest(payload)\n      const { id, token } = loginResult.data\n      commit('changeToken', token)\n      localCache.setCache('token', token)\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-jar4l6n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-jar4l6n"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "request\\index"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-8ryi4bm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-8ryi4bm"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "请求拦截器"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "，拿到缓存token，在"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "设置权限"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-5cvl6sh",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-5cvl6sh"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "requestInterceptor: (config) =\u003e {\n      // 携带token的拦截\n      **const token = localCache.getCache('token')**\n      if (token) {\n        **config.headers.Authorization = `Bearer ${token}`**\n      }\n      return config\n    },\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-j98ldy1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-j98ldy1"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"CodeMarkerLen": 1,
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker",
+									"Data": "`"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "Bearer ${token}"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker",
+									"Data": "`"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 是固定格式"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-eang1y2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-eang1y2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了token需要缓存，userInfo也需要缓存"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-96tax96",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-96tax96"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "actions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n\n      const userInfoResult = await requestUserInfoById(**id**)\n      const userInfo = userInfoResult.data\n      commit('changeUserInfo', userInfo)\n      **localCache.setCache('userInfo', userInfo)**\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-y6h5u7d",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-y6h5u7d"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:24 请求用户菜单"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-o087xtz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-o087xtz"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "与请求 userinfo 同理"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-jrkrx6y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-jrkrx6y"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "service\\login  定义请求函数，并导出"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-2rvxit4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-2rvxit4"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export function requestUserMenusByRoleId(id: number) {\n  return hyRequest.**get**\u003cIDataType\u003e({\n    url: LoginAPI.UserMenus + id + '/menu',\n    showLoading: false\n  })\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-t1gpht6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-t1gpht6"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login\\login  请求函数调用，并且保存"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-amgrul4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-amgrul4"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { requestUserMenusByRoleId } from '@/service/login/login'\n\nmutations: {\n    changeUserMenus(state, userMenus: any) {\n      state.userMenus = userMenus\n    }\n  },\nactions: {\n    async accountLoginAction({ commit }, payload: IAccount) {\n\t\t\t// 1.实现登录逻辑\n\n\t\t\t// 2.请求用户信息\n\n      // 3.请求用户菜单\n      const userMenusResult = await requestUserMenusByRoleId(userInfo.role.id)\n      const userMenus = userMenusResult.data\n      commit('changeUserMenus', userMenus)\n      localCache.setCache('userMenus', userMenus)\n\n    },\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		}
+	]
+}

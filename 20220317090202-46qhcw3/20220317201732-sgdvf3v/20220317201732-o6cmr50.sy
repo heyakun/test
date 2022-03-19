@@ -1,0 +1,378 @@
+{
+	"ID": "20220317201732-o6cmr50",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220317201732-o6cmr50",
+		"title": "02axios类的封装（requestindex）",
+		"type": "doc",
+		"updated": "20220319163812"
+	},
+	"Children": [
+		{
+			"ID": "20220317201732-gbmrxh6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220317201732-gbmrxh6"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "封装类 通用工具"
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"CodeMarkerLen": 1,
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker",
+							"Data": "`"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "axios.create"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker",
+							"Data": "`"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 方法"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-9njajkf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-9njajkf"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "class HYRequest {\n  instance: AxiosInstance\n\n  constructor(config: HYRequestConfig) {\n\t// 创建axios实例\n    this.instance = axios.create(config)\n}\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-bcdykuu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-bcdykuu"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "两者是不同的axios的实例"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-qykkpq0",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220317201732-qykkpq0"
+			}
+		},
+		{
+			"ID": "20220317201732-ao6fd9q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ao6fd9q"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "instance: AxiosInstance"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-5yt3x9z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-5yt3x9z"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型是import type { AxiosInstance } from 'axios'"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-2vil7p8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-2vil7p8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "config ：AxiosRequestConfig"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-1hlpdcb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-1hlpdcb"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "类型需要导入"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-tjr5oca",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220317201732-tjr5oca"
+			}
+		},
+		{
+			"ID": "20220317201732-rliuf7d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-rliuf7d"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "简单网络请求封装"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-075etry",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-075etry"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import {AxiosInstance,AxiosRequestConfig} from 'axios'\nimport axios from 'axios'\n\nclass HYRequest {\n  instance: AxiosInstance\n  constructor(config: AxiosRequestConfig) {\n    this.instance = axios.create(config)\n  }\n  **request(config: AxiosRequestConfig) {\n    this.instance.request(config).then((res) =\u003e {\n      console.log(res)\n    })**\n  }\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-xzigd6f",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220317201732-xzigd6f"
+			},
+			"Children": [
+				{
+					"ID": "20220317201732-vyhm375",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220317201732-vyhm375"
+					},
+					"Children": [
+						{
+							"ID": "20220317201732-voq21f5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220317201732-voq21f5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "service/index (导出的hyRequest可在main中使用)"
+								}
+							]
+						},
+						{
+							"ID": "20220317201732-jvruch6",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "anN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220317201732-jvruch6"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import HYRequest from './request'\nimport type { BASE_URL, TIME_OUT } from './request/config'\n\nconst hyRequest = new HYRequest({\n  baseURL: BASE_URL,\n  timeout: TIME_OUT\n})\n\nexport default hyRequest\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-jwk6pep",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-jwk6pep",
+				"updated": "20220317201732"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用request 方法需要传入配置参数"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-ixppikm",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220317201732-ixppikm"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "mian.ts 里"
+				}
+			]
+		},
+		{
+			"ID": "20220317201732-e5wb08r",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220317201732-e5wb08r"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nhyRequest.request({\n\turl: '/home/multidata'\n\tmethod:'GET'\n})\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318133301-bdts2ti",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318133301-bdts2ti",
+				"updated": "20220318133317"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "测试用例 baseurl ="
+				},
+				{
+					"Type": "NodeCodeSpan",
+					"Data": "code",
+					"Children": [
+						{
+							"Type": "NodeCodeSpanOpenMarker"
+						},
+						{
+							"Type": "NodeCodeSpanContent",
+							"Data": "http://123.207.32.32:8000"
+						},
+						{
+							"Type": "NodeCodeSpanCloseMarker"
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,998 @@
+{
+	"ID": "20220318161706-pc41i0h",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161706-pc41i0h",
+		"title": "01 创建login页面之前知识",
+		"type": "doc",
+		"updated": "20220319164553"
+	},
+	"Children": [
+		{
+			"ID": "20220318161706-h44epbn",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161706-h44epbn",
+				"updated": "20220318161706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:10 - 0:27 上节回顾-类型问题？？"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-itjmz29",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-itjmz29"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "出现bug地方"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-ned0lc2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-ned0lc2"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "res = config.interceptors.responseInterceptor(res)"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-rz27r3c",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161706-rz27r3c"
+			}
+		},
+		{
+			"ID": "20220318161706-2zs8c1e",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-2zs8c1e"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "-—-"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-tv79tcg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-tv79tcg"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不能将类型“AxiosResponse\u003cany\u003e”分配给类型“T”。"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-fhidqyz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-fhidqyz"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一个"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "res 想要的是T类型"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-ij5wro4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-ij5wro4"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二个res想要的是AxiosResponse类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-n40jau0",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161706-n40jau0"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "request\u003cT\u003e(config: HYRequestConfig): Promise\u003cT\u003e {\n    return new Promise((resolve, reject) =\u003e {\n      if (config.interceptors?.requestInterceptor) {\n        config = config.interceptors.requestInterceptor(config)\n      }\n\n      // 2.判断是否需要显示loading\n      if (config.showLoading === false) {\n        this.showLoading = config.showLoading\n      }\n\n      this.instance\n        .request\u003cany, T\u003e(config)\n        .then((res) =\u003e {\n          if (config.interceptors?.responseInterceptor) {\n            // **res = config.interceptors.responseInterceptor(res)**\n          }\n          console.log('刚刚封装好的request方法', res)\n          this.showLoading = DEAFULT_LOADING\n          resolve(res)\n        })\n        .catch((err) =\u003e {\n          this.showLoading = DEAFULT_LOADING\n          reject(err)\n          return err\n        })\n    })\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-442fdru",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-442fdru"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "type文件"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-ytewhuc",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161706-ytewhuc"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { AxiosRequestConfig, AxiosResponse } from 'axios'\nexport interface HYRequestInterceptors {\n  requestInterceptor?: (config: AxiosRequestConfig) =\u003e AxiosRequestConfig\n  requestInterceptorCatch?: (error: any) =\u003e any\n  responseInterceptor?: (config: AxiosResponse) =\u003e AxiosResponse\n  responseInterceptorCatch?: (error: any) =\u003e any\n}\n\nexport interface HYRequestConfig extends AxiosRequestConfig {\n  interceptors?: HYRequestInterceptors\n  showLoading?: boolean\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-18f0mj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-18f0mj2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改\u003cT = AxiosResponse\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-ygm7w07",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161706-ygm7w07"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export interface HYRequestInterceptors\u003cT = AxiosResponse\u003e {\n  requestInterceptor?: (config: AxiosRequestConfig) =\u003e AxiosRequestConfig\n  requestInterceptorCatch?: (error: any) =\u003e any\n  responseInterceptor?: (config: T) =\u003e T\n  responseInterceptorCatch?: (error: any) =\u003e any\n}\n\nexport interface HYRequestConfig\u003cT = AxiosResponse\u003e extends AxiosRequestConfig {\n  interceptors?: HYRequestInterceptors\u003cT\u003e\n  showLoading?: boolean\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-vdimpab",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-vdimpab"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "修改request方法"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-ozsqe0k",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161706-ozsqe0k"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "request\u003cT\u003e(config: HYRequestConfig**\u003cT\u003e**): Promise\u003cT\u003e {\n    return new Promise((resolve, reject) =\u003e {\n\t\tthis.instance\n        .request\u003cany, T\u003e(config)\n        .then((res) =\u003e {\n          if (config.interceptors?.responseInterceptor) {\n            res = config.interceptors.responseInterceptor(res)\n          }\n          console.log('刚刚封装好的request方法', res)\n          this.showLoading = DEAFULT_LOADING\n          resolve(res)\n        })\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-vft38dn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-vft38dn"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在定义接口时采用了动态类型 传入T =  AxiosResponse ，使responseInterceptor （T）类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-arcncnl",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161706-arcncnl"
+			}
+		},
+		{
+			"ID": "20220318161706-577axsl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161706-577axsl",
+				"updated": "20220318161706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:28 - 0:59 tsconfig.json 文档"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-9vvzhrr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-9vvzhrr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": ".browserslistrc 浏览器适配相关"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-dw50b77",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-dw50b77"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!"
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Untitled"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled-20220318161706-2djykb3.png"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-afaphjy",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161706-afaphjy"
+			}
+		},
+		{
+			"ID": "20220318161706-u9camki",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-u9camki"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "tsconfig.js 文件"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-39kilqr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-39kilqr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ts转化成js 之前要先编译，编译成功后可以转成js"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-nsiqqy8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-nsiqqy8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ts配置文件—tsconfig.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-tlaj74p",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161706-tlaj74p"
+			},
+			"Children": [
+				{
+					"ID": "20220318161706-sg4qqq0",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161706-sg4qqq0"
+					},
+					"Children": [
+						{
+							"ID": "20220318161706-yqfpi6x",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-yqfpi6x"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "tsconfig.ts"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-lxtub5w",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "anN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161706-lxtub5w"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "{\n  \"compilerOptions\": {\n    \"target\": \"esnext\",\n    \"module\": \"esnext\",\n    \"strict\": true,\n    \"jsx\": \"preserve\",\n    \"importHelpers\": true,\n    \"moduleResolution\": \"node\",\n    \"skipLibCheck\": true,\n    \"esModuleInterop\": true,\n    \"allowSyntheticDefaultImports\": true,\n    \"sourceMap\": true,\n    \"baseUrl\": \".\",\n    \"types\": [\"webpack-env\"],\n    \"paths\": {\n      \"@/*\": [\"src/*\"]\n    },\n    \"lib\": [\"esnext\", \"dom\", \"dom.iterable\", \"scripthost\"]\n  },\n  \"include\": [\n    \"src/**/*.ts\",\n    \"src/**/*.tsx\",\n    \"src/**/*.vue\",\n    \"tests/**/*.ts\",\n    \"tests/**/*.tsx\"\n  ],\n  \"exclude\": [\"node_modules\"]\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161706-n29sik9",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161706-n29sik9"
+					},
+					"Children": [
+						{
+							"ID": "20220318161706-q8q7lmm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-q8q7lmm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "compilerOptions 编译选项"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-j388d85",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-j388d85"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "target 目标代码： esnext (es 6以后)"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-wzhlowa",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-wzhlowa"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "module  umd/esnext"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-3370rdl",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-3370rdl"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "strict 严格模式"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-ognaazc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-ognaazc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "jsx 对jsx如何处理 ：preserve保留（不需要转化，）"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-rp7jgzx",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-rp7jgzx"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "importHelpers ：true 引入辅助（）"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-juifqqj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-juifqqj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "moduleResolution 按node方式解析"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-251cw2e",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-251cw2e"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "skipLibCheck 跳过第三方库检查（不进行类型检测，多个第三库的类型可能有冲突，不影响使用）"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-q1be9at",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-q1be9at"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "esModuleInterop es Module 和commonJS module能不能混合使用"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-vaqon3z",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-vaqon3z"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "baseUrl ：. 当前文件"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-6nj20a2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-6nj20a2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "types：[\"webpack-env\"] 指定具体类型"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-szuql5c",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-szuql5c"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "paths ：编译路径解析 @/*   component/*"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-b1zxdqr",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-b1zxdqr"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "lib 指定项目中那些库的类型"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161706-8wh7on1",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161706-8wh7on1"
+					},
+					"Children": [
+						{
+							"ID": "20220318161706-jt8ysbh",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-jt8ysbh"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "include 当前ts 代码需要解析"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-4311jkj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-4311jkj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "\"src/"
+								},
+								{
+									"Type": "NodeStrong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "/*.ts\" 所有 src 下的所有ts文件都要解析"
+										},
+										{
+											"Type": "NodeSoftBreak",
+											"Data": "\n"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "\"src/"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": "/*.vue\", 所有vue 里的ts代码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161706-p13d9fg",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161706-p13d9fg"
+					},
+					"Children": [
+						{
+							"ID": "20220318161706-6bb5y4u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-6bb5y4u"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "exclude 排除不要解析"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-5mcdkr0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-5mcdkr0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "[\"node_modules\"]      在使用第三方库时 如axios在nod emodules通过import 里也会解析，所以要排除，但是导入的部分依然解析"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-rg8y2ny",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161706-rg8y2ny",
+				"updated": "20220318161706"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:01 -1:12 shims-vue文件"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-oavwbnt",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161706-oavwbnt",
+				"updated": "20220318163323"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:06- component组件文件后缀.vue 的格式"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-w9qvt43",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-w9qvt43"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "新增 defineComponent ()函数的意义，用来做ts类型的检测限制和推导 defineComponent 里定义了很多类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-v8o2wpf",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161706-v8o2wpf"
+			},
+			"Children": [
+				{
+					"ID": "20220318161706-wfx5big",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161706-wfx5big"
+					},
+					"Children": [
+						{
+							"ID": "20220318161706-6dasrv0",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161706-6dasrv0"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "shims-vue"
+								}
+							]
+						},
+						{
+							"ID": "20220318161706-h9l5jue",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "anN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161706-h9l5jue"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "anN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "declare module '*.vue' {\n  import type { DefineComponent } from 'vue'\n  const component: DefineComponent\u003c{}, {}, any\u003e\n  export default component\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-x2h5s7g",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161706-x2h5s7g"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!"
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Untitled"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled 1-20220318161706-6um3rid.png"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161706-f8zhwao",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161706-f8zhwao"
+			}
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+	"ID": "20220308184146-1to5s49",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308184146-1to5s49",
+		"title": "1.数组基础",
+		"type": "doc",
+		"updated": "20220319103915"
+	},
+	"Children": [
+		{
+			"ID": "20220319103915-mqp5xyp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319103915-mqp5xyp"
+			}
+		}
+	]
+}

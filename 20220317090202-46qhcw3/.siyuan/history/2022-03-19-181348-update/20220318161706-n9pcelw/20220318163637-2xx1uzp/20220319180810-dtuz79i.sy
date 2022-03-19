@@ -1,0 +1,334 @@
+{
+	"ID": "20220319180810-dtuz79i",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220319180810-dtuz79i",
+		"title": "vue3 \u0026lt;script setup\u0026gt; 获取组件实例",
+		"updated": "20220319181336"
+	},
+	"Children": [
+		{
+			"ID": "20220319180914-fhsedww",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319180914-fhsedww",
+				"updated": "20220319180944"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "vue3官方文档中的描述"
+				}
+			]
+		},
+		{
+			"ID": "20220319180946-38p1t2x",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220319180946-38p1t2x",
+				"updated": "20220319180907"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220319180907-odtaztu",
+					"Type": "NodeHeading",
+					"HeadingLevel": 2,
+					"Properties": {
+						"id": "20220319180907-odtaztu",
+						"updated": "20220319180907"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "defineExpose"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220319180907-so3ripx",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220319180907-so3ripx",
+						"updated": "20220319180907"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "使用 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "\u003cscript setup\u003e"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 的组件是"
+						},
+						{
+							"Type": "NodeStrong",
+							"Data": "strong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "默认关闭"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": "的，也即通过模板 ref 或者 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "$parent"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 链获取到的组件的公开实例，不会暴露任何在 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "\u003cscript setup\u003e"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 中声明的绑定。"
+						}
+					]
+				},
+				{
+					"ID": "20220319180907-2rqx7gb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220319180907-2rqx7gb",
+						"updated": "20220319180907"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "为了在 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "\u003cscript setup\u003e"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 组件中明确要暴露出去的属性，使用 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "defineExpose"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 编译器宏："
+						}
+					]
+				},
+				{
+					"ID": "20220319180907-pwmv4dh",
+					"Type": "NodeCodeBlock",
+					"IsFencedCodeBlock": true,
+					"Properties": {
+						"id": "20220319180907-pwmv4dh",
+						"updated": "20220319180907"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeBlockFenceOpenMarker",
+							"Data": "```"
+						},
+						{
+							"Type": "NodeCodeBlockFenceInfoMarker",
+							"CodeBlockInfo": "dnVl"
+						},
+						{
+							"Type": "NodeCodeBlockCode",
+							"Data": "\u003cscript setup\u003e\nimport { ref } from 'vue'\n\nconst a = 1\nconst b = ref(2)\n\ndefineExpose({\n  a,\n  b\n})\n\u003c/script\u003e\n"
+						},
+						{
+							"Type": "NodeCodeBlockFenceCloseMarker",
+							"Data": "```"
+						}
+					]
+				},
+				{
+					"ID": "20220319180907-urn8h9n",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220319180907-urn8h9n",
+						"updated": "20220319180907"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "当父组件通过模板 ref 的方式获取到当前组件的实例，获取到的实例会像这样 "
+						},
+						{
+							"Type": "NodeCodeSpan",
+							"Data": "code",
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "{ a: number, b: number }"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " (ref 会和在普通实例中一样被自动解包)"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220319180956-6b9cmnc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319180956-6b9cmnc",
+				"updated": "20220319180956"
+			}
+		},
+		{
+			"ID": "20220319181006-9hmiqc4",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319181006-9hmiqc4",
+				"updated": "20220319181016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "获取组件"
+				}
+			]
+		},
+		{
+			"ID": "20220319181019-s6fa1bi",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220319181019-s6fa1bi",
+				"updated": "20220319181336"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003chello-world ref=\"hello\" /\u003e\n\u003cbutton @click=\"btnClick\"/\u003e\n\u003cscript setup\u003e\nconst hello = ref()\n\nconst btnClick=()=\u003e{\n   console.log(hello.value.a)\n}\n\u003c/script\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220319181247-wlcvsru",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319181247-wlcvsru",
+				"updated": "20220319181247"
+			}
+		}
+	]
+}

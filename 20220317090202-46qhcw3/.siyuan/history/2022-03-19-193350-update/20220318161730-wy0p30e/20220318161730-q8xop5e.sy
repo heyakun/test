@@ -1,0 +1,229 @@
+{
+	"ID": "20220318161730-q8xop5e",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-q8xop5e",
+		"title": "03 区分 账号登陆和手机号登录",
+		"type": "doc",
+		"updated": "20220319192359"
+	},
+	"Children": [
+		{
+			"ID": "20220318161730-qkonzly",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-qkonzly"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "账号登录和手机登录共用一个点击事件，需要区分"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-joj74gt",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-joj74gt"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cel-tabs type=\"border-card\" stretch **v-model=\"currentTab\"**\u003e\n\u003cel-tab-pane name=\"account\"\u003e\n。。。。\n\u003cel-tab-pane name=\"phone\"\u003e\n。。。。\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-hf59sj7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-hf59sj7"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\tconst currentTab = ref\u003cstring\u003e('account')\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-n768duz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-n768duz"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击登录时的判断"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-9adtf4q",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-9adtf4q"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "const hanleLoginClick = () =\u003e {\n      // console.log('立即登录')\n      // console.log(accountRef)\n      if (**currentTab.value === 'account'**) {\n        accountRef.value?.loginAction(isKeepPassword.value)\n      } else {\n        console.log('拿到phoneRef，调用phoneLogin里的loginAction')\n      }\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ddhgxb2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-ddhgxb2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "拿到ref"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-whydwny",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-whydwny"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003clogin-phone ref=\"phoneRef\" /\u003e\n\nconst phoneRef = ref\u003cInstanceType\u003ctypeof LoginPhone\u003e\u003e()\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-67efc7h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-67efc7h"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "phoneLogin里的loginAction,派发事件- \u003evuex"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-cwb6g88",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-cwb6g88"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "actions: {\n    accountLoginAction({ commit }, payload: any) {\n      console.log('执行accountLoginAction', payload)\n    },\n    **phoneLoginAction({ commit }, payload: any) {\n      console.log('执行phoneLoginAction', payload)\n    }**\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		}
+	]
+}

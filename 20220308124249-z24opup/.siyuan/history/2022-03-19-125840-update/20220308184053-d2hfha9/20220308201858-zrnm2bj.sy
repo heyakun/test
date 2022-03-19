@@ -1,0 +1,49 @@
+{
+	"ID": "20220308201858-zrnm2bj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220308201858-zrnm2bj",
+		"title": "新文档",
+		"updated": "20220319125723"
+	},
+	"Children": [
+		{
+			"ID": "20220308184254-howce9j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220308184254-howce9j",
+				"title": "2.二分查找",
+				"updated": "20220319104016"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.二分查找"
+				}
+			]
+		},
+		{
+			"ID": "20220308184313-hwfx1w0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308184313-hwfx1w0",
+				"updated": "20220319125723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "asdf"
+				}
+			]
+		},
+		{
+			"ID": "20220308184250-b2u77ea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220308184250-b2u77ea",
+				"updated": "20220308184250"
+			}
+		}
+	]
+}

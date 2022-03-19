@@ -1,0 +1,883 @@
+{
+	"ID": "20220318161730-mt5aqlg",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-mt5aqlg",
+		"title": "02 登陆-点击登录vuex-login模块",
+		"type": "doc",
+		"updated": "20220319194335"
+	},
+	"Children": [
+		{
+			"ID": "20220319193239-rv6d4os",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220319193239-rv6d4os",
+				"updated": "20220319193249"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文件目录"
+				}
+			]
+		},
+		{
+			"ID": "20220319193256-xuve2ri",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220319193256-xuve2ri",
+				"updated": "20220319194335"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				},
+				{
+					"ID": "20220319193300-sh2g1k0",
+					"Type": "NodeList",
+					"ListData": {},
+					"Properties": {
+						"custom-f": "bg",
+						"id": "20220319193300-sh2g1k0",
+						"updated": "20220319194335"
+					},
+					"Children": [
+						{
+							"ID": "20220319193304-0xojoup",
+							"Type": "NodeListItem",
+							"ListData": {
+								"BulletChar": 42,
+								"Marker": "Kg=="
+							},
+							"Properties": {
+								"id": "20220319193304-0xojoup",
+								"updated": "20220319194335"
+							},
+							"Children": [
+								{
+									"ID": "20220319193304-wdgrzqi",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220319193304-wdgrzqi",
+										"updated": "20220319193319"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "store"
+										}
+									]
+								},
+								{
+									"ID": "20220319193320-bwhaarb",
+									"Type": "NodeList",
+									"ListData": {},
+									"Properties": {
+										"id": "20220319193320-bwhaarb",
+										"updated": "20220319194335"
+									},
+									"Children": [
+										{
+											"ID": "20220319193354-rkk8tc0",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319193354-rkk8tc0"
+											},
+											"Children": [
+												{
+													"ID": "20220319193354-wxk41ab",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319193354-wxk41ab",
+														"updated": "20220319193403"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "index.ts(入口文件)"
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319193431-rjp4xk8",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319193431-rjp4xk8",
+												"updated": "20220319194317"
+											},
+											"Children": [
+												{
+													"ID": "20220319193431-1m1pn0q",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319193431-1m1pn0q",
+														"updated": "20220319193440"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "type.ts(类型文件)"
+														}
+													]
+												},
+												{
+													"ID": "20220319193748-12q7kgs",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220319193748-12q7kgs",
+														"updated": "20220319194317"
+													},
+													"Children": [
+														{
+															"ID": "20220319193748-9s00xef",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319193748-9s00xef",
+																"updated": "20220319194312"
+															},
+															"Children": [
+																{
+																	"ID": "20220319193748-ih5lig5",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319193748-ih5lig5",
+																		"updated": "20220319194312"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "接口IRootState （根模块的状态）"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319193847-edtpq27",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319193847-edtpq27",
+																"updated": "20220319194317"
+															},
+															"Children": [
+																{
+																	"ID": "20220319193847-xevvvki",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319193847-xevvvki",
+																		"updated": "20220319194317"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "接口IRootWithModule （子模块接口 ）"
+																		}
+																	]
+																},
+																{
+																	"ID": "20220319193943-au8crok",
+																	"Type": "NodeList",
+																	"ListData": {},
+																	"Properties": {
+																		"id": "20220319193943-au8crok"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220319193942-nso9849",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220319193942-nso9849"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220319193942-x5lqub2",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220319193942-x5lqub2",
+																						"updated": "20220319193947"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": ".login"
+																						}
+																					]
+																				}
+																			]
+																		},
+																		{
+																			"ID": "20220319193949-fqlkiby",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220319193949-fqlkiby"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220319193949-dhki7zn",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220319193949-dhki7zn",
+																						"updated": "20220319193951"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": ".main"
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319193319-oc9nn4r",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319193319-oc9nn4r",
+												"updated": "20220319194335"
+											},
+											"Children": [
+												{
+													"ID": "20220319193319-6rysq3l",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319193319-6rysq3l",
+														"updated": "20220319193424"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "login（子模块）"
+														}
+													]
+												},
+												{
+													"ID": "20220319193331-ff0r212",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220319193331-ff0r212",
+														"updated": "20220319194335"
+													},
+													"Children": [
+														{
+															"ID": "20220319193325-qgbdw4j",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319193325-qgbdw4j"
+															},
+															"Children": [
+																{
+																	"ID": "20220319193325-upfnur4",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319193325-upfnur4",
+																		"updated": "20220319193339"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "login.ts"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319193339-ex4acrt",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319193339-ex4acrt",
+																"updated": "20220319194335"
+															},
+															"Children": [
+																{
+																	"ID": "20220319193339-7kvx07j",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319193339-7kvx07j",
+																		"updated": "20220319193344"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "type.ts"
+																		}
+																	]
+																},
+																{
+																	"ID": "20220319194002-1p9hirm",
+																	"Type": "NodeList",
+																	"ListData": {},
+																	"Properties": {
+																		"id": "20220319194002-1p9hirm",
+																		"updated": "20220319194335"
+																	},
+																	"Children": [
+																		{
+																			"ID": "20220319194001-4brdnby",
+																			"Type": "NodeListItem",
+																			"ListData": {
+																				"BulletChar": 42,
+																				"Marker": "Kg=="
+																			},
+																			"Properties": {
+																				"id": "20220319194001-4brdnby",
+																				"updated": "20220319194335"
+																			},
+																			"Children": [
+																				{
+																					"ID": "20220319194001-yu8u002",
+																					"Type": "NodeParagraph",
+																					"Properties": {
+																						"id": "20220319194001-yu8u002",
+																						"updated": "20220319194335"
+																					},
+																					"Children": [
+																						{
+																							"Type": "NodeText",
+																							"Data": "接口IloginState "
+																						}
+																					]
+																				},
+																				{
+																					"ID": "20220319194039-qnoh8zb",
+																					"Type": "NodeList",
+																					"ListData": {},
+																					"Properties": {
+																						"id": "20220319194039-qnoh8zb"
+																					},
+																					"Children": [
+																						{
+																							"ID": "20220319194039-0o2urbb",
+																							"Type": "NodeListItem",
+																							"ListData": {
+																								"BulletChar": 42,
+																								"Marker": "Kg=="
+																							},
+																							"Properties": {
+																								"id": "20220319194039-0o2urbb"
+																							},
+																							"Children": [
+																								{
+																									"ID": "20220319194039-b6yp3lg",
+																									"Type": "NodeParagraph",
+																									"Properties": {
+																										"id": "20220319194039-b6yp3lg",
+																										"updated": "20220319194217"
+																									},
+																									"Children": [
+																										{
+																											"Type": "NodeText",
+																											"Data": "token，"
+																										},
+																										{
+																											"Type": "NodeCodeSpan",
+																											"Data": "code",
+																											"Children": [
+																												{
+																													"Type": "NodeCodeSpanOpenMarker"
+																												},
+																												{
+																													"Type": "NodeCodeSpanContent",
+																													"Data": "userInfo"
+																												},
+																												{
+																													"Type": "NodeCodeSpanCloseMarker"
+																												}
+																											]
+																										},
+																										{
+																											"Type": "NodeText",
+																											"Data": " ，"
+																										},
+																										{
+																											"Type": "NodeCodeSpan",
+																											"Data": "code",
+																											"Children": [
+																												{
+																													"Type": "NodeCodeSpanOpenMarker"
+																												},
+																												{
+																													"Type": "NodeCodeSpanContent",
+																													"Data": "userMenus"
+																												},
+																												{
+																													"Type": "NodeCodeSpanCloseMarker"
+																												}
+																											]
+																										},
+																										{
+																											"Type": "NodeText",
+																											"Data": " "
+																										},
+																										{
+																											"Type": "NodeCodeSpan",
+																											"Data": "code",
+																											"Children": [
+																												{
+																													"Type": "NodeCodeSpanOpenMarker"
+																												},
+																												{
+																													"Type": "NodeCodeSpanContent",
+																													"Data": "permissions"
+																												},
+																												{
+																													"Type": "NodeCodeSpanCloseMarker"
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										},
+										{
+											"ID": "20220319193537-81noy3u",
+											"Type": "NodeListItem",
+											"ListData": {
+												"BulletChar": 42,
+												"Marker": "Kg=="
+											},
+											"Properties": {
+												"id": "20220319193537-81noy3u"
+											},
+											"Children": [
+												{
+													"ID": "20220319193537-0e0tvai",
+													"Type": "NodeParagraph",
+													"Properties": {
+														"id": "20220319193537-0e0tvai",
+														"updated": "20220319193559"
+													},
+													"Children": [
+														{
+															"Type": "NodeText",
+															"Data": "mian(子模块)"
+														}
+													]
+												},
+												{
+													"ID": "20220319193601-7tiwgbt",
+													"Type": "NodeList",
+													"ListData": {},
+													"Properties": {
+														"id": "20220319193601-7tiwgbt"
+													},
+													"Children": [
+														{
+															"ID": "20220319193601-dj0abra",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319193601-dj0abra"
+															},
+															"Children": [
+																{
+																	"ID": "20220319193601-dimt6h1",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319193601-dimt6h1",
+																		"updated": "20220319193605"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "main.ts"
+																		}
+																	]
+																}
+															]
+														},
+														{
+															"ID": "20220319193605-fvrsjx3",
+															"Type": "NodeListItem",
+															"ListData": {
+																"BulletChar": 42,
+																"Marker": "Kg=="
+															},
+															"Properties": {
+																"id": "20220319193605-fvrsjx3"
+															},
+															"Children": [
+																{
+																	"ID": "20220319193605-uga5dbx",
+																	"Type": "NodeParagraph",
+																	"Properties": {
+																		"id": "20220319193605-uga5dbx",
+																		"updated": "20220319193609"
+																	},
+																	"Children": [
+																		{
+																			"Type": "NodeText",
+																			"Data": "type.ts"
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-yzhblis",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-yzhblis"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:53 vuex 保存数据，创建login文件夹，逻辑也放进vuex里"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-ljztan2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-ljztan2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store/index注册模块"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-bkw2vwp",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-bkw2vwp"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { createStore } from 'vuex'\nimport login from './login/login'\nimport { IRootState } from './type'\n\nconst store = createStore\u003cIRootState\u003e({\n  **modules: {\n    login\n  }**\n})\nexport default store\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-cmnrjgw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-cmnrjgw"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store/ type  中IRootState 用于index里state 数据类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-cj1734l",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-cj1734l"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export interface IRootState {\n  name: string\n  age: number\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-stc6dfx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-stc6dfx"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "login type"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-dcu7mde",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-dcu7mde"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export interface IloginState {\n  token: string\n  userInfo: any\n  userMenus: any\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-6ei3pls",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-6ei3pls"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "login模块"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-s6a04k7",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161730-s6a04k7"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { **Module** } from 'vuex'\nimport { **IloginState** } from './type'\nimport { **IRootState** } from '../type'\nconst loginModule: **Module\u003cIloginState, IRootState\u003e** = {\n  namespaced: true,\n  state() {\n    return {\n      token: '',\n      userInfo: {}\n    }\n  },\n  getters: {},\n  mutations: {},\n  **actions: {\n    accountLoginAction({ commit }, payload) {\n      console.log('执行action', payload)\n\t\t\t//做网络请求，根据payload里的名称，那对对应的信息\n    }\n  }**\n}\n\nexport default loginModule\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-iiog23d",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-iiog23d"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:05  login-account 组件登陆验证，使用vuex,方法action 传入账号和密码"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-v1zulmy",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-v1zulmy"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-7xlyzd0",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-7xlyzd0"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-lye4boe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-lye4boe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "login-account.vue"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-kfwil15",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-kfwil15"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { useStore } from 'vuex'\n。。。\nconst store = useStore()\n。。。\nconst account = reactive({\n      name: localCache.getCache('name') ?? '',\n      password: localCache.getCache('password') ?? ''\n    })\n。。。\n**store.dispatch('login/accountLoginAction', { ...account })**\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
