@@ -1,0 +1,19 @@
+{
+	"ID": "20220320103502-i7iu0fp",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220320103502-i7iu0fp",
+		"title": "继承-方式总结",
+		"updated": "20220320103524"
+	},
+	"Children": [
+		{
+			"ID": "20220320103502-lvhqsl3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220320103502-lvhqsl3",
+				"updated": "20220320103502"
+			}
+		}
+	]
+}
