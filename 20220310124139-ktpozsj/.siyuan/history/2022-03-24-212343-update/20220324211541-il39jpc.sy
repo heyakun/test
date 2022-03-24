@@ -1,0 +1,972 @@
+{
+	"ID": "20220324211541-il39jpc",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220324211541-il39jpc",
+		"title": "newcer-0324",
+		"updated": "20220324212339"
+	},
+	"Children": [
+		{
+			"ID": "20220324211724-qraxex8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324211724-qraxex8",
+				"updated": "20220324212326"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "作者： Zeekg"
+				}
+			]
+		},
+		{
+			"ID": "20220324212327-mpf63ph",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324212327-mpf63ph",
+				"updated": "20220324212339"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "字节实习"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-bejockh",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220324211658-bejockh",
+				"updated": "20220324211658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "一面3.11："
+				}
+			]
+		},
+		{
+			"ID": "20220324211739-fjhxkr5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211739-fjhxkr5",
+				"updated": "20220324211739"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自我介绍"
+				}
+			]
+		},
+		{
+			"ID": "20220324211740-t5apum9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211740-t5apum9",
+				"updated": "20220324211740"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "介绍下项目（我就说的简历上面两个项目）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211741-5byae8q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211741-5byae8q",
+				"updated": "20220324211741"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目的难点、解决了什么"
+				}
+			]
+		},
+		{
+			"ID": "20220324211742-9nhpm9l",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211742-9nhpm9l",
+				"updated": "20220324211742"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问了许多项目中的东西（比如用cookie做了什么，有点记不住了，先写记得的一点）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211744-iw8kp9b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211744-iw8kp9b",
+				"updated": "20220324211744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "style-components和CSS模块比，好处在那里？"
+				}
+			]
+		},
+		{
+			"ID": "20220324211744-64e26qe",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211744-64e26qe",
+				"updated": "20220324211744"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "实现左右两块宽度固定中间适配，怎么做（说了双飞翼和圣杯布局的一点思想）还有么？（flex布局）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211812-929yb3q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211812-929yb3q",
+				"updated": "20220324211812"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "flex:1具体意思是什么"
+				}
+			]
+		},
+		{
+			"ID": "20220324211813-wb9kmui",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211813-wb9kmui",
+				"updated": "20220324211813"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有了Mobx为什么还要用localStorage（数据持久化）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211816-5lf3e8j",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211816-5lf3e8j",
+				"updated": "20220324211816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "localStorage和SessionStorage区别"
+				}
+			]
+		},
+		{
+			"ID": "20220324211816-bjmjqs6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211816-bjmjqs6",
+				"updated": "20220324211816"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目用虚拟列表做了什么，怎么做的"
+				}
+			]
+		},
+		{
+			"ID": "20220324211817-vdeaw1w",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211817-vdeaw1w",
+				"updated": "20220324211817"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么transform比top快"
+				}
+			]
+		},
+		{
+			"ID": "20220324211818-cr8ewv1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211818-cr8ewv1",
+				"updated": "20220324211818"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "图片懒加载怎么做的，如果一次性滚动到底了呢？怎么优化"
+				}
+			]
+		},
+		{
+			"ID": "20220324211819-hhc6kas",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211819-hhc6kas",
+				"updated": "20220324211819"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "防抖和节流原理"
+				}
+			]
+		},
+		{
+			"ID": "20220324211820-wrtcs2z",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211820-wrtcs2z",
+				"updated": "20220324211820"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ES6特性说几个"
+				}
+			]
+		},
+		{
+			"ID": "20220324211821-b5wy9ij",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211821-b5wy9ij",
+				"updated": "20220324211821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Map和Set你在项目中怎么用的"
+				}
+			]
+		},
+		{
+			"ID": "20220324211821-440u6t7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211821-440u6t7",
+				"updated": "20220324211821"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "let和var区别"
+				}
+			]
+		},
+		{
+			"ID": "20220324211823-6ks1wm0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211823-6ks1wm0",
+				"updated": "20220324211823"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "闭包，闭包场景（之后又问了点this的一些知识）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211825-ybq6314",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211825-ybq6314",
+				"updated": "20220324211825"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HTTP和HTTPS区别"
+				}
+			]
+		},
+		{
+			"ID": "20220324211826-slng613",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211826-slng613",
+				"updated": "20220324211826"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "HTTPS的过程"
+				}
+			]
+		},
+		{
+			"ID": "20220324211827-sez9yb7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324211827-sez9yb7",
+				"updated": "20220324211827"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "算法 ：平铺数组（之后又要求算出数组中的深度）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211901-kocbue2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324211901-kocbue2",
+				"updated": "20220324211901"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（一面大部分在聊项目）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-51skq06",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220324211658-51skq06",
+				"updated": "20220324211658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "二面3.16："
+				}
+			]
+		},
+		{
+			"ID": "20220324212004-odt3fp1",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212004-odt3fp1",
+				"updated": "20220324212004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问一些项目相关的东西（setInterval弊端，数据实时性）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212004-um1f42p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212004-um1f42p",
+				"updated": "20220324212004"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "react query怎么具体工作的"
+				}
+			]
+		},
+		{
+			"ID": "20220324212005-u0xvrmv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212005-u0xvrmv",
+				"updated": "20220324212005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "跨域是什么（说了CORS，具体怎么做的，简单请求，非简单请求，预请求检测一些东西）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212005-5366y5s",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212005-5366y5s",
+				"updated": "20220324212005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "除了CORS还有么（jsonp）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212005-z8vynpo",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212005-z8vynpo",
+				"updated": "20220324212005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "jsonp原理是什么，怎么做的"
+				}
+			]
+		},
+		{
+			"ID": "20220324212005-48mw9wu",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212005-48mw9wu",
+				"updated": "20220324212005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "float是什么，能做什么"
+				}
+			]
+		},
+		{
+			"ID": "20220324212005-weedjnr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212005-weedjnr",
+				"updated": "20220324212005"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "word文字环绕用float怎么做"
+				}
+			]
+		},
+		{
+			"ID": "20220324212006-c96uqy7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212006-c96uqy7",
+				"updated": "20220324212006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "BFC是什么，那些能触发BFC"
+				}
+			]
+		},
+		{
+			"ID": "20220324212012-s0sa7kd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212012-s0sa7kd",
+				"updated": "20220324212012"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "快排的思想、时间复杂度"
+				}
+			]
+		},
+		{
+			"ID": "20220324212006-hf2rw44",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212006-hf2rw44",
+				"updated": "20220324212006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS的类型存放在那里（栈、堆那些东西）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212006-a1z91jw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212006-a1z91jw",
+				"updated": "20220324212006"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那些存在栈，那些存在堆里面"
+				}
+			]
+		},
+		{
+			"ID": "20220324212007-x5fwu70",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212007-x5fwu70",
+				"updated": "20220324212007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "new的执行原理"
+				}
+			]
+		},
+		{
+			"ID": "20220324212007-dqxx7m5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212007-dqxx7m5",
+				"updated": "20220324212007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JS事件循环（宏任务、微任务那些）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212007-79ykxn8",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212007-79ykxn8",
+				"updated": "20220324212007"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "看代码写结果（和闭包，var、let、宏任务微任务相关，都是老生常谈的一些题目，不写了）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212008-arc14fl",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212008-arc14fl",
+				"updated": "20220324212008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "TCP三次握手、为什么要三次握手"
+				}
+			]
+		},
+		{
+			"ID": "20220324212008-rpbplbf",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212008-rpbplbf",
+				"updated": "20220324212008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "问看过React或Vue原理没（回答看过React的，之后就没问了，我：？？？）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212008-03vhx5r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324212008-03vhx5r",
+				"updated": "20220324212008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "代码题：功能就是如果上一次的没请求完，之后的就无响应\n"
+				}
+			]
+		},
+		{
+			"ID": "20220324212008-3ps8qbs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324212008-3ps8qbs",
+				"updated": "20220324212008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "function singlePipe(promiseFn) {\n"
+				}
+			]
+		},
+		{
+			"ID": "20220324212008-z5akn0m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324212008-z5akn0m",
+				"updated": "20220324212008"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "  // TODO\n"
+				}
+			]
+		},
+		{
+			"ID": "20220324212009-ry1yq2n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324212009-ry1yq2n",
+				"updated": "20220324212009"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "}"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-ag8y7y7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324211658-ag8y7y7",
+				"updated": "20220324211658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "// 模拟一次请求\nfunction bar(data) {\n  return new Promise(function (resolve, reject) {\n    setTimeout(() =\u003e resolve(data), 1000)\n  })\n}"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-u74wdav",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324211658-u74wdav",
+				"updated": "20220324211658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "const request = singlePipe(bar)"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-vc3zdkw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324211658-vc3zdkw",
+				"updated": "20220324211658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "request(1).then((res) =\u003e console.log(res)) // 1\nrequest(2).then((res) =\u003e console.log(res)) // 无响应\nsetTimeout(() =\u003e {\n  request(3).then((res) =\u003e console.log(res)) // 3\n}, 1001)\n（二面吃亏在八股文CSS上）"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-knm6i52",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220324211658-knm6i52",
+				"updated": "20220324212140"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "三面3.21：开始就是说说你最近学的东西（浏览器渲染原理那方面，和个人项目有关）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212145-jq3x1mk",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212145-jq3x1mk",
+				"updated": "20220324212145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "transfrom和top"
+				}
+			]
+		},
+		{
+			"ID": "20220324212145-47atcnm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212145-47atcnm",
+				"updated": "20220324212145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么tranfrom好，有什么数据之类来表示这个优化的好处（怎么证明你优化了，而不是直观的去感受了）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212145-45as36c",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212145-45as36c",
+				"updated": "20220324212145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "那些元素会生成合成层出来？"
+				}
+			]
+		},
+		{
+			"ID": "20220324212145-8hshrxw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212145-8hshrxw",
+				"updated": "20220324212145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "will-change的具体作用"
+				}
+			]
+		},
+		{
+			"ID": "20220324212145-bce9jiv",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212145-bce9jiv",
+				"updated": "20220324212145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么会发生重绘、重排"
+				}
+			]
+		},
+		{
+			"ID": "20220324212145-u2xt70u",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212145-u2xt70u",
+				"updated": "20220324212145"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "深究了许多东西（比如那些会重绘重排，为什么会引发重绘重排，重排重绘原理是什么，如果设置字体大小"
+				}
+			]
+		},
+		{
+			"ID": "20220324212150-dji2i9b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212150-dji2i9b",
+				"updated": "20220324212150"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "影响到了其他DOM元素会引发重排么？当时快被问麻了，有点记不得了）"
+				}
+			]
+		},
+		{
+			"ID": "20220324212152-7btsrcr",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212152-7btsrcr",
+				"updated": "20220324212152"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常用那些React Hooks"
+				}
+			]
+		},
+		{
+			"ID": "20220324212146-24zksyy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212146-24zksyy",
+				"updated": "20220324212146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "useCallback和useMemo区别，一般用来干嘛，怎么用"
+				}
+			]
+		},
+		{
+			"ID": "20220324212146-60kbxi5",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212146-60kbxi5",
+				"updated": "20220324212146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如果要你自己实现一个双向绑定，怎么实现"
+				}
+			]
+		},
+		{
+			"ID": "20220324212146-m0ew6ng",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212146-m0ew6ng",
+				"updated": "20220324212146"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "怎么监听一个事件（onclick和addEventListener），第三个参数有什么作用"
+				}
+			]
+		},
+		{
+			"ID": "20220324212157-95e35nw",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212157-95e35nw",
+				"updated": "20220324212157"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "冒泡的过程是怎样的？"
+				}
+			]
+		},
+		{
+			"ID": "20220324212159-egnarht",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220324212159-egnarht",
+				"updated": "20220324212159"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "算法 ：最长连续公共子序列"
+				}
+			]
+		},
+		{
+			"ID": "20220324212219-4duhtj4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"Properties": {
+				"id": "20220324212219-4duhtj4",
+				"updated": "20220324212245"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```"
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "anM="
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "输出结果：\nnew Promise((resolve, reject) =\u003e {\n  reject(1);\n  console.log(6);\n}).catch(() =\u003e {\n  console.log(2);\n}).then(() =\u003e console.log(3), (v) =\u003e console.log(v))\n  .then(console.log)\nconsole.log(5);\n（基本上什么问题都是细问，最后 算法 也是一行一行解释，快被问麻的一面）\n\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```"
+				}
+			]
+		},
+		{
+			"ID": "20220324211658-c3co7n9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220324211658-c3co7n9",
+				"updated": "20220324211658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3.23 收到感谢信。也感谢字节给的面试机会吧。哈哈哈"
+				}
+			]
+		}
+	]
+}
