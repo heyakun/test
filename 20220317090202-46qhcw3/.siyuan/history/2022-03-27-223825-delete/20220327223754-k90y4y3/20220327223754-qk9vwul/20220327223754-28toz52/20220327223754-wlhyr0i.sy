@@ -1,0 +1,66 @@
+{
+	"ID": "20220327223754-wlhyr0i",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220327223754-wlhyr0i",
+		"title": "lg be5c1",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20220327223754-xg4ecba",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-xg4ecba"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "lg"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-caa6nao",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-caa6nao"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0: —"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "—: —"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "类型: number/object (例如： {span: 4, offset: 4})"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "说明: ≥1200px 响应式栅格数或者栅格属性对象"
+				}
+			]
+		}
+	]
+}

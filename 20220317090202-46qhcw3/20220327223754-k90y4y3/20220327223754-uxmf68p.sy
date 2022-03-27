@@ -1,0 +1,2827 @@
+{
+	"ID": "20220327223754-uxmf68p",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220327223754-uxmf68p",
+		"title": "day37 首页 m ebf50",
+		"type": "doc",
+		"updated": "20220327223754"
+	},
+	"Children": [
+		{
+			"ID": "20220327223754-85i1s2r",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-85i1s2r"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "day37 首页 main 部分-搜索框组件"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-jfk62qx",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-jfk62qx"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0:09 -  0:37"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-pzk8gtr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-pzk8gtr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:15 - router映射"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-f4cntf4",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220327223754-f4cntf4",
+				"updated": "20220327223754"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "notFound匹配"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-wgih3g4",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-wgih3g4"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "{\n    path: '/:pathMatch(.*)*',\n    name: 'not-found',\n    component: () =\u003e import('@/views/not-found/not-found.vue')\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-9e2fod1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-9e2fod1"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "配置main的 children 二级路由映射"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-oudmn1r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-oudmn1r"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "通过导航守卫拦截拿到登陆者角色信息 （userMenus ）,router里拿到userMenus,在创建映射"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-wowcas7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-wowcas7"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "之前的代码 在点击登录按钮时，会把userMenus信息保存到本地缓存和vuex里"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-p9bagf6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220327223754-p9bagf6"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0:23 创建工具函数map-menus"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-55nx8hs",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-55nx8hs"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "传入 userMenus"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-adf7h5t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-adf7h5t"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "返回路由映射route"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-nr2ijcb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-nr2ijcb"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "思路："
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-4hsg2ea",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-4hsg2ea"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "先加载所有的配置"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-iax9ijb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-iax9ijb"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "创建变量 Allroute"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-1k9buqi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220327223754-1k9buqi"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "const routeFile = require.context(路径下，是否递归调用，后缀正则表达式)"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-tghb2za",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-tghb2za"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-swiurqq",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-swiurqq"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-7fl99q7",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-7fl99q7"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "utils/map-menus"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-77ums2t",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-77ums2t"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { RouteRecordRaw } from 'vue-router'\n// 传入userMenus --\u003e 导出 Route\nexport function **mapMenusToRoutes**(userMenus: any[]): RouteRecordRaw[] {\n  const routes: RouteRecordRaw[] = []\n  const allRoutes: RouteRecordRaw[] = []\n\n  const routeFiles = require.context('../router/main', true, /\\.ts/)\n\nrouteFiles.keys().forEach((key) =\u003e {\n    // console.log(key)\n    const route = require('../router/main' + key.split('.')[1])\n    allRoutes.push(route.default)\n  })\n  console.log(allRoutes)\n\n  //return routes\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-aft87ok",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-aft87ok"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-xi3ogi9",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-xi3ogi9"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "forEach打印key"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-g1tgqw5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-g1tgqw5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "./analysis/dashboard/dashboard.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./analysis/overview/overview.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./product/category/category.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./product/goods/goods.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./story/chat/chat.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./story/list/list.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./system/department/department.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./system/menu/menu.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./system/role/role.ts"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "map-menus.ts?3d1b:9 ./system/user/user.ts"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-3lq7z32",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-3lq7z32"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-w8d9los",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-w8d9los"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "打印route.default 是对象 一个个 route"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-z0a6eyb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-z0a6eyb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "{path: \"/main/analysis/dashboard\", name: \"dashboard\", children: Array(0), component: ƒ}children: []component: ƒ dashboard()name: \"dashboard\"path: \"/main/analysis/dashboard\"[[Prototype]]: Object"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-uegah1c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-uegah1c"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "能拿到所有的路由配置映射对象，在store里调用可以传入userMenus"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-dcugokw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-dcugokw"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "得到的所有前端的路由配置allRoutes，"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-zm2249x",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-zm2249x"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0:40  - 0:55  动态添加路由addRoute"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-d96ucg1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-d96ucg1"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0:42 封装函数"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-qi7ml5v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-qi7ml5v"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "函数里进行比较拿到userMenus 里的url进行比较， 存在的就保留到routes里 ，返回routes"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-yj993hk",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-yj993hk"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-kzttckc",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-kzttckc"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-wk2rjw2",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-wk2rjw2"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "utils/map-menus（局部的递归函数）"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-2aerapg",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-2aerapg"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const _recurseGetRoute = (menus: any[]) =\u003e {\n    for (const menu of menus) {\n      if (menu.type === 2) {\n        const route = allRoutes.find((route) =\u003e route.path === menu.url)\n        if (route) routes.push(route)\n      } else {\n        _recurseGetRoute(menu.children)\n      }\n    }\n  }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-zlz7gru",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-zlz7gru"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "调用"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-c4mmfir",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-c4mmfir"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\n//调用函数  \n_recurseGetRoute(userMenus)\n//返回需要注册的routes 映射（此时还没有注册）\n  return routes\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-oyil0li",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-oyil0li"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-jb11vjz",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-jb11vjz"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-nn7bij3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-nn7bij3"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "完整mapMenusToRoutes函数代码"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-uz146j9",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-uz146j9"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { RouteRecordRaw } from 'vue-router'\n\nexport function mapMenusToRoutes(userMenus: any[]): RouteRecordRaw[] {\n  const routes: RouteRecordRaw[] = []\n\n  // 1.先去加载默认所有的routes\n  const allRoutes: RouteRecordRaw[] = []\n  const routeFiles = require.context('../router/main', true, /\\.ts/)\n  routeFiles.keys().forEach((key) =\u003e {\n    const route = require('../router/main' + key.split('.')[1])\n    allRoutes.push(route.default)\n  })\n\n  // 2.根据菜单获取需要添加的routes\n  // userMenus:\n  // type === 1 -\u003e children -\u003e type === 1\n  // type === 2 -\u003e url -\u003e route\n  const _recurseGetRoute = (menus: any[]) =\u003e {\n    for (const menu of menus) {\n      if (menu.type === 2) {\n        const route = allRoutes.find((route) =\u003e route.path === menu.url)\n        if (route) routes.push(route)\n      } else {\n        _recurseGetRoute(menu.children)\n      }\n    }\n  }\n\n  _recurseGetRoute(userMenus)\n\n  return routes\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-657igxu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-657igxu"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为了拿到userMenus ，整个mapMenusToRoutes要在store里调用"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-ajulny5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-ajulny5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "store\\login\\login"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-0wsijvu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-0wsijvu"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "这里调用了router."
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "addRoute"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "（真正注册） 方法，给main添加了二级路由映射"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-gcnj62d",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-gcnj62d"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-dwl7kcs",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-dwl7kcs"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-6nxtf1w",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-6nxtf1w"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store/login/login.ts"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-bg3ym03",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-bg3ym03"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\nimport { mapMenusToRoutes } from '@/utils/map-menus'\nimport router from '@/router'\n\nmutations:{\nchangeUserMenus(state, userMenus: any) {\n      state.userMenus = userMenus\n\n      **const routes = mapMenusToRoutes(userMenus)\n\t\t\tconsole.log('注册动态路由')\n      routes.forEach((route) =\u003e {\n        router.addRoute('main', route)\n      })**\n    }\n}\n\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-ztkc0qd",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220327223754-ztkc0qd"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0:50 监听el-menu-item点击，跳转路由"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-b6afqub",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-b6afqub"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "给所有的二级菜单一个点击事件，通过"
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "push"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 方法跳转"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-s2xvo74",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-s2xvo74"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "components\\nav-menu\\src\\nav-menu.vue"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-29t7lgv",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-29t7lgv"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate v-for=\"**child** in item.children\" :key=\"child.id\"\u003e\n          \u003c!-- 有且仅有二级菜单 --\u003e\n          \u003ctemplate v-if=\"!child.children\"\u003e\n            \u003cel-menu-item\n              :index=\"child.id + ''\"\n              @click=\"**handleMenuItemClick**(**child**)\"\n            \u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-yh3vczk",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-yh3vczk"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\nconst handleMenuItemClick = (item: any) =\u003e {\n      router.push({\n        **path: item.url ?? '/not-found'**\n      })\n    }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-a65nnr8",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-a65nnr8"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-yeylq4l",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-yeylq4l"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-zvd5aux",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-zvd5aux"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "main.vue"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-pskbr3t",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-pskbr3t"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cel-main class=\"page-content\"\u003e\n          \u003cdiv class=\"page-info\"\u003e\n            \u003crouter-view\u003e\u003c/router-view\u003e\n          \u003c/div\u003e\n        \u003c/el-main\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-w0oe1pb",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-w0oe1pb"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:01 - 1:16 header部分"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-uy2gapf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-uy2gapf"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:08 -鼠标移入用户头像—  出现 弹窗"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-68vi0z6",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-68vi0z6"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-v1vtf5v",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-v1vtf5v"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-woo50gw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-woo50gw"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "（element 下拉菜单第一个）"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-a4bjg0y",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-a4bjg0y"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cel-dropdown\u003e\n    \u003cspan class=\"el-dropdown-link\"\u003e\n      Dropdown List\n      \u003cel-icon class=\"el-icon--right\"\u003e\n        \u003carrow-down /\u003e\n      \u003c/el-icon\u003e\n    \u003c/span\u003e\n    \u003ctemplate #dropdown\u003e\n      \u003cel-dropdown-menu\u003e\n        \u003cel-dropdown-item\u003eAction 1\u003c/el-dropdown-item\u003e\n        \u003cel-dropdown-item\u003eAction 2\u003c/el-dropdown-item\u003e\n        \u003cel-dropdown-item\u003eAction 3\u003c/el-dropdown-item\u003e\n        \u003cel-dropdown-item disabled\u003eAction 4\u003c/el-dropdown-item\u003e\n        \u003cel-dropdown-item divided\u003eAction 5\u003c/el-dropdown-item\u003e\n      \u003c/el-dropdown-menu\u003e\n    \u003c/template\u003e\n  \u003c/el-dropdown\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-b5kc64q",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-b5kc64q"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:31 -  main部分-user页"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-hmutxc0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220327223754-hmutxc0"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:37 -  背景"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-w6ez1k2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-w6ez1k2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "给router-view包裹div 设置背景颜色"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-k1ksnfq",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-k1ksnfq"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cel-main class=\"page-content\"\u003e\n          \u003cdiv class=\"page-info\"\u003e\n            \u003crouter-view\u003e\u003c/router-view\u003e\n          \u003c/div\u003e\n        \u003c/el-main\u003e\n\n\u003cstyle\u003e\n.page-content {\n  height: calc(100% - 48px);\n\n  .page-info {\n    background-color: #fff;\n    border-radius: 5px;\n  }\n}\n\u003c/style\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-3hevuwi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220327223754-3hevuwi"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "表单部分搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-5t9fytj",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-5t9fytj"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-t9dy80r",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-t9dy80r"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-nfm0sjs",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-nfm0sjs"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "element官网代码"
+								},
+								{
+									"Type": "NodeSoftBreak",
+									"Data": "\n"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "row 行  col列"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-m020kf1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-m020kf1"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cel-row\u003e\n    \u003cel-col :span=\"24\"\u003e\u003cdiv class=\"grid-content bg-purple-dark\"\u003e\u003c/div\u003e\u003c/el-col\u003e\n\u003c/el-row\u003e\n\n\u003cel-row\u003e\n    \u003cel-col :span=\"12\"\u003e\u003cdiv class=\"grid-content bg-purple\"\u003e\u003c/div\u003e\u003c/el-col\u003e\n    \u003cel-col :span=\"12\"\u003e\u003cdiv class=\"grid-content bg-purple-light\"\u003e\u003c/div\u003e\u003c/el-col\u003e\n\u003c/el-row\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-4oeu2fq",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-4oeu2fq"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-tnvpijm",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-tnvpijm"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表单搭建基本结构"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-08zac2y",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-08zac2y"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cel-form\u003e\n第一行\n      \u003cel-row\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"名称\"\u003e\n            \u003cel-input\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"密码\"\u003e\n            \u003cel-input show-password\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"喜欢的运动\"\u003e\n            \u003cel-select\u003e\n              \u003cel-option\u003e篮球\u003c/el-option\u003e\n              \u003cel-option\u003e足球\u003c/el-option\u003e\n            \u003c/el-select\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n\n      \u003c/el-row\u003e\n第二行（同上）（第二行el-row 没必要，第一行排满会自动到第二行）\n      \u003cel-row\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"创建时间\"\u003e\n            \u003cel-date-picker\u003e\u003c/el-date-picker\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"name5\"\u003e\n            \u003cel-input\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"name6\"\u003e\n            \u003cel-input\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n      \u003c/el-row\u003e\n    \u003c/el-form\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-sjg73xs",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-sjg73xs"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-xh0b2gn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-xh0b2gn"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "表单搭建-完整代码"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-ovskdpj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-ovskdpj"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003cel-form label-width=\"100px\"\u003e\n      \u003cel-row\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"名称\"\u003e\n            \u003cel-input\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"密码\"\u003e\n            \u003cel-input show-password\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"喜欢的运动\"\u003e\n            \u003cel-select style=\"width: 100%\"\u003e\n              \u003cel-option\u003e篮球\u003c/el-option\u003e\n              \u003cel-option\u003e足球\u003c/el-option\u003e\n            \u003c/el-select\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n      \u003c/el-row\u003e\n      \u003cel-row\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"创建时间\"\u003e\n            \u003cel-date-picker style=\"width: 100%\"\u003e\u003c/el-date-picker\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"name5\"\u003e\n            \u003cel-input\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n        \u003cel-col :span=\"8\"\u003e\n          \u003cel-form-item label=\"name6\"\u003e\n            \u003cel-input\u003e\u003c/el-input\u003e\n          \u003c/el-form-item\u003e\n        \u003c/el-col\u003e\n      \u003c/el-row\u003e\n    \u003c/el-form\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-q4lnjgn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-q4lnjgn"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:44 element-plus — \u003e layout布局"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-llknfw8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-llknfw8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "elform"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-1pblkz8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-1pblkz8"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "el-row"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-gjp19iz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-gjp19iz"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "el-col:24 独占一行"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-v34wx88",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-v34wx88"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "showpassword属性"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-gq3vqpl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-gq3vqpl"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:50 解决刷新出现nofound页面"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-eliehn7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-eliehn7"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1:59 未解决"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-yahyy4h",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-yahyy4h"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2：03"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-7osehht",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-7osehht"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:03- 2:34 用户页-抽离表单组件-基本封装"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-u8sr580",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-u8sr580"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "\u003chy-form /\u003e"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-kgk4fdj",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-kgk4fdj"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-l8qj3bw",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-l8qj3bw"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-nph6otc",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-nph6otc"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建base-ui/form\\src 完整版"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-mw6uhg0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-mw6uhg0"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003ctemplate\u003e\n  \u003cdiv class=\"hy-form\"\u003e\n    \u003cel-form :label-width=\"labelWidth\"\u003e\n      \u003cel-row\u003e\n        \u003ctemplate v-for=\"item in formItems\" :key=\"item.label\"\u003e\n          \u003cel-col v-bind=\"colLayout\"\u003e\n            \u003cel-form-item\n              :label=\"item.label\"\n              :rules=\"item.rules\"\n              :style=\"itemStyle\"\n            \u003e\n              \u003ctemplate\n                v-if=\"item.type === 'input' || item.type === 'password'\"\n              \u003e\n                \u003cel-input\n                  :placeholder=\"item.placeholder\"\n                  v-bind=\"item.otherOptions\"\n                  :show-password=\"item.type === 'password'\"\n                /\u003e\n              \u003c/template\u003e\n              \u003ctemplate v-else-if=\"item.type === 'select'\"\u003e\n                \u003cel-select\n                  :placeholder=\"item.placeholder\"\n                  v-bind=\"item.otherOptions\"\n                  style=\"width: 100%\"\n                \u003e\n                  \u003cel-option\n                    v-for=\"option in item.options\"\n                    :key=\"option.value\"\n                    :value=\"option.value\"\n                    \u003e{{ option.title }}\u003c/el-option\n                  \u003e\n                \u003c/el-select\u003e\n              \u003c/template\u003e\n              \u003ctemplate v-else-if=\"item.type === 'datepicker'\"\u003e\n                \u003cel-date-picker\n                  style=\"width: 100%\"\n                  v-bind=\"item.otherOptions\"\n                \u003e\u003c/el-date-picker\u003e\n              \u003c/template\u003e\n            \u003c/el-form-item\u003e\n          \u003c/el-col\u003e\n        \u003c/template\u003e\n      \u003c/el-row\u003e\n    \u003c/el-form\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\n\u003cscript lang=\"ts\"\u003e\nimport { defineComponent, PropType } from 'vue'\nimport { IFormItem } from '../types'\n\nexport default defineComponent({\n  props: {\n    formItems: {\n      type: Array as PropType\u003cIFormItem[]\u003e,//例如 Array as PropType\u003cstring[]\u003e 数组内部都是字符串类型\n      default: () =\u003e []\n    },\n    labelWidth: {\n      type: String,\n      default: '100px'\n    },\n    itemStyle: {\n      type: Object,\n      default: () =\u003e ({ padding: '10px 40px' })\n    },\n    colLayout: {\n      type: Object,\n      default: () =\u003e ({\n        xl: 6, // \u003e1920px 4个\n        lg: 8,\n        md: 12,\n        sm: 24,\n        xs: 24\n      })\n    }\n  },\n  setup() {\n    return {}\n  }\n})\n\u003c/script\u003e\n\n\u003cstyle scoped lang=\"less\"\u003e\n.hy-form {\n  padding-top: 22px;\n}\n\u003c/style\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-8d6her2",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-8d6her2"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-7nnfv51",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-7nnfv51"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "base-ui\\form\\types\\index（完整版）"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-vivvzs0",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-vivvzs0"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\n**type IFormType = 'input' | 'password' | 'select' | 'datepicker'**\n\nexport interface IFormItem {\n  **type?: IFormType**\n  label: string\n  rules?: any[]\n  placeholder?: any\n  // 针对select\n  options?: any[]\n  // 针对特殊的属性\n  **otherOptions?: any**\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-fr6yltt",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-fr6yltt"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-4hjsy7m",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-4hjsy7m"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "base-ui\\form\\index(导入 导出口)"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-wjr2fo1",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-wjr2fo1"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import HyForm from './src/form.vue'\nexport * from './types'\nexport default HyForm\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-ww25262",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-ww25262"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-0mtkete",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-0mtkete"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "user.vue(未抽离配置)"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-oc1fp87",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-oc1fp87"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003chy-form :formItems=\"formItems\"\u003e\u003c/hy-form\u003e\n\nimport HyForm, { IFormItem } from '@/base-ui/form'\n\nsetup(){\n\tconst formItems: IFormItem[] = [\n\t\t{\n      type: 'input',\n      label: 'id',\n      placeholder: '请输入id'\n    },\n    {\n      type: 'input',\n      label: '用户名',\n      placeholder: '请输入用户名'\n    },\n    {\n      type: 'password',\n      label: '密码',\n      placeholder: '请输入密码'\n    },\n    {\n      type: 'select',\n      label: '喜欢的运动',\n      placeholder: '请选择喜欢的运动',\n      options: [\n        { title: '篮球', value: 'basketball' },\n        { title: '足球', value: 'football' }\n      ]\n    },\n    {\n      type: 'datepicker',\n      label: '创建时间',\n      otherOptions: {\n        startPlaceholder: '开始时间',\n        endPlaceholder: '结束时间',\n        type: 'daterange'\n      }\n    }\n   ]\n  return { formItems }\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-6kyaohl",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-6kyaohl"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-05wn9xe",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-05wn9xe"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "2:10 导入"
+								},
+								{
+									"Type": "NodeStrong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "PropType"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeText",
+									"Data": " ： ts 与v3结合"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-m2rt4ss",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-m2rt4ss"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "props: {\n    formItems: {\n      type: Array as PropType\u003cstring[]\u003e\n\n    }\n  },\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-ezij8sf",
+							"Type": "NodeBlockquote",
+							"Properties": {
+								"id": "20220327223754-ezij8sf"
+							},
+							"Children": [
+								{
+									"Type": "NodeBlockquoteMarker",
+									"Data": "\u003e "
+								},
+								{
+									"ID": "20220327223754-7cxvpl1",
+									"Type": "NodeParagraph",
+									"Properties": {
+										"id": "20220327223754-7cxvpl1"
+									},
+									"Children": [
+										{
+											"Type": "NodeText",
+											"Data": "Array as PropType\u003cstring[]\u003e 指定数组类型，内部的数据都是string类型"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-kcpg7bp",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003caside\u003e\n💡 formItems里应该指定输入框的类型 ，否则默认都是文本框",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220327223754-kcpg7bp"
+			}
+		},
+		{
+			"ID": "20220327223754-91enblc",
+			"Type": "NodeHTMLBlock",
+			"Data": "\u003c/aside\u003e",
+			"HtmlBlockType": 6,
+			"Properties": {
+				"id": "20220327223754-91enblc"
+			}
+		},
+		{
+			"ID": "20220327223754-4vxcbv1",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-4vxcbv1"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "**type IFormType = 'input' | 'password' | 'select' | 'datepicker'**\n\nexport interface IFormItem {\n  **type?: IFormType**\n  label: string\n  rules?: any[]\n  placeholder?: any\n  // 针对select\n  options?: any[]\n  // 针对特殊的属性\n  **otherOptions?: any**\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-j9pmnfy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-j9pmnfy"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "otherOptions?: any"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-fyx43rk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-fyx43rk"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "由于el组件的相关配置太多了，没办法一个一个遍历写出来，统一写在otherOptions里"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-kpasu7z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-kpasu7z"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "v-bind=\"item.otherOptions\""
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-en14efe",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220327223754-en14efe"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e "
+				},
+				{
+					"ID": "20220327223754-d4yf5fu",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220327223754-d4yf5fu"
+					},
+					"Children": [
+						{
+							"Type": "NodeCodeSpan",
+							"CodeMarkerLen": 1,
+							"Children": [
+								{
+									"Type": "NodeCodeSpanOpenMarker",
+									"Data": "`"
+								},
+								{
+									"Type": "NodeCodeSpanContent",
+									"Data": "**otherOptions**"
+								},
+								{
+									"Type": "NodeCodeSpanCloseMarker",
+									"Data": "`"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 是一个对象，如果el组件需要把里面所有的配置就添加进去，不用一个一个添加，直接v-bind绑定该对象即可"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-of27upz",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220327223754-of27upz"
+			}
+		},
+		{
+			"ID": "20220327223754-xijyfo6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-xijyfo6"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:34- 2:58 Iform 完全封装-config文件"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-5mektrt",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-5mektrt"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "外界决定"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-qgq91mc",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-qgq91mc"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "      "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": ":formItems=\"formItems\" （遍历的搜索）"
+						},
+						{
+							"Type": "NodeSoftBreak",
+							"Data": "\n"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "      :labelWidth=\"labelWidth\"（标签宽度）"
+						},
+						{
+							"Type": "NodeSoftBreak",
+							"Data": "\n"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "      :itemStyle=\"itemStyle\"（搜索（统一的）样式）"
+						},
+						{
+							"Type": "NodeSoftBreak",
+							"Data": "\n"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "      :colLayout=\"colLayout\" （搜索框布局）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-84f5q38",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-84f5q38"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:45 浏览器宽度缩小，输入框不再显示多行"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-8q7gcgj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-8q7gcgj"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrikethrough",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker",
+							"Data": "~~"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "监听浏览器的宽度"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker",
+							"Data": "~~"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " ,"
+				},
+				{
+					"Type": "NodeStrikethrough",
+					"Children": [
+						{
+							"Type": "NodeStrikethrough2OpenMarker",
+							"Data": "~~"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "修改el-col 组件的span ：8  \\24 \\16 的值"
+						},
+						{
+							"Type": "NodeStrikethrough2CloseMarker",
+							"Data": "~~"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-9wg70ul",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-9wg70ul"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "el-col 里的属性"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-o7adxt7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-o7adxt7"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Untitled"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled D fec3d-20220327223754-dvg8y9o.csv"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-kyswimf",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-kyswimf"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "props: {\n    colLayout: {\n      type: Object,\n      default: () =\u003e ({\n        xl: 6,\n        lg: 8,\n        md: 12,\n        sm: 24,\n        xs: 24\n      })\n    }\n  },\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-48habym",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-48habym"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003cel-col v-bind=\"colLayout\"\u003e\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-ko2gj4e",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220327223754-ko2gj4e"
+			}
+		},
+		{
+			"ID": "20220327223754-hvt5aj3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-hvt5aj3"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "目前外界可以给form组价传4个配置"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-hjc30br",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-hjc30br"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "\u003ctemplate\u003e\n  \u003cdiv class=\"user\"\u003e\n    \u003chy-form\n      **:formItems=\"formItems\"\n      :labelWidth=\"labelWidth\"\n      :itemStyle=\"itemStyle\"\n      :colLayout=\"colLayout\"**\n    \u003e\u003c/hy-form\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\nconst labelWidth = '100px'\nconst itemStyle = { padding: '5px 10px' }\nconst colLayout = { span: 8 }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-hdxlcux",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220327223754-hdxlcux"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2：52 属性合并到一起"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-7udd5rn",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-7udd5rn"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "base-ui\\form\\types"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-bbk5p16",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220327223754-bbk5p16"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "export interface Iform {\n  formItems?: IFormItem[]\n  labelWidth?: string\n  colLayout?: any\n  itemLayout?: any\n}\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-l039jlj",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-l039jlj"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-qr87anm",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-qr87anm"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-to2ywbb",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-to2ywbb"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "user.vue (抽离之前)"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-deaqomj",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-deaqomj"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\nsetup() {\n    const **formItems**: IFormItem[] = [\n      {\n        type: 'input',\n        label: '用户名称',\n        placeholder: '请输入用户名'\n      }\n\t\t\t...\n      ...\n    ]\n\n    const **labelWidth** = '100px'\n    const **itemLayout** = { padding: '5px 10px' }\n    const **colLayout** = { span: 8 }\n\n    const **formConfig**: Iform = {\n      labelWidth,\n      colLayout,\n      itemLayout,\n      formItems\n    }\n    return { formConfig }\n  }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327223754-mck58um",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-mck58um"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-77y1bj3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-77y1bj3"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "user.vue（抽离之后）"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-cacs1ia",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-cacs1ia"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\u003ctemplate\u003e\n  \u003cdiv class=\"user\"\u003e\n    \u003chy-form v-bind=\"searchFormConfig\" /\u003e\n    \u003cdiv class=\"content\"\u003e\u003c/div\u003e\n  \u003c/div\u003e\n\u003c/template\u003e\n\n\u003cscript lang=\"ts\"\u003e\nimport { defineComponent } from 'vue'\nimport HyForm from '@/base-ui/form'\nimport { searchFormConfig } from './config/search.config'\nexport default defineComponent({\n  name: 'user',\n  components: {\n    HyForm\n  },\n  setup() {\n    return {\n      searchFormConfig\n    }\n  }\n})\n\u003c/script\u003e\n\u003cstyle scoped\u003e\u003c/style\u003e\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-0ft3skq",
+			"Type": "NodeHeading",
+			"HeadingLevel": 3,
+			"Properties": {
+				"id": "20220327223754-0ft3skq"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "抽离成config文件"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-3a1nolt",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220327223754-3a1nolt"
+			},
+			"Children": [
+				{
+					"ID": "20220327223754-3hzsl9w",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220327223754-3hzsl9w"
+					},
+					"Children": [
+						{
+							"ID": "20220327223754-1js1s7r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220327223754-1js1s7r"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "user/config/search.config.ts"
+								}
+							]
+						},
+						{
+							"ID": "20220327223754-oeocv1w",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220327223754-oeocv1w"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import { IForm } from '@/base-ui/form'\n\nexport const searchFormConfig: IForm = {\n  labelWidth: '120px',\n  itemLayout: {\n    padding: '10px 40px'\n  },\n  colLayout: {\n    span: 8\n  },\n  formItems: [\n    {\n      type: 'input',\n      label: 'id',\n      placeholder: '请输入id'\n    },\n    {\n      type: 'input',\n      label: '用户名',\n      placeholder: '请输入用户名'\n    },\n    {\n      type: 'password',\n      label: '密码',\n      placeholder: '请输入密码'\n    },\n    {\n      type: 'select',\n      label: '喜欢的运动',\n      placeholder: '请选择喜欢的运动',\n      options: [\n        { title: '篮球', value: 'basketball' },\n        { title: '足球', value: 'football' }\n      ]\n    },\n    {\n      type: 'datepicker',\n      label: '创建时间',\n      otherOptions: {\n        startPlaceholder: '开始时间',\n        endPlaceholder: '结束时间',\n        type: 'daterange'\n      }\n    }\n  ]\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,668 @@
+{
+	"ID": "20220318161730-kcyvx97",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161730-kcyvx97",
+		"title": "01登录-记住密码和本地缓存",
+		"type": "doc",
+		"updated": "20220327181034"
+	},
+	"Children": [
+		{
+			"ID": "20220318161730-vkng62o",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-vkng62o"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "点击事件需要完成"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-hq6rglb",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-hq6rglb"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-oay0ggv",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-oay0ggv"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-u6m499q",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-u6m499q"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "判断是否选中记住密码"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161730-6ra3pze",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-6ra3pze"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-l7pciaj",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-l7pciaj"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "和其他相关信息进行缓存"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-fu69cl9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161730-fu69cl9"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "## "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "0：38创建class 用来封装需要缓存的方法，"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-i2y839e",
+			"Type": "NodeList",
+			"ListData": {
+				"Tight": true,
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-i2y839e"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-mtrbn4g",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-mtrbn4g"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-meixobt",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-meixobt"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "创建src/utils/cache.ts文件"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-1o2gf3w",
+							"Type": "NodeList",
+							"ListData": {
+								"BulletChar": 45,
+								"Padding": 2,
+								"MarkerOffset": 2,
+								"Marker": "LQ==",
+								"Num": -1
+							},
+							"Properties": {
+								"id": "20220318161730-1o2gf3w"
+							},
+							"Children": [
+								{
+									"ID": "20220318161730-mgo9yfj",
+									"Type": "NodeListItem",
+									"Data": "-",
+									"ListData": {
+										"BulletChar": 45,
+										"Padding": 2,
+										"MarkerOffset": 2,
+										"Marker": "LQ==",
+										"Num": -1
+									},
+									"Properties": {
+										"id": "20220318161730-mgo9yfj"
+									},
+									"Children": [
+										{
+											"ID": "20220318161730-v6fgt0r",
+											"Type": "NodeParagraph",
+											"Properties": {
+												"id": "20220318161730-v6fgt0r"
+											},
+											"Children": [
+												{
+													"Type": "NodeText",
+													"Data": "class LocalCahe  (.setCache .getCache  .deleteCache .clearCache)"
+												}
+											]
+										},
+										{
+											"ID": "20220318161730-b2kqi36",
+											"Type": "NodeCodeBlock",
+											"IsFencedCodeBlock": true,
+											"CodeBlockFenceChar": 96,
+											"CodeBlockFenceLen": 3,
+											"CodeBlockFenceOffset": 2,
+											"CodeBlockOpenFence": "YGBg",
+											"CodeBlockInfo": "dHN4",
+											"CodeBlockCloseFence": "YGBg",
+											"Properties": {
+												"id": "20220318161730-b2kqi36"
+											},
+											"Children": [
+												{
+													"Type": "NodeCodeBlockFenceOpenMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3
+												},
+												{
+													"Type": "NodeCodeBlockFenceInfoMarker",
+													"CodeBlockInfo": "dHN4"
+												},
+												{
+													"Type": "NodeCodeBlockCode",
+													"Data": "class LocalCache {\n  setCache(key: string, value: any) {\n    window.localStorage.setItem(key, JSON.stringify(value))\n  }\n  /*\n1.为什么用JSON.stringify(value)？\nsetItem 接受字符串类型，而value的类型是any\n2.window.localStorage.setItem()的作用？\n3.window.localStorage.getItem() 的作用\n4. window.localStorage.removeItem() 的作用\n5. window.localStorage.clear()作用\n\n*/\n  getCache(key: string) {\n    // obj =\u003e string =\u003e obj\n    const value = window.localStorage.getItem(key)\n    if (value) {\n      return JSON.parse(value)\n    }\n  }\n\n  deleteCache(key: string) {\n    window.localStorage.removeItem(key)\n  }\n\n  clearCache() {\n    window.localStorage.clear()\n  }\n}\n\nexport default new LocalCache()\n"
+												},
+												{
+													"Type": "NodeCodeBlockFenceCloseMarker",
+													"Data": "```",
+													"CodeBlockFenceLen": 3
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-kqyish0",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220318161730-kqyish0"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "### "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "本地缓存相关的方法"
+				}
+			]
+		},
+		{
+			"ID": "20220327181005-og9hm75",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220327181005-og9hm75",
+				"updated": "20220327181006"
+			},
+			"Children": [
+				{
+					"ID": "20220327181005-kjgdlqb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-kjgdlqb",
+						"updated": "20220327181006"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-t3esc4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-t3esc4g",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "1.为什么用JSON.stringify(value)？"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327181005-atg0wss",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-atg0wss",
+						"updated": "20220327181006"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-eynnjra",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-eynnjra",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "setItem 接受字符串类型，而value的类型是any"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327181005-8kwm4w5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-8kwm4w5",
+						"updated": "20220327181006"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-1969q82",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-1969q82",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "2.window.localStorage.setItem()的作用？"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327181005-nbvnoav",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-nbvnoav",
+						"updated": "20220327181006"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-mmoktcn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-mmoktcn",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "3.window.localStorage.getItem() 的作用"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327181005-aw29wfw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-aw29wfw",
+						"updated": "20220327181006"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-qxy07l3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-qxy07l3",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "4. window.localStorage.removeItem() 的作用"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220327181005-tecnxh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-tecnxh1",
+						"updated": "20220327181006"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-p50si4u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-p50si4u",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "5. window.localStorage.clear()作用"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-v97sycw",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220318161730-v97sycw"
+			}
+		},
+		{
+			"ID": "20220318161730-9ydz9gi",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-9ydz9gi"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "使用改class的方法进行缓存有用的数据"
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-s25oxsq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161730-s25oxsq"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!"
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "day35%20004fb/Untitled.png"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled-20220318161730-xfa4nun.png"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161730-7dw0uur",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161730-7dw0uur"
+			},
+			"Children": [
+				{
+					"ID": "20220318161730-vsa99gb",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161730-vsa99gb"
+					},
+					"Children": [
+						{
+							"ID": "20220318161730-cwycfka",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-cwycfka"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "account.vue"
+								}
+							]
+						},
+						{
+							"ID": "20220318161730-syfu8n2",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161730-syfu8n2"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "import localCache from '../../../utils/cache'\n\nconst account = reactive({\n      name: localCache.getCache('name') ?? '',\n      password: localCache.getCache('password') ?? ''\n})\n\nconst loginAction = (isKeepPassword: boolean) =\u003e {\n      console.log('登录按钮点击，获取isKeepPassword')\n\n      formRef.value?.validate((valid) =\u003e {\n        console.log('表单的验证是否通过？', valid)\n        if (valid) {\n          if (isKeepPassword) {\n            console.log('执行保存账号密码操作')\n            localCache.setCache('name', account.name)\n            localCache.setCache('password', account.password)\n          }\n          console.log('跳转到下一个页面')\n        }\n      })\n  }\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220327181034-1f4bncb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327181034-1f4bncb",
+				"updated": "20220327181034"
+			}
+		}
+	]
+}

@@ -1,0 +1,1142 @@
+{
+	"ID": "20220326105716-64fdxjx",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220326105716-64fdxjx",
+		"title": "简历",
+		"updated": "20220326110146"
+	},
+	"Children": [
+		{
+			"ID": "20220326105747-s423vt6",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220326105747-s423vt6",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "基本信息"
+				}
+			]
+		},
+		{
+			"ID": "20220326105914-lnb90um",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220326105914-lnb90um",
+				"updated": "20220326105914"
+			}
+		},
+		{
+			"ID": "20220326105916-21yt58c",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105916-21yt58c",
+				"updated": "20220326105916"
+			}
+		},
+		{
+			"ID": "20220326105909-f9ig28q",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105909-f9ig28q",
+				"updated": "20220326105912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "|"
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-4nqzbe9",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220326105747-4nqzbe9",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "教育经历"
+				}
+			]
+		},
+		{
+			"ID": "20220326105919-5isnovo",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220326105919-5isnovo",
+				"updated": "20220326105919"
+			}
+		},
+		{
+			"ID": "20220326105920-d28o4dk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105920-d28o4dk",
+				"updated": "20220326105920"
+			}
+		},
+		{
+			"ID": "20220326105747-lxk25om",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105747-lxk25om",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "|"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-6mj926t",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220326105747-6mj926t",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "项目经历"
+				}
+			]
+		},
+		{
+			"ID": "20220326110009-8aowh76",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220326110009-8aowh76",
+				"updated": "20220326110009"
+			}
+		},
+		{
+			"ID": "20220326105747-v5qddim",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105747-v5qddim",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "后台管理系统页面的开发"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "："
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-kkayogp",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105747-kkayogp",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "项目描述"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "：学习使用vue3新特性 ，结合typescript和elementPlus组件库进行页面搭建"
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-xefwjtz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105747-xefwjtz",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "技术要点："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-6iib5ze",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220326105747-6iib5ze",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"ID": "20220326105747-8ujkzbc",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-8ujkzbc"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-fxbdm2p",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-fxbdm2p"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "网络请求的封装"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-cc0hx19",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-cc0hx19"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-vyil1d8",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-vyil1d8"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "登录验证逻辑实现"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-ommp6c1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-ommp6c1"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-lgtwl45",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-lgtwl45"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "动态配置路由分析"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-7d2cnet",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-7d2cnet"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-vpjcv0y",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-vpjcv0y"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "公共组件封装"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-fdoalxj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105747-fdoalxj",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Data": "strong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "个人收获："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-d5e72mq",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220326105747-d5e72mq",
+				"updated": "20220326105836"
+			},
+			"Children": [
+				{
+					"ID": "20220326105747-e428ukz",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-e428ukz"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-ssi74lw",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-ssi74lw"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "团队开发代码风格统一和基本框架搭建"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-4yy8e0g",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-4yy8e0g",
+						"updated": "20220326105824"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-028xcs4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-028xcs4",
+								"updated": "20220326105824"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "发布自己的npm工具，"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-39s7xoh",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-39s7xoh",
+						"updated": "20220326105836"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-9qf90an",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-9qf90an",
+								"updated": "20220326105836"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟练应用vue3的技术栈"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-e8z8r10",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220326105747-e8z8r10",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "专业技能"
+				}
+			]
+		},
+		{
+			"ID": "20220326110013-rxtsfd9",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220326110013-rxtsfd9",
+				"updated": "20220326110013"
+			}
+		},
+		{
+			"ID": "20220326105747-pxflgxi",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220326105747-pxflgxi",
+				"updated": "20220326110146"
+			},
+			"Children": [
+				{
+					"ID": "20220326105747-2hkwuq0",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-2hkwuq0"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-nbhi00n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-nbhi00n"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟练CSS 、HTML、JavaScript（闭包，原型链继承，ES6，DOM，BOM）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-xrjgm94",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-xrjgm94"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-6b5ll50",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-6b5ll50"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟练Vue技术栈使用和理解（生命周期，响应式原理）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-wgererv",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-wgererv",
+						"updated": "20220326110146"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-jfw2vkv",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-jfw2vkv",
+								"updated": "20220326110146"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟悉浏览器调试工具"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-hljuzu4",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-hljuzu4"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-t40st0r",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-t40st0r"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟悉计算机网络(TCP/IP http/https等基本知识)"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-1uemk06",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-1uemk06"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-0ai4pke",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-0ai4pke"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟悉常见的数据结构和算法（栈，队列，链表，二叉树和常见排序算法）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-pmioeni",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-pmioeni",
+						"updated": "20220326110045"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-ijhrf9t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-ijhrf9t",
+								"updated": "20220326110045"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "熟悉git 版本管理工具"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								},
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "操作"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-mv0d8mf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-mv0d8mf"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-wbq2e5n",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-wbq2e5n"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "了解常见的设计模式（单例模式）"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-8xb2haf",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-8xb2haf"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-buabbub",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-buabbub"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "了解前端性能优化方案"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105747-mjwvv8b",
+			"Type": "NodeHeading",
+			"HeadingLevel": 2,
+			"Properties": {
+				"id": "20220326105747-mjwvv8b",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "自我评价"
+				}
+			]
+		},
+		{
+			"ID": "20220326110017-eg8dt6f",
+			"Type": "NodeThematicBreak",
+			"Properties": {
+				"id": "20220326110017-eg8dt6f",
+				"updated": "20220326110017"
+			}
+		},
+		{
+			"ID": "20220326105747-jlt31da",
+			"Type": "NodeList",
+			"ListData": {},
+			"Properties": {
+				"id": "20220326105747-jlt31da",
+				"updated": "20220326105747"
+			},
+			"Children": [
+				{
+					"ID": "20220326105747-bo0uj7u",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-bo0uj7u"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-b10r8fi",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-b10r8fi"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "具备良好的服务意识、责任心、较强的学习能力"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-0j0dfjg",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-0j0dfjg"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-pep0zg4",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-pep0zg4"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "较强的自我管理意识和执行力，可以承受高强度工作"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-388u3bx",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-388u3bx"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-cbfkrmy",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-cbfkrmy"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "对互联网产品和Web技术有浓厚兴趣，有较好的学习能力和强烈的进取心；"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220326105747-mqo1gov",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220326105747-mqo1gov"
+					},
+					"Children": [
+						{
+							"ID": "20220326105747-7406tjf",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220326105747-7406tjf"
+							},
+							"Children": [
+								{
+									"Type": "NodeStrong",
+									"Data": "strong",
+									"Children": [
+										{
+											"Type": "NodeStrongA6kOpenMarker",
+											"Data": "**"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "热爱互联网，对互联网相关业务或技术充满好奇及热情。"
+										},
+										{
+											"Type": "NodeStrongA6kCloseMarker",
+											"Data": "**"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220326105750-4lp7b4w",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220326105750-4lp7b4w",
+				"updated": "20220326105750"
+			}
+		}
+	]
+}

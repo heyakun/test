@@ -5,7 +5,7 @@
 		"id": "20220318161730-kcyvx97",
 		"title": "01登录-记住密码和本地缓存",
 		"type": "doc",
-		"updated": "20220319192144"
+		"updated": "20220327181034"
 	},
 	"Children": [
 		{
@@ -260,156 +260,257 @@
 			]
 		},
 		{
-			"ID": "20220318161730-t3esc4g",
-			"Type": "NodeParagraph",
+			"ID": "20220327181005-og9hm75",
+			"Type": "NodeList",
+			"ListData": {},
 			"Properties": {
-				"id": "20220318161730-t3esc4g"
+				"id": "20220327181005-og9hm75",
+				"updated": "20220327181006"
 			},
 			"Children": [
 				{
-					"Type": "NodeEmphasis",
+					"ID": "20220327181005-kjgdlqb",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-kjgdlqb",
+						"updated": "20220327181006"
+					},
 					"Children": [
 						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "1.为什么用JSON.stringify(value)？"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
+							"ID": "20220318161730-t3esc4g",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-t3esc4g",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "1.为什么用JSON.stringify(value)？"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20220318161730-eynnjra",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220318161730-eynnjra"
-			},
-			"Children": [
+				},
 				{
-					"Type": "NodeEmphasis",
+					"ID": "20220327181005-atg0wss",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-atg0wss",
+						"updated": "20220327181006"
+					},
 					"Children": [
 						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "setItem 接受字符串类型，而value的类型是any"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
+							"ID": "20220318161730-eynnjra",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-eynnjra",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "setItem 接受字符串类型，而value的类型是any"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20220318161730-1969q82",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220318161730-1969q82"
-			},
-			"Children": [
+				},
 				{
-					"Type": "NodeEmphasis",
+					"ID": "20220327181005-8kwm4w5",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-8kwm4w5",
+						"updated": "20220327181006"
+					},
 					"Children": [
 						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "2.window.localStorage.setItem()的作用？"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
+							"ID": "20220318161730-1969q82",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-1969q82",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "2.window.localStorage.setItem()的作用？"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20220318161730-mmoktcn",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220318161730-mmoktcn"
-			},
-			"Children": [
+				},
 				{
-					"Type": "NodeEmphasis",
+					"ID": "20220327181005-nbvnoav",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-nbvnoav",
+						"updated": "20220327181006"
+					},
 					"Children": [
 						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "3.window.localStorage.getItem() 的作用"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
+							"ID": "20220318161730-mmoktcn",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-mmoktcn",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "3.window.localStorage.getItem() 的作用"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20220318161730-qxy07l3",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220318161730-qxy07l3"
-			},
-			"Children": [
+				},
 				{
-					"Type": "NodeEmphasis",
+					"ID": "20220327181005-aw29wfw",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-aw29wfw",
+						"updated": "20220327181006"
+					},
 					"Children": [
 						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "4. window.localStorage.removeItem() 的作用"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
+							"ID": "20220318161730-qxy07l3",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-qxy07l3",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "4. window.localStorage.removeItem() 的作用"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
 						}
 					]
-				}
-			]
-		},
-		{
-			"ID": "20220318161730-p50si4u",
-			"Type": "NodeParagraph",
-			"Properties": {
-				"id": "20220318161730-p50si4u"
-			},
-			"Children": [
+				},
 				{
-					"Type": "NodeEmphasis",
+					"ID": "20220327181005-tecnxh1",
+					"Type": "NodeListItem",
+					"ListData": {
+						"BulletChar": 42,
+						"Marker": "Kg=="
+					},
+					"Properties": {
+						"id": "20220327181005-tecnxh1",
+						"updated": "20220327181006"
+					},
 					"Children": [
 						{
-							"Type": "NodeEmA6kOpenMarker",
-							"Data": "*"
-						},
-						{
-							"Type": "NodeText",
-							"Data": "5. window.localStorage.clear()作用"
-						},
-						{
-							"Type": "NodeEmA6kCloseMarker",
-							"Data": "*"
+							"ID": "20220318161730-p50si4u",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161730-p50si4u",
+								"updated": "20220327181006"
+							},
+							"Children": [
+								{
+									"Type": "NodeEmphasis",
+									"Children": [
+										{
+											"Type": "NodeEmA6kOpenMarker",
+											"Data": "*"
+										},
+										{
+											"Type": "NodeText",
+											"Data": "5. window.localStorage.clear()作用"
+										},
+										{
+											"Type": "NodeEmA6kCloseMarker",
+											"Data": "*"
+										}
+									]
+								}
+							]
 						}
 					]
 				}
@@ -554,6 +655,14 @@
 					]
 				}
 			]
+		},
+		{
+			"ID": "20220327181034-1f4bncb",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327181034-1f4bncb",
+				"updated": "20220327181034"
+			}
 		}
 	]
 }

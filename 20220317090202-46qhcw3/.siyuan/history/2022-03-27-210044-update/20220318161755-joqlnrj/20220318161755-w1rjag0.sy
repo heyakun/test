@@ -1,0 +1,328 @@
+{
+	"ID": "20220318161755-w1rjag0",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161755-w1rjag0",
+		"title": "03重写useStore函数",
+		"type": "doc",
+		"updated": "20220327205533"
+	},
+	"Children": [
+		{
+			"ID": "20220318161755-lbd37b5",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-lbd37b5"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "为什么重写？"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-m8wlh39",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-m8wlh39"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以为写store.state.login.userMenus 这段代码是，不支持类型检测，const store = useStore() 返回值是any类型"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-x74dvbv",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-x74dvbv"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "components\\nav-menu\\src\\nav-menu.vue（不做任何处理，使用）"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-f7vsp9w",
+			"Type": "NodeCodeBlock",
+			"IsFencedCodeBlock": true,
+			"CodeBlockFenceChar": 96,
+			"CodeBlockFenceLen": 3,
+			"CodeBlockOpenFence": "YGBg",
+			"CodeBlockInfo": "dHN4",
+			"CodeBlockCloseFence": "YGBg",
+			"Properties": {
+				"id": "20220318161755-f7vsp9w"
+			},
+			"Children": [
+				{
+					"Type": "NodeCodeBlockFenceOpenMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				},
+				{
+					"Type": "NodeCodeBlockFenceInfoMarker",
+					"CodeBlockInfo": "dHN4"
+				},
+				{
+					"Type": "NodeCodeBlockCode",
+					"Data": "import { useStore } from '@/store'//导入的是重写的useStore函数\n\nsetup() {\n    const store = useStore()\n    const userMenus = computed(() =\u003e store.state.login.userMenus)\n    return { **userMenus** }\n  }\n"
+				},
+				{
+					"Type": "NodeCodeBlockFenceCloseMarker",
+					"Data": "```",
+					"CodeBlockFenceLen": 3
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-402kf6g",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161755-402kf6g"
+			},
+			"Children": [
+				{
+					"ID": "20220318161755-25w7zak",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161755-25w7zak"
+					},
+					"Children": [
+						{
+							"ID": "20220318161755-3j9bd7t",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161755-3j9bd7t"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store\\index（重写）"
+								}
+							]
+						},
+						{
+							"ID": "20220318161755-e9tovnm",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161755-e9tovnm"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\nimport { createStore, Store, useStore as useVuexStore } from 'vuex'\n\nexport function useStore(): Store\u003c**IStoreType**\u003e {\n  return useVuexStore()\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220318161755-ku02mv9",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"Tight": true,
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161755-ku02mv9"
+					},
+					"Children": [
+						{
+							"ID": "20220318161755-2fo5vl5",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161755-2fo5vl5"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "store\\type"
+								}
+							]
+						},
+						{
+							"ID": "20220318161755-1o3n6cp",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161755-1o3n6cp"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "\nexport interface **IloginState** {\n  token: string\n  userInfo: any\n  userMenus: any\n}\n\nexport interface ***IRootState*** {\n  name: string\n  age: number\n}\n\nexport interface ***IRootWithModule*** {\n  login: IloginState\n}\n\n**export type IStoreType = IRootWithModule \u0026 IRootState**\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-p3iw9h9",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220318161755-p3iw9h9"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e "
+				},
+				{
+					"ID": "20220318161755-2j0e9h9",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220318161755-2j0e9h9"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "useStore as useVuexStore 由于名称重复，通过"
+						},
+						{
+							"Type": "NodeStrong",
+							"Children": [
+								{
+									"Type": "NodeStrongA6kOpenMarker",
+									"Data": "**"
+								},
+								{
+									"Type": "NodeText",
+									"Data": "as"
+								},
+								{
+									"Type": "NodeStrongA6kCloseMarker",
+									"Data": "**"
+								}
+							]
+						},
+						{
+							"Type": "NodeText",
+							"Data": " 起别名"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-u55n906",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220318161755-u55n906"
+			},
+			"Children": [
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e "
+				},
+				{
+					"ID": "20220318161755-8dfbvn5",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220318161755-8dfbvn5"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "\u0026符号查看 "
+						},
+						{
+							"Type": "NodeLink",
+							"Children": [
+								{
+									"Type": "NodeOpenBracket",
+									"Data": "["
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "day29"
+								},
+								{
+									"Type": "NodeCloseBracket",
+									"Data": "]"
+								},
+								{
+									"Type": "NodeOpenParen",
+									"Data": "("
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "https://www.notion.so/day29-typescript-3f94a4fe559f4a10b17c8c3ca4ae7b88"
+								},
+								{
+									"Type": "NodeCloseParen",
+									"Data": ")"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

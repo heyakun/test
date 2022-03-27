@@ -1,0 +1,1046 @@
+{
+	"ID": "20220325170330-i2gboor",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220325170330-i2gboor",
+		"title": "查询文献",
+		"updated": "20220325195124"
+	},
+	"Children": [
+		{
+			"ID": "20220325170330-sseskz0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170330-sseskz0",
+				"updated": "20220325170611"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "入口网址："
+				}
+			]
+		},
+		{
+			"ID": "20220325170410-7xw6x18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170410-7xw6x18",
+				"updated": "20220325170440"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "北京科技大学图书馆-数据库导航 (ustb.edu.cn)"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://lib.ustb.edu.cn/node/405.jspx"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325170556-zlnhtfo",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170556-zlnhtfo",
+				"updated": "20220325170604"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常用网址"
+				}
+			]
+		},
+		{
+			"ID": "20220325170341-hoarhki",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170341-hoarhki",
+				"updated": "20220325171206"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "elsevier"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://elib.ustb.edu.cn/https/77726476706e69737468656265737421e7e056d234336155700b8ca891472636a6d29e640e/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325170551-54rt9h2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170551-54rt9h2",
+				"updated": "20220325171142"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "web of science"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://elib.ustb.edu.cn/https/77726476706e69737468656265737421e7e056d230356a5f781b8aa59d5b20301c1db852/wos/alldb/basic-search"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325170628-il2v53z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170628-il2v53z",
+				"updated": "20220325171247"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "ASME"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.asmedigitalcollection.asme.org/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325170623-5rf9es8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170623-5rf9es8",
+				"updated": "20220325172101"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Sci-Hub: removing barriers in the way of science"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.sci-hub.ren/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325171745-wrurzt3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171745-wrurzt3",
+				"updated": "20220325173016"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "本校论文"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://elib.ustb.edu.cn/http/77726476706e69737468656265737421e4ff448f2e2326456d1c8be29d51367b9915/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325174643-pk8vrh1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174643-pk8vrh1",
+				"updated": "20220325174737"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "百度学术"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://xueshu.baidu.com/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325174709-jgsp9jg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174709-jgsp9jg",
+				"updated": "20220325174953"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "谷歌学术镜像"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://ac.scmor.com/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325175013-p2cz703",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325175013-p2cz703",
+				"updated": "20220325175841"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其他："
+				}
+			]
+		},
+		{
+			"ID": "20220325170653-y92pf8n",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170653-y92pf8n",
+				"updated": "20220325171728"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见期刊"
+				}
+			]
+		},
+		{
+			"ID": "20220325171728-ecrdqu8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171728-ecrdqu8",
+				"updated": "20220325172541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Mechanism and Machine Theory （MMT）"
+				}
+			]
+		},
+		{
+			"ID": "20220325172619-roasvs6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172619-roasvs6",
+				"updated": "20220325172632"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "JOURNAL OF MECHANICAL DESIGN  (GMD)"
+				}
+			]
+		},
+		{
+			"ID": "20220325172748-gcnw6ds",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172748-gcnw6ds",
+				"updated": "20220325173423"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Precision Engineering"
+				}
+			]
+		},
+		{
+			"ID": "20220325174130-hyu3rb1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174130-hyu3rb1",
+				"updated": "20220325174130"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "journal of mechanical engineering"
+				}
+			]
+		},
+		{
+			"ID": "20220325173651-or2c6rq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325173651-or2c6rq",
+				"updated": "20220325173651"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Computers Structures"
+				}
+			]
+		},
+		{
+			"ID": "20220325171729-3h947be",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171729-3h947be",
+				"updated": "20220325175701"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常见作者"
+				}
+			]
+		},
+		{
+			"ID": "20220325171732-f8qdylu",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171732-f8qdylu",
+				"updated": "20220325174233"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "Howell "
+				}
+			]
+		},
+		{
+			"ID": "20220325174235-47gdm4z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174235-47gdm4z",
+				"updated": "20220325175658"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "陈贵敏，张宪民，郝广波，胡俊峰，于靖军，毕树生"
+				}
+			]
+		},
+		{
+			"ID": "20220325171723-1idydno",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171723-1idydno",
+				"updated": "20220325171723"
+			}
+		},
+		{
+			"ID": "20220325171723-63cux4m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171723-63cux4m",
+				"updated": "20220325171723"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "文献名称未知"
+				}
+			]
+		},
+		{
+			"ID": "20220325170707-io8866t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170707-io8866t",
+				"updated": "20220325175641"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "根据关键词查询"
+				}
+			]
+		},
+		{
+			"ID": "20220325170907-v0ew9is",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170907-v0ew9is",
+				"updated": "20220325171340"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（1）常用关键词包括"
+				}
+			]
+		},
+		{
+			"ID": "20220325170726-66cujg1",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170726-66cujg1",
+				"updated": "20220325171355"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tflexure hinge（柔性铰链）"
+				}
+			]
+		},
+		{
+			"ID": "20220325170814-b4ij6hf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170814-b4ij6hf",
+				"updated": "20220325171403"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tcompliant mechanisms（柔性机构）"
+				}
+			]
+		},
+		{
+			"ID": "20220325171405-uraap66",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171405-uraap66",
+				"updated": "20220325183316"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tVariable Stiffness（变刚度）"
+				}
+			]
+		},
+		{
+			"ID": "20220325171417-7nmu44r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171417-7nmu44r",
+				"updated": "20220325183912"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tpseudo-rigid-body model（伪刚体）"
+				}
+			]
+		},
+		{
+			"ID": "20220325171504-1l1m4w2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325171504-1l1m4w2",
+				"updated": "20220325183837"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tcompliant constant-force mechanism（恒力机构）"
+				}
+			]
+		},
+		{
+			"ID": "20220325183840-a7dn561",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325183840-a7dn561",
+				"updated": "20220325183904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "\tOrigami mechanism（折纸机构）"
+				}
+			]
+		},
+		{
+			"ID": "20220325170823-fv36koe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170823-fv36koe",
+				"updated": "20220325170957"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "（2）中文文献摘要  英文摘要下的关键词 keywords"
+				}
+			]
+		},
+		{
+			"ID": "20220325170958-xc2wr7v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170958-xc2wr7v",
+				"updated": "20220325172126"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "已知文献名称"
+				}
+			]
+		},
+		{
+			"ID": "20220325172208-b3jc3h8",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172208-b3jc3h8",
+				"updated": "20220325172215"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1）直接搜索"
+				}
+			]
+		},
+		{
+			"ID": "20220325172042-t69vtfw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172042-t69vtfw",
+				"updated": "20220325175523"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "Sci-Hub: removing barriers in the way of science"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.sci-hub.ren/"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": " 直接搜索，"
+				}
+			]
+		},
+		{
+			"ID": "20220325175524-h9lam9t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325175524-h9lam9t",
+				"updated": "20220325175541"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "谷歌学术，百度学术"
+				}
+			]
+		},
+		{
+			"ID": "20220325172112-xly53qe",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172112-xly53qe",
+				"updated": "20220325172236"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2）百度搜索 确定 所在期刊，在对应期刊上搜索"
+				}
+			]
+		},
+		{
+			"ID": "20220325172237-5sij339",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172237-5sij339",
+				"updated": "20220325175627"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "3）百度搜索 确定 文献DIO ，Sci-hub 搜索"
+				}
+			]
+		},
+		{
+			"ID": "20220325172426-lcdmcz9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325172426-lcdmcz9",
+				"updated": "20220325172426"
+			}
+		},
+		{
+			"ID": "20220325174803-5p4we3x",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174803-5p4we3x",
+				"updated": "20220325174808"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "常用软件"
+				}
+			]
+		},
+		{
+			"ID": "20220325174808-2xfrg7r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174808-2xfrg7r",
+				"updated": "20220325174856"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "ANSYS workbench（仿真）"
+				}
+			]
+		},
+		{
+			"ID": "20220325174817-z1f66v0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174817-z1f66v0",
+				"updated": "20220325174900"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "matlab（计算）"
+				}
+			]
+		},
+		{
+			"ID": "20220325174822-xmv4p6m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325174822-xmv4p6m",
+				"updated": "20220325174904"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "origin visio（绘图）"
+				}
+			]
+		},
+		{
+			"ID": "20220325184356-ju31742",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325184356-ju31742",
+				"updated": "20220325184401"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "书籍推荐"
+				}
+			]
+		},
+		{
+			"ID": "20220325195116-lx9vaha",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220325195116-lx9vaha",
+				"updated": "20220325195116"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20220325184402-kva297v",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220325184402-kva297v",
+						"updated": "20220325195116"
+					},
+					"Children": [
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "tstmp_20220325184503.jpg"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/tstmp_20220325184503-20220325184507-lbof269.jpg"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						}
+					]
+				},
+				{
+					"ID": "20220325195035-y96edyc",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220325195035-y96edyc",
+						"updated": "20220325195116"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "柔顺机构学"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220325195120-dxodr6y",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220325195120-dxodr6y",
+				"updated": "20220325195120"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20220325195034-tq2baiy",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220325195034-tq2baiy",
+						"updated": "20220325195120"
+					},
+					"Children": [
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Properties": {
+								"parent-style": "max-width: 250px;",
+								"style": "width: 240px;"
+							},
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "image.png"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/image-20220325184648-fpjcht9.png"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"width: 240px;\" parent-style=\"max-width: 250px;\"}"
+						}
+					]
+				},
+				{
+					"ID": "20220325195039-zwcp44d",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220325195039-zwcp44d",
+						"updated": "20220325195120"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "柔性设计-柔性机构的分析与综合"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220325195123-kmqqovc",
+			"Type": "NodeSuperBlock",
+			"Properties": {
+				"id": "20220325195123-kmqqovc",
+				"updated": "20220325195124"
+			},
+			"Children": [
+				{
+					"Type": "NodeSuperBlockOpenMarker"
+				},
+				{
+					"Type": "NodeSuperBlockLayoutMarker",
+					"Data": "row"
+				},
+				{
+					"ID": "20220325195021-b1l0bjb",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220325195021-b1l0bjb",
+						"updated": "20220325195124"
+					},
+					"Children": [
+						{
+							"Type": "NodeImage",
+							"Data": "span",
+							"Properties": {
+								"parent-style": "max-width: 247px;",
+								"style": "width: 237px;"
+							},
+							"Children": [
+								{
+									"Type": "NodeBang"
+								},
+								{
+									"Type": "NodeOpenBracket"
+								},
+								{
+									"Type": "NodeLinkText",
+									"Data": "tstmp_20220325194805.jpg"
+								},
+								{
+									"Type": "NodeCloseBracket"
+								},
+								{
+									"Type": "NodeOpenParen"
+								},
+								{
+									"Type": "NodeLinkDest",
+									"Data": "assets/tstmp_20220325194805-20220325194808-xtlwj4a.jpg"
+								},
+								{
+									"Type": "NodeCloseParen"
+								}
+							]
+						},
+						{
+							"Type": "NodeKramdownSpanIAL",
+							"Data": "{: style=\"width: 237px;\" parent-style=\"max-width: 247px;\"}"
+						}
+					]
+				},
+				{
+					"ID": "20220325194514-6wr687s",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220325194514-6wr687s",
+						"updated": "20220325195124"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "柔性机构设计理论与实例"
+						}
+					]
+				},
+				{
+					"Type": "NodeSuperBlockCloseMarker"
+				}
+			]
+		},
+		{
+			"ID": "20220325194814-kjpe797",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325194814-kjpe797",
+				"updated": "20220325194814"
+			}
+		}
+	]
+}

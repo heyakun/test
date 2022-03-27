@@ -1,0 +1,505 @@
+{
+	"ID": "20220327163044-yvejls2",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220327163044-yvejls2",
+		"title": "寻找-接纳-和解",
+		"updated": "20220327175119"
+	},
+	"Children": [
+		{
+			"ID": "20220327163114-rz6i89e",
+			"Type": "NodeBlockquote",
+			"Properties": {
+				"id": "20220327163114-rz6i89e",
+				"updated": "20220327163115"
+			},
+			"Children": [
+				{
+					"ID": "20220327163058-i7xpx7s",
+					"Type": "NodeParagraph",
+					"Properties": {
+						"id": "20220327163058-i7xpx7s",
+						"updated": "20220327163115"
+					},
+					"Children": [
+						{
+							"Type": "NodeText",
+							"Data": "作者：知乎用户h0Lp0V\n链接：https://www.zhihu.com/question/320757815/answer/1020589120\n来源：知乎\n著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"
+						}
+					]
+				},
+				{
+					"Type": "NodeBlockquoteMarker",
+					"Data": "\u003e"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-w21qk1t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-w21qk1t",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "我们终其一生，是学会接纳自己，接受现实，与自己和解，最后和某个喜欢自己的姑娘在一起。那些姑娘也许没你个子高，没你身材好，没你漂亮，没你学历高，没你收入高，家境不如你，但她最适合我。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-1e0sqbw",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-1e0sqbw",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "很多年后，题主可能会变成一部分穷男生藏在心底的白月光，"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "朱砂痣"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.zhihu.com/search?q=%E6%9C%B1%E7%A0%82%E7%97%A3\u0026search_source=Entity\u0026hybrid_search_source=Entity\u0026hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1020589120%7D"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "；可能是转瞬即逝，最终被遗忘的尘埃；可能是他们回头再看也不过如此的蚊子血，饭粘子。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-lvv19bf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-lvv19bf",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "总归，我们不会恨你，不会带着情绪宣扬莫欺少年穷之类的话，更不会像某些有野心有心机的穷男生一样利用你。我们会找准自己的定位，接受出身事实，并继续努力改变命运。虽然某些心机男会选择找比自己家庭条件好的女生来走捷径，但我不看好这种手段。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-06utfz9",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-06utfz9",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "题主这样的姑娘对我们的意义在于：你们的出现让我们意识到自己很穷，你们的拒绝让我们接受了自己贫穷出身的事实，并且激励我们上进，毕竟谁不想娶个大家闺秀呢？"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-tu3oss3",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-tu3oss3",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "真希望题主这样清楚自己想要什么的姑娘多一些，拒绝我们穷男生的时候，坚决果断一些，不要给我们任何希望。这不是伤害我们，相反，这是双赢。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-7qfoxio",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-7qfoxio",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你们知道自己想要什么样的恋爱和婚姻，不会轻易被我们之中某些骗子用各种伪装哄骗到手，坏了我们穷人的名声。也不会像很多女生一样，不喜欢还不拒绝，吊着我们这些穷人，因果循环，制造新的渣男渣女。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-q4nva9k",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-q4nva9k",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "对双方来说，直白的拒绝是最好的，我们虽然穷，但是敏感自尊。你只要稍有拒绝的举动，我们一般都会收起示好，不再打扰，况且大家同一个圈子，看到伙伴被拒绝，很快你在我们之中就会留下高冷，难追的印象，间接打消了更多人追你的念头。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-2i0quj2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-2i0quj2",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你在理工圈，前赴后继追你的男生可能确实多了点，但你的坚持是对的，你会在男生之中留下好名声。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-2wys6zl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-2wys6zl",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "因为真正优秀的好男孩和好女孩，是很爱惜羽毛的，他们不会因为追求者众多而坏了自己在异性眼里的形象。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-sjp4m3z",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-sjp4m3z",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你的坚持不会白费，当某天你遇到自己喜欢的男生，你会骄傲地站在他面前：我为了等你出现，洁身自好。我值得被你拥有，我配的上你的优秀。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-lt530ge",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-lt530ge",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "如此，哪怕你喜欢的男生不喜欢你，他也会十分敬重你的人品，认为你是个可靠的结婚对象。也许女生要的不是这种尊重，有时候会认为这种被自己喜欢的男生尊重，更像是一种羞辱，我都愿意给你了，你还不要？"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-oi7nx2t",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-oi7nx2t",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但在男生眼里，这种尊重是为了不伤害你，不影响你下一次更勇敢，假如你真的被一个不喜欢自己的男生玩弄，你那份骄傲荡然无存，在今后所有喜欢的男生面前，都会抬不起头。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-50t1u4m",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-50t1u4m",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "好多穷男生年轻时，喜欢一个人，往往意识不到对方和自己的差距，只知道喜欢，藏不住，很快就被女生感觉到。但自己在那些女生面前，往往又乏善可陈，吃穿用度，言行举止，思维方式，满眼都是破绽，如果不适可而止，既让女生厌烦，又显得自己掉价。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-nsy8ete",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-nsy8ete",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "而对我们这种家里很穷的男生来说，敢追你的人要么自认为有点本事，要么就是个被爱情冲昏头脑的情种。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-l5vllfz",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-l5vllfz",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但你的拒绝无疑给他们一个清醒的耳光，男生在一无所有的时候，最不应该专注的就是女人，别以为会打个篮球，做个饭，修个电脑，弹个菊花台就想找个家境小康或者十分漂亮出众的女生，实现阶层上升。男人改变命运还是靠自己比较靠谱。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-g54w380",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-g54w380",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "题主和大多数姑娘一样，本性不坏，有礼貌，但我们这些穷男生能看到的，也仅此而已。你的善良，温柔，可爱，善解人意，会关心人，还有更多我们不知道的一面，从开始就不是给我们这些穷男生准备的，即使我们卖力讨好，也未必能博你一笑，天平在一开始就失去了平衡，又怎么能奢望你对我们倾心。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-wj31eoy",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-wj31eoy",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "其实，我们也并不是非你不可。"
+				},
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "万有引力定律"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "https://www.zhihu.com/search?q=%E4%B8%87%E6%9C%89%E5%BC%95%E5%8A%9B%E5%AE%9A%E5%BE%8B\u0026search_source=Entity\u0026hybrid_search_source=Entity\u0026hybrid_search_extra=%7B%22sourceType%22%3A%22answer%22%2C%22sourceId%22%3A1020589120%7D"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				},
+				{
+					"Type": "NodeText",
+					"Data": "告诉我们，天体的吸引力和质量成正比，和距离成反比，你的条件在我们眼里足够好，又在同一个学校，距离足够近。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-l8yklmh",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-l8yklmh",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "在学校里，这种吸引力对我们来说是致命的，有些不成熟的男生甚至会因为和你这样的姑娘走太近而粉身碎骨。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-a7ulb9r",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-a7ulb9r",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "好在，校园的时光并不漫长，很快我们都会走向社会，各自远扬，天各一方，那时候，我们在彼此眼里，可能都同样渺小了吧。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-01j2o37",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-01j2o37",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "必须承认，某些穷男生心机颇深，会看上女方家境，幻想走捷径，或者执迷于女生的漂亮出众。但我想，更多的男生可能仅仅只是被那副生活善待过的脸而吸引，天真的他们没意识到，两人之间差距的重要性。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-k8246zj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-k8246zj",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "他们被生活吊打的已经够苦了，只是看到你之后，觉得自己的人生仿佛被点燃，他们愿意为你奋斗，在他们努力的时候，你的从容心态，就是对他们最好的安慰和鼓励，他渴望有机会证明自己能给你最好的未来。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-a1kfn96",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-a1kfn96",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你的拒绝可以打消那些男生不劳而获的想法，同时也让很多男生产生这样的心态：女人只可同甘，不能共苦。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-703ydm0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-703ydm0",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你希望找一个家庭条件相当的，或者比你更好一点的，这种心态再正常不过，很多人都有，包括男生也会这么想。不能共苦，可以是不愿意，也可以是不忍心。人性本就趋利避害，我们何尝愿意让女生跟着我们过苦日子？"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-03la4wj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-03la4wj",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "你们用各种礼貌的方式拒绝我们，感谢你们照顾我们的自尊。所以请你们放心，在明白你们的心意之后，我们不会因此而仇视女性，或者心理扭曲，更不会一蹶不振，自暴自弃。拿得起放得下才是大丈夫。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-e9zv1u2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-e9zv1u2",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "回头再看看，我们这种穷男生，年轻的时候，总是会遇见那么一个姑娘，被她的出众吸引，也因她的出众而远离。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-kux0obq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-kux0obq",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "不管今后自己努力挣多少钱，他可能会忘记第一个喜欢的女孩长什么样，但他很难忘记，面对那个姑娘时，心底对贫穷的绝望和憎恨。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-e8jgdu7",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-e8jgdu7",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "但愿你遇见自己喜欢的人以后，不要体会到那种绝望，至少不要觉得，被贫穷的少年喜欢是一件丢人的事情。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-l4y8fez",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-l4y8fez",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "以上算是对你问题的回答，穷男生年轻时，因现实原因，往往摆脱不了戾气和浮躁，看问题的心态不免偏激固执，只有从内到外彻底摆脱贫穷的束缚，才能正视自己的过去。"
+				}
+			]
+		},
+		{
+			"ID": "20220327163058-m5h8c8y",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327163058-m5h8c8y",
+				"updated": "20220327163058"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "所以，这篇就算对自己既往的反思和总结吧，各位看官不用对号入座。杠精喷子勿扰。"
+				}
+			]
+		}
+	]
+}

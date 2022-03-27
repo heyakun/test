@@ -5,7 +5,7 @@
 		"id": "20220318163637-2xx1uzp",
 		"title": "项目搭建开始",
 		"type": "doc",
-		"updated": "20220319191943"
+		"updated": "20220327175848"
 	},
 	"Children": [
 		{
@@ -1280,100 +1280,6 @@
 				{
 					"Type": "NodeText",
 					"Data": "2:13 表单验证规则"
-				}
-			]
-		},
-		{
-			"ID": "20220319173457-1b2dqgp",
-			"Type": "NodeTable",
-			"TableAligns": [
-				0,
-				0,
-				0
-			],
-			"Properties": {
-				"colgroup": "||",
-				"id": "20220319173457-1b2dqgp",
-				"updated": "20220319173457"
-			},
-			"Children": [
-				{
-					"Type": "NodeTableHead",
-					"Data": "thead",
-					"Children": [
-						{
-							"Type": "NodeTableRow",
-							"Data": "tr",
-							"Children": [
-								{
-									"Type": "NodeTableCell",
-									"Data": "th",
-									"Children": [
-										{
-											"Type": "NodeText",
-											"Data": "col1"
-										}
-									]
-								},
-								{
-									"Type": "NodeTableCell",
-									"Data": "th",
-									"Children": [
-										{
-											"Type": "NodeText",
-											"Data": "col2"
-										}
-									]
-								},
-								{
-									"Type": "NodeTableCell",
-									"Data": "th",
-									"Children": [
-										{
-											"Type": "NodeText",
-											"Data": "col3"
-										}
-									]
-								}
-							]
-						}
-					]
-				},
-				{
-					"Type": "NodeTableRow",
-					"Data": "tr",
-					"Children": [
-						{
-							"Type": "NodeTableCell",
-							"Data": "td"
-						},
-						{
-							"Type": "NodeTableCell",
-							"Data": "td"
-						},
-						{
-							"Type": "NodeTableCell",
-							"Data": "td"
-						}
-					]
-				},
-				{
-					"Type": "NodeTableRow",
-					"Data": "tr",
-					"Children": [
-						{
-							"Type": "NodeTableCell",
-							"Data": "td"
-						},
-						{
-							"Type": "NodeTableCell",
-							"Data": "td"
-						},
-						{
-							"Type": "NodeTableCell",
-							"Data": "td"
-						}
-					]
 				}
 			]
 		},

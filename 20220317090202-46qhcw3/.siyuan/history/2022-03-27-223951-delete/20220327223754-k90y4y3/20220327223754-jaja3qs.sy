@@ -1,0 +1,19 @@
+{
+	"ID": "20220327223754-jaja3qs",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220327223754-jaja3qs",
+		"title": "day40 6b910",
+		"updated": "20220327223754"
+	},
+	"Children": [
+		{
+			"ID": "20220327223754-ks15hjq",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-ks15hjq",
+				"updated": "20220327223754"
+			}
+		}
+	]
+}

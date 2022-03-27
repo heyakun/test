@@ -1,0 +1,66 @@
+{
+	"ID": "20220327223754-mh52djv",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220327223754-mh52djv",
+		"title": "xs 3636f",
+		"type": "doc"
+	},
+	"Children": [
+		{
+			"ID": "20220327223754-vw5dy6p",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220327223754-vw5dy6p"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "xs"
+				}
+			]
+		},
+		{
+			"ID": "20220327223754-wi43ujk",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220327223754-wi43ujk"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "0: —"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "—: —"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "类型: number/object (例如： {span: 4, offset: 4})"
+				},
+				{
+					"Type": "NodeSoftBreak",
+					"Data": "\n"
+				},
+				{
+					"Type": "NodeText",
+					"Data": "说明: \u003c768px 响应式栅格数或者栅格属性对象"
+				}
+			]
+		}
+	]
+}

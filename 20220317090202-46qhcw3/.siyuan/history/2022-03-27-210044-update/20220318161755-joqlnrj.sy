@@ -1,0 +1,556 @@
+{
+	"ID": "20220318161755-joqlnrj",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220318161755-joqlnrj",
+		"title": "day36 main搭建",
+		"type": "doc",
+		"updated": "20220327205643"
+	},
+	"Children": [
+		{
+			"ID": "20220318161755-9voj1fi",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161755-9voj1fi",
+				"updated": "20220318161755"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "day36 main"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-b0k96ew",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161755-b0k96ew"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "1:59- 2:13  基于角色的访问控制Role Based Access Control"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-uhnb0ln",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-uhnb0ln"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "权限控制-不同角色不同的控制权限，看到的路由页面也不同"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-vrux07u",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-vrux07u"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "单个用户 ：对应一个或多个角色          角色 ：对应多个权限              权限（userMenu）"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-knxrbkr",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-knxrbkr"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "有关系映射表"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-znxjiuj",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-znxjiuj"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "用户的【账号密码】  登录之后有role id 数据等, 直接查表, 找对应的角色和权限（usermenu）"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-xzwlfv7",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161755-xzwlfv7"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:13-2:24"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-metmlid",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-metmlid"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.菜单不能写死，是根据到服务器返回来的数据（userMenu），"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-sxima94",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-sxima94"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2.对应的路由，也不能(注册所有)，否则，外界人员即使没有权限，但是一样可以直接通过修改路由url就可以访问到"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-gjbnzb6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-gjbnzb6"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "动态路由："
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-zmsxakx",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-zmsxakx"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1 "
+				},
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "不同的角色，注册对应不同的路由 ，分组注册"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-94xhy34",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-94xhy34"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2 动态加载，动态注册（弊端：新增角色，没有配置路由，需要重新部署）"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-ycv81wg",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-ycv81wg"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第一种：路由全部注册"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-uhxv6ur",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-uhxv6ur"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第二种：路由动态注册，不同角色"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-y77lrl2",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-y77lrl2"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "第三种方案： 拿到菜单（里有url数据）之后，动态生成路由（path：）"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-heixk0b",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-heixk0b"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "1.拿到的菜单（后端）有component字段，路由可以直接注册（但不能修改名称，必须一致）"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-u34kr52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-u34kr52"
+			},
+			"Children": [
+				{
+					"Type": "NodeStrong",
+					"Children": [
+						{
+							"Type": "NodeStrongA6kOpenMarker",
+							"Data": "**"
+						},
+						{
+							"Type": "NodeText",
+							"Data": "2.拿到的菜单有url(没有名称字段)，前端提前配置好path→compoent, 根据url 选择加载注册path→compoent（推荐）"
+						},
+						{
+							"Type": "NodeStrongA6kCloseMarker",
+							"Data": "**"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-s4r6zsm",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161755-s4r6zsm"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:24 -2：32"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-cjg42jf",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-cjg42jf"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "菜单（带有url）-动态生成路由映射"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-amq9bzy",
+			"Type": "NodeHeading",
+			"HeadingLevel": 1,
+			"Properties": {
+				"id": "20220318161755-amq9bzy"
+			},
+			"Children": [
+				{
+					"Type": "NodeHeadingC8hMarker",
+					"Data": "# "
+				},
+				{
+					"Type": "NodeText",
+					"Data": "2:33 - 2:51 首页页面-路由对象的创建"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-lo163rd",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-lo163rd"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:37 main里面创建department menu role user 文件夹"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-3yovux6",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-3yovux6"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "router 里创建 main\\ user\\user.ts"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-xucyoho",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-xucyoho"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "例如："
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-ar9n5vm",
+			"Type": "NodeList",
+			"ListData": {
+				"BulletChar": 45,
+				"Padding": 2,
+				"Marker": "LQ==",
+				"Num": -1
+			},
+			"Properties": {
+				"id": "20220318161755-ar9n5vm"
+			},
+			"Children": [
+				{
+					"ID": "20220318161755-oqfiv17",
+					"Type": "NodeListItem",
+					"Data": "-",
+					"ListData": {
+						"BulletChar": 45,
+						"Padding": 2,
+						"Marker": "LQ==",
+						"Num": -1
+					},
+					"Properties": {
+						"id": "20220318161755-oqfiv17"
+					},
+					"Children": [
+						{
+							"ID": "20220318161755-do9cy6o",
+							"Type": "NodeParagraph",
+							"Properties": {
+								"id": "20220318161755-do9cy6o"
+							},
+							"Children": [
+								{
+									"Type": "NodeText",
+									"Data": "router\\main\\ user\\user.ts   (举例说明，其他文件格式相同)"
+								}
+							]
+						},
+						{
+							"ID": "20220318161755-iu6y10x",
+							"Type": "NodeCodeBlock",
+							"IsFencedCodeBlock": true,
+							"CodeBlockFenceChar": 96,
+							"CodeBlockFenceLen": 3,
+							"CodeBlockFenceOffset": 2,
+							"CodeBlockOpenFence": "YGBg",
+							"CodeBlockInfo": "dHN4",
+							"CodeBlockCloseFence": "YGBg",
+							"Properties": {
+								"id": "20220318161755-iu6y10x"
+							},
+							"Children": [
+								{
+									"Type": "NodeCodeBlockFenceOpenMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								},
+								{
+									"Type": "NodeCodeBlockFenceInfoMarker",
+									"CodeBlockInfo": "dHN4"
+								},
+								{
+									"Type": "NodeCodeBlockCode",
+									"Data": "const user = () =\u003e import('@/views/main/system/user/user.vue')\nexport default {\n  path: '/main/system/user',\n  name: 'user',\n  component: user,\n  children: []\n}\n"
+								},
+								{
+									"Type": "NodeCodeBlockFenceCloseMarker",
+									"Data": "```",
+									"CodeBlockFenceLen": 3
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-89hpwa0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-89hpwa0"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "2:40 npm install coderwhy 安装"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-43t7mee",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-43t7mee"
+			},
+			"Children": [
+				{
+					"Type": "NodeImage",
+					"Children": [
+						{
+							"Type": "NodeBang",
+							"Data": "!"
+						},
+						{
+							"Type": "NodeOpenBracket",
+							"Data": "["
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "day36%20main%2029e29/Untitled%201.png"
+						},
+						{
+							"Type": "NodeCloseBracket",
+							"Data": "]"
+						},
+						{
+							"Type": "NodeOpenParen",
+							"Data": "("
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "assets/Untitled 1-20220318161755-30tsoht.png"
+						},
+						{
+							"Type": "NodeCloseParen",
+							"Data": ")"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-qakfg52",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-qakfg52"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "命令：coderwhy add3page  user(组件名称)   -d   (目录)"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-npr7b9v",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-npr7b9v"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "path→component"
+				}
+			]
+		},
+		{
+			"ID": "20220318161755-rw98pbl",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220318161755-rw98pbl"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "菜单usrmenu 数据里有url 与本地的路径必须保持一致，"
+				}
+			]
+		},
+		{
+			"ID": "20220319230024-azozb8j",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220319230024-azozb8j",
+				"updated": "20220319230024"
+			}
+		}
+	]
+}

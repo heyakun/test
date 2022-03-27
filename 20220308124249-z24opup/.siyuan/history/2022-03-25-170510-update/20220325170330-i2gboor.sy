@@ -1,0 +1,69 @@
+{
+	"ID": "20220325170330-i2gboor",
+	"Type": "NodeDocument",
+	"Properties": {
+		"id": "20220325170330-i2gboor",
+		"title": "新文档",
+		"updated": "20220325170440"
+	},
+	"Children": [
+		{
+			"ID": "20220325170330-sseskz0",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170330-sseskz0",
+				"updated": "20220325170409"
+			},
+			"Children": [
+				{
+					"Type": "NodeText",
+					"Data": "网址："
+				}
+			]
+		},
+		{
+			"ID": "20220325170410-7xw6x18",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170410-7xw6x18",
+				"updated": "20220325170440"
+			},
+			"Children": [
+				{
+					"Type": "NodeLink",
+					"Data": "span",
+					"Children": [
+						{
+							"Type": "NodeOpenBracket"
+						},
+						{
+							"Type": "NodeLinkText",
+							"Data": "北京科技大学图书馆-数据库导航 (ustb.edu.cn)"
+						},
+						{
+							"Type": "NodeCloseBracket"
+						},
+						{
+							"Type": "NodeOpenParen"
+						},
+						{
+							"Type": "NodeLinkDest",
+							"Data": "http://lib.ustb.edu.cn/node/405.jspx"
+						},
+						{
+							"Type": "NodeCloseParen"
+						}
+					]
+				}
+			]
+		},
+		{
+			"ID": "20220325170341-hoarhki",
+			"Type": "NodeParagraph",
+			"Properties": {
+				"id": "20220325170341-hoarhki",
+				"updated": "20220325170341"
+			}
+		}
+	]
+}
